@@ -22,7 +22,7 @@
      
       <div class="mt-4 sm:mt-4 sm:flex sm:justify-center">
           <div class="rounded-md shadow"><a
-                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-2 text-base font-semibold text-white hover:bg-white hover:text-black md:py-4 md:px-10 md:text-lg"
+                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-2 text-base font-semibold text-white hover:text-black md:py-4 md:px-10 md:text-lg"
                   href="#">Explore More 🚀</a>
           </div>
       </div>

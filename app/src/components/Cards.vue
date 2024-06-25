@@ -1,214 +1,77 @@
 <template>
-  <div class="bg-white py-10 ">
-
-    <div class=" m-4 text-center p-2 py-10  max-w-7xl mx-auto  ">
-      <div  class=" space-y-7 py-5">
-        <h3 class="font-semibold text-6xl">Features of FINANCIAL</h3>
-        <p class="px-10">We take pride in being a trusted partner for all of your financial needs.</p>
-      </div>
-      <div
-        class="flex flex-col gap-5 pt-4 md:flex-row justify-center items-center m-2 p-2">
+  <section class="bg-white">
+    <div class="py-10 sm:py-16 block lg:py-20 relative bg-opacity-50">
         <div
-          class="flex flex-col items-center bg-white rounded-lg border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4">
-          <div class="shadow-lg hover:shadow-xl p-3 ">
-            <img
-              class="shrink-0 h-12 w-12"
-              src="../assets/sacco9.svg"
-              alt="sacco1 image"
-            />
-          </div>
-          <h4 class="font-semibold">Everyone can use</h4>
-          <p>
-            Thought the lorem ipsum was suppossed to be an opium related task
-            to get high on life.
-          </p>
+            class="relative mx-auto h-full px-4 pb-20 md:pb-0 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
         </div>
-        <div
-          class="flex flex-col items-center bg-white rounded-lg border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4">
-        <div class="shadow-lg hover:shadow-xl p-3">
-            <img
-              class="shrink-0 h-12 w-12 "
-              src="@/assets/sacco8.svg"
-              alt="sacco2 image"
-            />
-          </div>
-          <h4 class="font-semibold">Checkout smoothly</h4>
-          <p>
-            Thought the lorem ipsum was suppossed to to be am opium related task
-            to get high on life
-          </p>
-          
-        </div>
-        <div
-          class="flex flex-col items-center bg-white rounded-lg border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4"
-        >
-          <div class="shadow-lg hover:shadow-xl p-3">
-            <img
-              class="shrink-0 h-12 w-12"
-              src="@/assets/sacco7.svg"
-              alt="sacco3 image"
-            />
-          </div>
-          <h4 class="font-semibold ">Pay in the way you prefer</h4>
-          <p>
-            Thought the lorem ipsum was suppossed to to be am opium related task
-            to get high on life
-          </p>
-        </div>
-      </div>
-    </div>
+            <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative">
+                <div class="max-w-xl mx-auto text-center">
+                    <div class="inline-flex px-4 py-1.5 mx-auto rounded-full">
+                        <p class="text-5xl font-semibold tracking-widest">Specialities</p>
+                    </div>
+                    <p class="mt-4 text-3xl leading-relaxed text-black">Picking Up For a better Future.</p>
+                </div>
+                <div class="grid grid-cols-1 gap-2 mt-12 sm:grid-cols-3 lg:mt-20">
+                    <a href="#"
+                        class="transition-all duration-1000 bg-white hover:bg-black border hover:shadow-xl m-2 p-4 relative group">
+                        <div
+                            class="absolute bg-black/50 top-0 left-0 w-24 h-1 transition-all duration-200 group-hover:bg-black group-hover:w-1/2">
+                        </div>
+                        <div class="py-2 px-9">
 
-<!-- second cards -->
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 group-hover:fill-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                            </svg>
 
-    <div class=" m-4 text-center p-2 py-8 max-w-7xl mx-auto">
-      <div  class=" space-y-7 py-5 ">
-        <h3 class="font-semibold text-6xl">How it Works</h3>
-        <p class="px-10">Our website also offers mobile banking capabilities, allowing you to access your account information and perform transactions from your smartphone or tablet.</p>
-      </div>
-      <div
-        class="flex flex-col gap-5 pt-4 md:flex-row justify-center items-center m-2 p-2">
-        <div
-          class="flex flex-col items-center bg-white rounded-lg border-2 border-teal-300 space-y-4 md:max-w-auto p-4"
-        >
-          <div class="bg-gray-200 h-48 w-full flex justify-center items-center rounded-xl hover:rounded-none">
-            <img
-              class="shrink-0 h-32 w-32 m-4 rounded-lg"
-              src="../assets/sacco6.svg"
-              alt="sacco1 image"
-            />
-          </div>
-          <div class="space-y-3">
-            <div class="flex items-start">
-              <button class="py-2 px-4 text-white bg-teal-500 hover:border-2 hover:border-teal-200 rounded-3xl hover:bg-teal-900 hover:text-gray-100 tracking-wider " type="button">Step 1</button>
+                            <h3 class="mt-8 text-3xl font-semibold text-black group-hover:text-white">Email Address
+                            </h3>
+                            <p class="mt-4 text-base text-black group-hover:text-white">info@seasonaljobsuk.com<br>
+                                contact@example.com
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="#"
+                        class="transition-all duration-1000 bg-white hover:bg-red-600 border hover:shadow-xl m-2 p-4 relative group  ">
+                        <div
+                            class=" absolute  bg-black/50 top-0 left-0 w-24 h-1 transition-all duration-200 group-hover:bg-black group-hover:w-1/2  ">
+                        </div>
+                        <div class="py-2 px-9 relative  ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 group-hover:fill-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+                        </svg>
+
+
+                            <h3 class="mt-8 text-3xl font-semibold text-black group-hover:text-white">Phone
+                            </h3>
+                            <p class="mt-4 text-base text-black group-hover:text-white">+25496309956<br>
+                                +254787654321
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#"
+                        class="transition-all duration-1000 bg-white hover:bg-green-700 border hover:shadow-xl m-2 p-4 relative group  ">
+                        <div
+                            class=" absolute  bg-black/50 top-0 left-0 w-24 h-1 transition-all duration-200 group-hover:bg-black group-hover:w-1/2  ">
+                        </div>
+                        <div class="py-2 px-9 relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                        </svg>
+
+                            <h3 class="mt-8 text-3xl font-semibold text-black group-hover:text-white">Location
+                        </h3>
+                            <p class="mt-4 text-base text-black group-hover:text-white">United Kingdom<br>
+                                City Road,
+                                London</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            
-            <h4 class="font-semibold text-left">Second level of lorem ipsum</h4>
-            <p class="text-left">
-              Thought the lorem ipsum was suppossed to to be am opium related task
-              to get high on life
-            </p>
-          </div>  
-            
         </div>
-        <div
-          class="flex flex-col items-center bg-white rounded-lg border-2 border-teal-300 space-y-4 md:max-w-auto p-4">
-        <div class="bg-gray-200 h-48 w-full flex justify-center items-center rounded-xl hover:rounded-none">
-            <img
-              class="shrink-0 h-32 w-32 rounded-lg"
-              src="@/assets/sacco5.svg"
-              alt="sacco2 image"
-            />
-          </div>
-          <div class="space-y-3">
-            <div class="flex items-start">
-              <button class="py-2 px-4 text-white bg-teal-500 hover:border-2 hover:border-teal-200 rounded-3xl hover:bg-teal-900 hover:text-gray-100 tracking-wider" type="button">Step 2</button>
-            </div>
-            
-            <h4 class="text-left font-semibold">Second level of lorem ipsum</h4>
-            <p class="text-left">
-              Thought the lorem ipsum was suppossed to to be am opium related task
-              to get high on life
-            </p>
-          </div>
-          
-        </div>
-        <div
-          class="flex flex-col items-center bg-white rounded-lg border-2 border-teal-300 space-y-4 md:max-w-auto p-4"
-        >
-          <div class="bg-gray-200 h-48 w-full flex justify-center items-center rounded-xl hover:rounded-none">
-            <img
-              class="shrink-0 h-32 w-32 m-4 rounded-lg"
-              src="@/assets/sacco4.svg"
-              alt="sacco3 image"
-            />
-          </div>
-          <div class="space-y-3 ">
-            <div class="flex items-start">
-              <button class="py-2 px-4 text-white bg-teal-500 hover:border-2 hover:border-teal-200 rounded-3xl hover:bg-teal-900 hover:text-gray-100 tracking-wider" type="button">Step 3</button>
-            </div>
-            
-            <h4 class="text-left font-semibold">Second level of lorem ipsum</h4>
-            <p class="text-left">
-              Thought the lorem ipsum was suppossed to to be am opium related task
-              to get high on life
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </div>   
-
-<!-- third cards -->
-
-    <div class="m-4 text-center p-2 py-10 max-w-7xl mx-auto">
-      <div class="space-y-7 py-5">
-        <h3 class="font-semibold text-6xl">Why should you use FINANCIAL</h3>
-        <h5 class="px-18">
-          FINANCIAL is a great choice for banking because it makes managing your
-          money easy and secure
-        </h5>
-      </div>
-      <div
-        class="grid grid-cols-1  gap-5 pt-4 sm:grid-cols-1  lg:grid-cols-3 m-2 p-2 ">
-        <div
-          class="flex flex-col items-center bg-white rounded-lg shadow-lg space-y-4 md:max-w-xl mx-auto lg:max-w-auto p-4 ">
-          <div>
-            <img
-              class="shrink-0 h-80 w-full rounded-lg hover:rounded-none"
-              src="../assets/sacco1.jpeg"
-              alt="sacco1 image"
-            />
-          </div>
-          <div class="space-y-4">
-            <h4 class="text-left font-semibold">Shop with safety</h4>
-            <p class="text-left">
-              Thought the lorem ipsum was suppossed to to be am opium related
-              task to get high.
-            </p>
-          </div>
-        </div>
-        <div
-          class="flex flex-col items-center bg-white rounded-lg shadow-lg space-y-4 md:max-w-xl mx-auto lg:max-w-auto p-4 ">          
-          <div class="space-y-4">
-            <h4 class="text-left font-semibold">
-              Everyone can use FINANCIAL to pay immediately
-            </h4>
-            <p class="text-left">
-              Thought the lorem ipsum was suppossed to to be am opium related
-              task to get high on life
-            </p>
-          </div>
-          <div>
-            <img
-              class="shrink-0 h-80 w-full rounded-lg hover:rounded-none"
-              src="@/assets/sacco2.jpeg"
-              alt="sacco2 image"
-            />
-          </div>
-        </div>
-        <div
-          class="flex flex-col items-center bg-white rounded-lg shadow-lg space-y-4 md:max-w-xl mx-auto lg:max-w-auto p-4 "
-        >
-          <div>
-            <img
-              class="shrink-0 h-80 w-full rounded-lg hover:rounded-none"
-              src="@/assets/sacco3.jpeg"
-              alt="sacco3 image"
-            />
-          </div>
-          <div class="space-y-4">
-            <h4 class="text-left font-semibold">
-              Easy steps and smooth checkout experience
-            </h4>
-            <p class="text-left">
-              Thought the lorem ipsum was suppossed to to be am opium related
-              task to get high on life
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+</section>
 </template>
 <script></script>
 <style scoped></style>
