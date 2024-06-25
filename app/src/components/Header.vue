@@ -13,11 +13,9 @@
         <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">FAQ</a></li>
       </ul>
     </div>
-    <!-- <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4">
-      <a href="#" class="px-6 py-2 bg-white hover:bg-teal-500 hover:text-white rounded-full pr-8 border-2 border-teal-500 text-teal-500 text-center">Login</a>
-      <a href="#" class="px-6 py-2 bg-white hover:bg-teal-500 hover:text-white rounded-full pr-8 text-teal-500 border-2 border-teal-500 text-center">Sign Up</a>
-          
-    </div> -->
+    <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4">
+      <a href="#" class="px-6 py-2 bg-white hover:bg-orange-900 hover:text-white rounded-full pr-8 border-2 border-orange-900 text-orange-900 text-center">Hire Me</a>          
+    </div>
     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 block lg:hidden">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg> -->
