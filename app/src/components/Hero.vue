@@ -1,5 +1,5 @@
 <template>
-<div class="mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+<div class="mx-auto mt-0 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-0">
   <div class="text-center ">
       <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
           <span class="block xl:inline"><span class="mb-1 block">Create amazing</span>
