@@ -7,10 +7,10 @@
     <div class="flex-2 flex justify-end pt-0">
       <ul class="lg:flex space-x-4 align-end pl-14 hidden">
         <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Home</a></li>
-        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Features</a></li>
-        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Where to use</a></li>
-        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">About Us</a></li>
-        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">FAQ</a></li>
+        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">About</a></li>
+        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Service</a></li>
+        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Portfolio</a></li>
+        <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Contact</a></li>
       </ul>
     </div>
     <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4">
