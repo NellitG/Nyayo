@@ -4,8 +4,8 @@
     <div class="flex items-center">
       <img class="w-52" src="@/assets/NellitG (2).png" alt="" width="100" height="auto">
     </div>
-    <div class="flex-2 flex justify-end pt-0">
-      <ul class="lg:flex space-x-4 align-end pl-14 hidden">
+    <div class="flex-2 flex justify-center pt-0">
+      <ul class="lg:flex space-x-4 align-center pl-14 hidden">
         <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Home</a></li>
         <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">About</a></li>
         <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Service</a></li>
@@ -13,12 +13,12 @@
         <li class="pr-10"><a href="#" class="text-orange-900 hover:text-black font-semibold">Contact</a></li>
       </ul>
     </div>
-    <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4">
+    <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4 justify-end">
       <a href="#" class="px-6 py-2 bg-white hover:bg-orange-900 hover:text-white rounded-full pr-8 border-2 border-orange-900 text-orange-900 text-center">Hire Me</a>          
     </div>
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 block lg:hidden">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-6 block lg:hidden">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg> -->
+          </svg>
   </div>
 </nav>
 </template>
