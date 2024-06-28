@@ -5,4 +5,11 @@ import PostsView from "./PostsView.vue";
 import PiniaTest from "./PiniaTest.vue";
 import ContactView from "./ContactView.vue";
 
-export { HomeView, DetailsView, LoginView, ContactView, PostsView, PiniaTest };
+export {
+    HomeView,
+    DetailsView,
+    LoginView,
+    PostsView,
+    PiniaTest,
+    ContactView,
+};
