@@ -14,11 +14,11 @@
           <!-- Logo -->
           <div class="mb-10 flex flex-shrink-0 flex-grow-0 items-center justify-center overflow-hidden">
             <a href="#" class="flex cursor-pointer items-center gap-2 text-amber-500 no-underline hover:text-amber-500">
-              <span class="flex-shrink-0 text-3xl font-black lowercase tracking-tight opacity-100">Call Us Today</span>
+              <span class="flex-shrink-0 text-3xl font-black tracking-tight opacity-100">Call Us Today</span>
             </a>
           </div>
           <!-- /Logo -->
-          <h4 class="mb-2 font-medium text-gray-700 xl:text-xl">Welcome to futurism!</h4>
+          <h4 class="mb-2 font-medium text-gray-950 xl:text-xl">Welcome to futurism!</h4>
           <p class="mb-6 text-gray-500">Please sign-in to access your account</p>
   
           <form id="" class="mb-4" action="#" method="POST">
