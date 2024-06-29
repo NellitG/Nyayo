@@ -24,7 +24,7 @@
           <form id="" class="mb-4" action="#" method="POST">
             <div class="mb-4">
               <label for="email" class="mb-2 inline-block text-xs font-medium uppercase text-gray-700">Email or Username</label>
-              <input type="text" class="block w-full cursor-text appearance-none rounded-md border border-gray-400 bg--100 py-2 px-3 text-sm outline-none focus:border-amber-500 focus:bg-white focus:text-gray-950 focus:shadow" id="email" name="email-username" placeholder="Enter your email or username" autofocus="" />
+              <input type="text" class="block w-full cursor-text appearance-none rounded-md border border-gray-400 bg--100 py-2 px-3 text-sm outline-none focus:border-amber-500 focus:bg-white focus:text-gray-950 focus:shadow" id="email" name="email-username" placeholder="Enter your email or username" />
             </div>
             <div class="mb-4">
               <div class="flex justify-between">
