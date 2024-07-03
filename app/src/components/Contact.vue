@@ -1,4 +1,9 @@
 <template>
+    <div class=" flex flex-shrink-0 flex-grow-0 items-center justify-center overflow-hidden">
+            <a href="#" class="flex items-center gap-2 text-amber-500 hover:text-amber-500">
+              <span class="flex-shrink-0 text-5xl font-semibold tracking-tight opacity-100">Contact Us</span>
+            </a>
+          </div>
     <div class="flex min-h-screen md:w-screen w-full items-center justify-center text-gray-600">
     <div class="relative">
       
@@ -12,11 +17,7 @@
       <div class="relative flex flex-col sm:w-[30rem] rounded-lg border-gray-400 bg-white shadow-lg px-4">
         <div class="flex-auto p-6">
           <!-- Logo -->
-          <div class="mb-10 flex flex-shrink-0 flex-grow-0 items-center justify-center overflow-hidden">
-            <a href="#" class="flex items-center gap-2 text-amber-500 hover:text-amber-500">
-              <span class="flex-shrink-0 text-3xl font-semibold tracking-tight opacity-100">Call Us Today</span>
-            </a>
-          </div>
+          
           <!-- /Logo -->
           <h4 class="mb-2 font-medium text-gray-950 xl:text-xl">Welcome to NellitG!</h4>
           <p class="mb-6 text-gray-500">Please sign-in to access your account</p>
