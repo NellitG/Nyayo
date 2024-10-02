@@ -4,6 +4,7 @@ import LoginView from "./LoginView.vue";
 import PostsView from "./PostsView.vue";
 import PiniaTest from "./PiniaTest.vue";
 import ContactView from "./ContactView.vue";
+import ProgramsView from "./ProgramsView.vue";
 
 import AboutusView from "./AboutusView.vue";
 
@@ -15,4 +16,5 @@ export {
   PiniaTest,
   ContactView,
   AboutusView,
+  ProgramsView,
 };
