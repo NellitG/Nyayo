@@ -1,35 +1,50 @@
 <template>
-<div class="mx-auto mt-0 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-0">
-  <div class="text-center ">
-      <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-          <span class="block xl:inline"><span class="mb-0 block font-semibold">Hello Everyone!!!</span>
-          <span class="font-semibold bg-gradient-to-r from-yellow-400 to-orange-900 bg-clip-text text-transparent">
-                  I'm a UI/UX designer
-              </span>
-          </span>
-          <div class="mt-2 font-semibold">10X faster
-              <span class="relative mt-3 whitespace-nowrap text-black font-semibold"><svg aria-hidden="true" viewBox="0 0 418 42"
-                      class="absolute top-3/4 left-0 right-0 m-auto h-[0.58em] w-fit fill-amber-700"
-                      preserveAspectRatio="none">
-                      <path
-                          d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
-                      </path>
-                  </svg>
-                  <span class="font-semibold relative">with AI tools.</span>
-              </span>
-          </div>
-      </h1>
-     
-      <div class="mt-4 sm:mt-4 sm:flex sm:justify-center pt-10">
-          <div class="rounded-md shadow"><a
-                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-yellow-400 to-yellow-600 px-8 py-2 text-base font-semibold text-white hover:text-black md:py-4 md:px-10 md:text-lg"
-                  href="#">Explore More 🚀</a>
-          </div>
+   <div class="relative w-full h-screen flex items-center justify-center">
+  <img
+    src="../assets/computer-classroom-setting.jpg"
+    alt="bg-img"
+    class="absolute inset-0 w-full h-full object-cover"
+  />
+
+  <div class="container mx-auto relative z-10 mt-24 py-10">
+    <div class="grid grid-cols-12 text-center lg:text-start">
+      <div
+        class="relative flex flex-col bg-clip-border lg:ml-20 text-gray-700 px-16 py-0 border border-white shadow-lg col-span-full rounded-xl bg-transparent shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-8"
+      >
+        <h1
+          class="tracking-normal font-semibold text-white lg:text-white text-5xl !leading-snug lg:text-6xl"
+        >
+          Cape Chestnut School
+        </h1>
+        <p
+          class="antialiased font-sans text-2xl font-semibold leading-relaxed text-inherit mb-10 mt-6 text-white lg:text-white"
+        >
+          Good Education, Good Character
+        </p>
+        <div class="flex justify-center gap-4 mb-8 lg:justify-start">
+          <router-link to="/contact">
+            <button
+              class="align-middle select-none font-sans font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg hover:bg-green-500 text-white sm:text-white border-2 border-green-500 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+              type="button"
+            >
+              contact us
+            </button>
+          </router-link>
+          <router-link to="/academics">
+            <button
+              class="align-middle select-none font-semibold text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-green-500 border-2 hover:bg-green-500 text-white hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
+              type="button"
+            >
+              read more
+            </button>
+          </router-link>
+        </div>
       </div>
+    </div>
   </div>
 </div>
 </template>
 
-<script setup></script>
+<script></script>
 
 <style lang="scss" scoped></style>
