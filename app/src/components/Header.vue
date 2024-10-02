@@ -49,7 +49,7 @@
             @click.native="closeMenu"
           >
             <img
-              src="@/assets/images/cape chestnut.jpg.png"
+              src="../assets/logo.png"
               alt="Logo"
               class="h-8 lg:h-28 mb-0 mt-6 ml-12"
             />
@@ -76,12 +76,12 @@
             </li>
             <li class="relative group">
               <router-link
-                to="/academics"
+                to="/programs"
                 class="hover:text-green-500 flex items-center"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
               >
-                <span>Academics</span>
+                <span>Programs</span>
                 <span class="ml-1"></span>
               </router-link>
               <!-- <div
@@ -152,12 +152,12 @@
             </li>
             <li>
               <router-link
-                to="/admission"
+                to="/getinvolved"
                 class="hover:text-green-500 relative"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
               >
-                Admission
+                Get Involved
                
               </router-link>
             </li>
