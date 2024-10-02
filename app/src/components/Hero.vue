@@ -24,18 +24,18 @@
       <div class="flex justify-center gap-4 mb-8 lg:justify-start">
         <router-link to="/contact">
           <button
-            class="align-middle select-none font-sans font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg hover:bg-green-500 text-white sm:text-white border-2 border-green-500 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+            class="align-middle select-none font-sans font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg hover:bg-indigo-400 text-white sm:text-white border-2 border-green-500 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
             type="button"
           >
             contact us
           </button>
         </router-link>
-        <router-link to="/academics">
+        <router-link to="/getinvolved">
           <button
-            class="align-middle select-none font-semibold text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-green-500 border-2 hover:bg-green-500 text-white hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
+            class="align-middle select-none font-semibold text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-indigo-400 border-2 hover:bg-indigo-400 text-white hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
             type="button"
           >
-            read more
+            Donate Now
           </button>
         </router-link>
       </div>
