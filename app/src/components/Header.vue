@@ -49,9 +49,9 @@
             @click.native="closeMenu"
           >
             <img
-              src="../assets/logo.png"
+              src="../assets/logos.jpg"
               alt="Logo"
-              class="h-8 lg:h-28 mb-0 mt-6 ml-12"
+              class="h-8 lg:h-20 mb-0 mt-6 ml-12"
             />
           </router-link>
         </div>

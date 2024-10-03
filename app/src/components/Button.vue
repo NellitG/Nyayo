@@ -2,9 +2,9 @@
     <main class="mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-0 lg:px-8 xl:mt-48">
   <div class="text-center ">
       <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-slate-200 sm:text-5xl md:text-6xl">
-          <span class="block xl:inline"><span class="mb-1 block">Create amazing</span>
+          <span class="block xl:inline"><span class="mb-1 block">Empowering Every Ability</span>
           <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent">
-                  podcast show notes
+                  Enriching Every Life.
               </span>
           </span>
           <div class="mt-2">10X faster
