@@ -1,12 +1,10 @@
 <template >
-  <section class="">
+  <section class="mt-14">
     <div class="max-w-7xl mx-auto px-2">
       <nav
         class="text-xl text-gray-600 py-10 flex justify-end items-center mr-40"
       >
-        Our Mission: &rarr;<br />
-        Our Vision: &rarr;<br />
-        The Core Values: &rarr;
+        
       </nav>
       <div
         class="relative bg-secondary-900 h-16 flex justify-end items-center text-white mx-auto"
@@ -26,53 +24,55 @@
           Who Are We
         </h1>
         <p class="text-lg text-gray-900">
-          Profia Institute is a dynamic and innovative educational institution
-          dedicated to empowering individuals and driving sustainable
-          development through professional development programs. As a TVET
-          accredited college, we offer a diverse range of courses across the
-          fields of business, accounting, ICT, and hospitality, catering to the
-          evolving needs of the modern workforce.
+          Nyayo Inc was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering differently-abled children through access to digital education.
+          The NGO was founded to address the educational and social disparities faced by children with disabilities in underserved communities.
+          Recognizing that these children often lack the resources and support to thrive in conventional educational settings, Nyayo Inc aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
+          Since its inception, the organization has grown rapidly, partnering with schools and communities to foster an environment of inclusivity.
         </p>
       </div>
     </div>
-      
-      <div class="max-w-4xl mx-auto space-y-24 pt-4 py-16 ">
-        <div class="border-[2px] border-red-900 relative p-8 bg-white rounded-lg shadow-lg lg:ml-48">
-          <div class="absolute -top-8 left-5 bg-secondary-500 px-8 py-4 rounded-xl">
-            <h2 class="text-2xl">Our Mission</h2>
+  <div class="py-0">
+    <div class="container mx-auto">
+      <!-- Core Values Section -->
+      <div class="text-center mb-0">
+        <h2 class="text-4xl font-bold text-gray-950">Our Core Values</h2>
+        <p class="text-lg text-gray-950 mt-2">The guiding principles that shape our efforts at Nyayo Inc.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Value 1: Commitment -->
+        <div class="flex flex-col items-center">
+          <div class="w-48 h-40 mb-4">
+            <!-- Example icon (replace with an actual icon or illustration) -->
+            <img src="https://img.freepik.com/free-photo/parents-kids-spending-time-together_23-2149489598.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="Commitment Icon" class="w-full h-full" />
           </div>
-          <p class="py-5 text-lg">
-            To be a leading college for business and. ICT, known for technical
-            excellent, innovations and transformative impact.
-          </p>
+          <h3 class="text-xl font-semibold text-gray-950">Commitment</h3>
+          <p class="text-gray-600 text-center mt-2">We are committed to making a meaningful difference in the lives of differently-abled children by providing quality education and resources.</p>
         </div>
 
-        <div class="border-[2px] border-red-900 relative p-8 bg-white rounded-lg shadow-lg lg:mr-48">
-          <div
-            class="absolute -top-8 right-5 bg-secondary-500 px-8 py-4 rounded-md shadow-sm"
-          >
-            <h1 class="text-2xl">Our Vision</h1>
+        <!-- Value 2: Learning -->
+        <div class="flex flex-col items-center">
+          <div class="w-48 h-40 mb-4">
+            <!-- Example icon (replace with an actual icon or illustration) -->
+            <img src="https://img.freepik.com/free-photo/family-spending-time-together-woods_23-2148943157.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="Learning Icon" class="w-full h-full" />
           </div>
-          <p class="py-5 text-lg">
-            To be a first business college of choice.
-          </p>
+          <h3 class="text-xl font-semibold text-gray-950">Learning</h3>
+          <p class="text-gray-600 text-center mt-2">We believe that continuous learning is key to personal and organizational growth, and we strive to instill this value in the children we serve.</p>
         </div>
-        <div
-          class="border-[2px] border-red-900 bg-white rounded-lg p-6 relative max-w-4xl mx-auto mt-12"
-        >
-          <div
-            class="absolute -top-8 left-24 sm:left-32 bg-secondary-500 px-4 py-6 rounded-md"
-          >
-            <h1 class="text-2xl text-gray-800">The Core Values</h1>
+
+        <!-- Value 3: Accountability -->
+        <div class="flex flex-col items-center">
+          <div class="w-48 h-40 mb-4">
+            <!-- Example icon (replace with an actual icon or illustration) -->
+            <img src="https://img.freepik.com/premium-photo/7-photorealistic-image-medical-volunteer-offering-aid-sick-child-makeshift-clinic-with-medical-supplies-caring-expression_1295806-43260.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="Accountability Icon" class="w-full h-full" />
           </div>
-          <p class="py-10 text-lg">
-            Innovation<br />
-            Integrity<br />
-            Excellence<br />
-            Transformation
-          </p>
+          <h3 class="text-xl font-semibold text-gray-950">Accountability</h3>
+          <p class="text-gray-600 text-center mt-2">We hold ourselves accountable to the communities we serve, ensuring transparency and integrity in all our initiatives.</p>
         </div>
       </div>
+    </div>
+  </div>
+
     </div>
   </section>
 </template>
