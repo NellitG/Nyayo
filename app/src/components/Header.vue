@@ -58,9 +58,10 @@
 
         <!-- Navigation menu -->
         <nav
-          :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+        :class="{ hidden: close2, flex: !close2 }"
+        class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
+
           <!-- Navigation items -->
           <ul
             class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
@@ -162,6 +163,9 @@
               </router-link>
             </li>
           </ul>
+          <!-- <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4">
+      <a href="#" class="px-6 py-2 bg-white hover:bg-teal-500 hover:text-white rounded-full pr-8 border-2 border-teal-500 text-teal-500 text-center">Login</a>
+          </div> -->
         </nav>
       </div>
     </header>
