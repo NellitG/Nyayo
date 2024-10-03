@@ -1,7 +1,7 @@
 <template>
     <main class="mx-auto mt-10 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-0 lg:px-8 xl:mt-48">
   <div class="text-center ">
-      <h1 class="text-4xl font-extrabold tracking-tight text-gray-950 sm:text-5xl md:text-6xl">
+      <h1 class="text-4xl font-extrabold tracking-tight text-indigo-950 sm:text-5xl md:text-6xl">
           <span class="block xl:inline"><span class="mb-1 block">Empowering Every Ability</span>
           <span class="bg-gradient-to-r from-indigo-950 to-yellow-400 bg-clip-text text-transparent">
                   Enriching Every Life.

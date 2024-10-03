@@ -1,50 +1,53 @@
 <template>
-   <div class="relative w-full h-screen flex items-center justify-center">
-  <img
-    src="../assets/computer-classroom-setting.jpg"
-    alt="bg-img"
-    class="absolute inset-0 w-full h-full object-cover py-10 mt-20"
-  />
+   <div class="py-10">
+  <div class="container mx-auto">
+    <!-- Timeline heading -->
+    <div class="text-center mb-10">
+      <h2 class="text-4xl font-bold text-gray-800">Our Journey: Key Milestones</h2>
+      <p class="text-lg text-gray-600 mt-2">Explore the major achievements and milestones that have defined Nyayo Inc's path toward creating a more inclusive future.</p>
+    </div>
 
- <div class="container mx-auto flex items-center justify-center h-screen relative z-10 mt-20 py-10">
-  <div class="grid grid-cols-12 text-center lg:text-start">
-    <div
-      class="relative flex flex-col bg-clip-border lg:ml-20 text-gray-700 px-16 py-0 border border-black shadow-lg col-span-full rounded-xl bg-transparent shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-8"
-    >
-      <h1
-        class="tracking-normal font-semibold text-white lg:text-yellow-400 text-5xl !leading-snug lg:text-6xl"
-      >
-        Empowering Every Ability
-      </h1>
-      <h1
-        class="text-4xl font-semibold leading-relaxed text-inherit mb-10 mt-6 text-white lg:text-yellow-400"
-      >
-        Enriching Every Life.
-    </h1>
-      <div class="flex justify-center gap-4 mb-8 lg:justify-start">
-        <router-link to="/contact">
-          <button
-            class="align-middle select-none font-sans font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg hover:bg-indigo-400 text-white sm:text-white border-2 border-green-500 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-            type="button"
-          >
-            contact us
-          </button>
-        </router-link>
-        <router-link to="/getinvolved">
-          <button
-            class="align-middle select-none font-semibold text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-indigo-400 border-2 hover:bg-indigo-400 text-white hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
-            type="button"
-          >
-            Donate Now
-          </button>
-        </router-link>
+    <!-- Timeline -->
+    <div class="relative border-1 border-gray-300">
+      <!-- Milestone 1 -->
+      <div class="mb-10 ml-24">
+        <div class="absolute w-4 h-4 bg-yellow-400 rounded-full -left-0 border-2 border-white"></div>
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-800">2024: NGO Launch</h3>
+          <p class="text-gray-600">Nyayo Inc was officially founded in Nairobi, Kenya, with a vision to provide differently-abled children with access to quality digital education.</p>
+        </div>
+      </div>
+
+      <!-- Milestone 2 -->
+      <div class="mb-10 ml-24">
+        <div class="absolute w-4 h-4 bg-yellow-400 rounded-full -left-0 border-2 border-white"></div>
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-800">2025: First Partnership</h3>
+          <p class="text-gray-600">Established partnerships with five local schools to implement inclusive digital education programs for differently-abled children.</p>
+        </div>
+      </div>
+
+      <!-- Milestone 3 -->
+      <div class="mb-10 ml-24">
+        <div class="absolute w-4 h-4 bg-yellow-400 rounded-full -left-0 border-2 border-white"></div>
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-800">2026: Expansion</h3>
+          <p class="text-gray-600">Expanded our reach to underserved communities, impacting over 1,000 differently-abled children across Kenya.</p>
+        </div>
+      </div>
+
+      <!-- Milestone 4 -->
+      <div class="mb-10 ml-24">
+        <div class="absolute w-4 h-4 bg-yellow-400 rounded-full -left-0 border-2 border-white"></div>
+        <div class="ml-4">
+          <h3 class="text-lg font-semibold text-gray-800">2027: Advocacy for Policy Change</h3>
+          <p class="text-gray-600">Led national advocacy efforts to promote policy changes that support inclusive education for children with disabilities.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-
-</div>
 </template>
 
 <script></script>
