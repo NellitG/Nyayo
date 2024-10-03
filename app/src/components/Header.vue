@@ -51,7 +51,7 @@
             <img
               src="../assets/logos.jpg"
               alt="Logo"
-              class="h-8 lg:h-20 mb-0 mt-6 ml-12"
+              class="h-8 lg:h-20 mb-0 mt-6 ml-0"
             />
           </router-link>
         </div>

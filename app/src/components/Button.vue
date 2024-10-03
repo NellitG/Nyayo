@@ -24,11 +24,13 @@
           that helps you and your team break through creative blocks to create amazing, original content 10X faster.
       </p>
       <div class="mt-0 sm:mt-8 sm:flex sm:justify-center">
-          <div class="rounded-md shadow"><a
-                  class="flex w-full items-center justify-center rounded-md border border-transparent bg-black px-8 py-3 text-base font-medium text-white hover:bg-pink-700 md:py-4 md:px-10 md:text-lg"
-                  href="#">Get started for free 🚀</a>
-          </div>
-      </div>
+    <div class="rounded-md shadow">
+        <a
+            class="flex w-full items-center justify-center rounded-md border border-black bg-white px-8 py-3 text-base font-medium text-gray-950 hover:bg-yellow-400 md:py-4 md:px-10 md:text-lg"
+            href="/programs">Explore Our Programs 🚀</a>
+    </div>
+</div>
+
   </div>
 </main>
 </template>
