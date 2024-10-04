@@ -21,7 +21,7 @@
       </div>
 
       <!-- Workshops & Seminars Section (Image left, Text right) with added space -->
-      <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start mb-12">
+      <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start mt-12">
         <div class="lg:w-1/2 lg:pl-16"> <!-- Adjusted padding for spacing -->
           <h3 class="text-3xl font-semibold text-gray-800">Workshops & Seminars</h3>
           <p class="text-gray-600 text-lg mt-4">We host educational sessions for parents, caregivers, and educators focused on disability rights, inclusion, and the importance of tailored education for differently-abled children. Our workshops foster a deeper understanding of these issues in the community.</p>
