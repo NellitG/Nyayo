@@ -1,18 +1,18 @@
 <template >
-  <section class="mt-14">
+  <section class="mt-24">
     <div class="max-w-7xl mx-auto px-2">
       <nav
-        class="text-xl text-gray-600 py-10 flex justify-end items-center mr-40"
+        class="text-xl text-gray-600 py-10 flex justify-center items-center mr-40"
       >
         
       </nav>
       <div
-        class="relative bg-secondary-900 h-16 flex justify-end items-center text-white mx-auto"
+        class="relative bg-secondary-900 h-16 flex justify-end items-center text-white mx-auto mt-14"
       >
         <span class="mr-48 text-3xl ">Who we are</span>
         <div class="absolute right-[600px] w-96 h-7642 bg-gray-300">
           <img
-            src="../assets/images/students.avif"
+            src="../assets/vero.JPG"
             alt="Image Description"
             class="w-full"
           />
