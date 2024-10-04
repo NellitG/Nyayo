@@ -1,50 +1,49 @@
 <template>
-   <div class="relative w-full h-screen flex items-center justify-center">
-  <img
-    src="../assets/computer-classroom-setting.jpg"
-    alt="bg-img"
-    class="absolute inset-0 w-full h-full object-cover"
-  />
+  <div class="bg-white py-10">
+    <div class="container mx-auto px-4">
 
-  <div class="container mx-auto relative z-10 mt-24 py-10">
-    <div class="grid grid-cols-12 text-center lg:text-start">
-      <div
-        class="relative flex flex-col bg-clip-border lg:ml-20 text-gray-700 px-16 py-0 border border-white shadow-lg col-span-full rounded-xl bg-transparent shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-8"
-      >
-        <h1
-          class="tracking-normal font-semibold text-white lg:text-white text-5xl !leading-snug lg:text-6xl"
-        >
-          Cape Chestnut School
-        </h1>
-        <p
-          class="antialiased font-sans text-2xl font-semibold leading-relaxed text-inherit mb-10 mt-6 text-white lg:text-white"
-        >
-          Good Education, Good Character
-        </p>
-        <div class="flex justify-center gap-4 mb-8 lg:justify-start">
-          <router-link to="/contact">
-            <button
-              class="align-middle select-none font-sans font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg hover:bg-green-500 text-white sm:text-white border-2 border-green-500 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-              type="button"
-            >
-              contact us
-            </button>
-          </router-link>
-          <router-link to="/academics">
-            <button
-              class="align-middle select-none font-semibold text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-green-500 border-2 hover:bg-green-500 text-white hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
-              type="button"
-            >
-              read more
-            </button>
-          </router-link>
+      <!-- Page Heading -->
+      <div class="mt-24 text-center">
+        <h2 class="text-4xl font-bold text-gray-950">Our Programs</h2>
+        <p class="text-lg text-gray-600 mt-2">Discover the initiatives we’ve taken to create a more inclusive world.</p>
+      </div>
+
+      <!-- Inclusive Education Section -->
+      <div class="flex flex-col lg:flex-row items-center lg:items-start mt-12">
+        <div class="lg:w-1/2">
+          <h3 class="text-3xl font-semibold text-gray-800">Inclusive Education</h3>
+          <p class="text-gray-600 text-lg mt-4">Our mission is to support differently-abled children by providing them with access to digital tools and inclusive education. We aim to create a learning environment that caters to their needs and empowers them with the skills to succeed.</p>
+          <a href="#" class="text-blue-500 text-md mt-4 block hover:underline">Learn more about our education initiatives</a>
+        </div>
+        <div class="lg:w-1/2 lg:pl-10">
+          <img src="https://via.placeholder.com/400" alt="Inclusive Education" class="w-full rounded-lg shadow-md">
         </div>
       </div>
+
+      <!-- Workshops & Seminars Section (Image left, Text right) with added space -->
+      <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start mb-12">
+        <div class="lg:w-1/2 lg:pl-16"> <!-- Adjusted padding for spacing -->
+          <h3 class="text-3xl font-semibold text-gray-800">Workshops & Seminars</h3>
+          <p class="text-gray-600 text-lg mt-4">We host educational sessions for parents, caregivers, and educators focused on disability rights, inclusion, and the importance of tailored education for differently-abled children. Our workshops foster a deeper understanding of these issues in the community.</p>
+          <a href="#" class="text-blue-500 text-md mt-4 block hover:underline">Explore upcoming workshops and seminars</a>
+        </div>
+        <div class="lg:w-1/2 lg:pr-10"> <!-- Adjusted padding-right -->
+          <img src="https://via.placeholder.com/400" alt="Workshops & Seminars" class="w-full rounded-lg shadow-md">
+        </div>
+      </div>
+
+      <!-- Partnerships Section (Text left, Image right) -->
+      <div class="flex flex-col lg:flex-row items-center lg:items-start mb-12">
+        <div class="lg:w-1/2">
+          <h3 class="text-3xl font-semibold text-gray-800">Partnerships</h3>
+          <p class="text-gray-600 text-lg mt-4">We collaborate with schools, healthcare providers, and community organizations to create a network of support for children with disabilities. Our partnerships are key in ensuring that inclusive education is accessible to all.</p>
+          <a href="#" class="text-blue-500 text-md mt-4 block hover:underline">Learn more about our partnerships</a>
+        </div>
+        <div class="lg:w-1/2 lg:pl-10">
+          <img src="https://via.placeholder.com/400" alt="Partnerships" class="w-full rounded-lg shadow-md">
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
 </template>
-
-<script></script>
-
-<style lang="scss" scoped></style>
