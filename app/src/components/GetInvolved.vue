@@ -25,7 +25,7 @@
         </div>
 
         <!-- Donate Section -->
-        <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transition duration-300">
+        <div class="bg-white p-8 rounded-lg shadow-lg hover:bg-yellow-400 transition duration-300">
           <div class="text-center mb-6">
             <span class="inline-block p-4 bg-green-100 rounded-full text-green-500">
               <!-- Donate Icon -->
