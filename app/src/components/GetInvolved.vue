@@ -32,8 +32,8 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4.354c-3.31 0-6 2.69-6 6 0 1.633 0 2.368 0 3 .597 0 .902-.338.902-1.001 0-.643-.018-1.45.011-2.243l3.587-.273c.004 1.674.558 2.909 1.5 2.909s1.497-1.235 1.5-2.909l3.587.273c.029.793.011 1.6.011 2.243 0 .663.305 1.001.902 1.001 0-.632 0-1.367 0-3 0-3.31-2.69-6-6-6zM5.413 8c.421 2.839 3.127 5.839 6.587 5.839 3.46 0 6.166-3 6.587-5.839-2.608-1.002-5.646-.918-6.587-1.554-.942.636-3.979.553-6.587 1.554zm7.707 12.034c.03-.063.048-.134.048-.207v-1.504c.566-.156 1.04-.635 1.04-1.239v-.576c0-.641-.413-1.163-1-1.339V15.5c0-1.071-.929-2-2-2s-2 .929-2 2v.671c-.587.176-1 .698-1 1.339v.576c0 .604.474 1.083 1.04 1.239v1.504c0 .073.018.144.048.207a4.977 4.977 0 003.914 0z"/></svg>
             </span>
           </div>
-          <h3 class="text-2xl font-semibold text-gray-800 mb-4 text-center">Donate</h3>
-          <p class="text-gray-600 text-lg mb-6 text-center hover:text-white">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
+          <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">Donate</h3>
+          <p class="text-gray-600 text-lg mb-6 text-center hover:text-gray-950">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
           <div class="space-y-3 text-center">
             <p class="text-gray-700"><strong>$10</strong> provides learning resources for one child.</p>
             <p class="text-gray-700"><strong>$50</strong> provides assistive devices for a classroom.</p>
