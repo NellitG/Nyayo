@@ -60,7 +60,7 @@
             </span>
           </div>
           <h3 class="text-2xl font-semibold text-gray-800 mb-4 text-center">Partner with Us</h3>
-          <p class="text-gray-600 text-lg mb-6 text-center">Join forces with us! We welcome collaborations with corporations, schools, and NGOs to drive change and promote inclusivity.</p>
+          <p class="text-gray-600 text-lg mb-6 text-center ">Join forces with us! We welcome collaborations with corporations, schools, and NGOs to drive change and promote inclusivity.</p>
           <form action="/partner-with-us" method="POST" class="space-y-4">
             <div>
               <label class="block text-gray-700 font-semibold mb-2" for="name">Your Name</label>
