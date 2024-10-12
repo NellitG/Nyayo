@@ -18,7 +18,7 @@
             </span>
           </div>
           <h3 class="text-2xl font-semibold text-gray-800 hover:text-white mb-4 text-center">Volunteer</h3>
-          <p class="text-gray-600 text-lg mb-6 text-center">Share your time and skills to make an impact. Help us create inclusive education programs for children with disabilities.</p>
+          <p class="text-gray-600 text-lg mb-6 text-center hover:text-white">Share your time and skills to make an impact. Help us create inclusive education programs for children with disabilities.</p>
           <div class="text-center">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6-AqABjXjuTf53oNXagBysS-5p5DFiBfWUt8jdLznTI137g/viewform?usp=sf_link" target="_blank" class="inline-block bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-blue-600 transition duration-300">Apply to Volunteer</a>
           </div>
@@ -33,7 +33,7 @@
             </span>
           </div>
           <h3 class="text-2xl font-semibold text-gray-800 mb-4 text-center">Donate</h3>
-          <p class="text-gray-600 text-lg mb-6 text-center">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
+          <p class="text-gray-600 text-lg mb-6 text-center hover:text-white">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
           <div class="space-y-3 text-center">
             <p class="text-gray-700"><strong>$10</strong> provides learning resources for one child.</p>
             <p class="text-gray-700"><strong>$50</strong> provides assistive devices for a classroom.</p>
