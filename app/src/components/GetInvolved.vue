@@ -35,9 +35,9 @@
           <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">Donate</h3>
           <p class="text-gray-600 text-lg mb-6 text-center hover:text-gray-950">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
           <div class="space-y-3 text-center">
-            <p class="text-gray-700"><strong>$10</strong> provides learning resources for one child.</p>
-            <p class="text-gray-700"><strong>$50</strong> provides assistive devices for a classroom.</p>
-            <p class="text-gray-700"><strong>$100</strong> supports teacher training for inclusive education.</p>
+            <p class="text-gray-950"><strong>$10</strong> provides learning resources for one child.</p>
+            <p class="text-gray-950"><strong>$50</strong> provides assistive devices for a classroom.</p>
+            <p class="text-gray-950"><strong>$100</strong> supports teacher training for inclusive education.</p>
           </div>
           <div class="text-center mt-6">
             <a href="/donate" class="inline-block bg-green-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-600 transition duration-300">Donate Now</a>
