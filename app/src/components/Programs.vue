@@ -16,7 +16,7 @@
           <a href="#" class="text-blue-500 text-md mt-4 block hover:underline">Learn more about our education initiatives</a>
         </div>
         <div class="lg:w-1/2 lg:pl-10">
-          <img src="https://via.placeholder.com/400" alt="Inclusive Education" class="w-full rounded-lg shadow-md">
+          <img src="../assets/student.avif" alt="Inclusive Education" class="w-full rounded-lg shadow-md">
         </div>
       </div>
 
