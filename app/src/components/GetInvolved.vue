@@ -33,7 +33,7 @@
             </span>
           </div>
           <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">Donate</h3>
-          <p class="text-gray-600 text-lg mb-6 text-center hover:text-gray-950">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
+          <p class="text-gray-950 text-lg mb-6 text-center hover:text-gray-950">Make a lasting impact. Every dollar helps provide digital learning tools, assistive devices, and inclusive education for children in need.</p>
           <div class="space-y-3 text-center">
             <p class="text-gray-950"><strong>$10</strong> provides learning resources for one child.</p>
             <p class="text-gray-950"><strong>$50</strong> provides assistive devices for a classroom.</p>
