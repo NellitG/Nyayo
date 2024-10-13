@@ -3,8 +3,8 @@
     <div class="container mx-auto px-4">
       <!-- Section Heading -->
       <div class="text-center mt-16">
-        <h2 class="text-5xl font-extrabold text-gray-800">Get Involved</h2>
-        <p class="text-xl text-gray-950 mt-4">Join us in making a difference through volunteering, donations, or partnerships. Every action helps empower differently-abled children.</p>
+        <h2 class="text-5xl semibold text-gray-800">Get Involved</h2>
+        <p class="text-xl text-gray-950 mt-4">Join us in making a difference through volunteering, donations, or partnerships.<br> Every action helps empower differently-abled children.</p>
       </div>
 
       <!-- Three Columns Grid -->
