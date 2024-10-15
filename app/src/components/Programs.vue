@@ -20,7 +20,7 @@
         </div>
       </div>
 
-      <!-- Workshops & Seminars Section (Image left, Text right) with added space -->
+      <!-- Workshops & Seminars Section  -->
       <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start mt-12">
         <div class="lg:w-1/2 lg:pl-16"> <!-- Adjusted padding for spacing -->
           <h3 class="text-3xl font-semibold text-gray-950">Workshops & Seminars</h3>
