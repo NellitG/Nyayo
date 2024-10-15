@@ -27,7 +27,7 @@
           <p class="text-gray-600 text-lg mt-4">We host educational sessions for parents, caregivers, and educators focused on disability rights, inclusion, and the importance of tailored education for differently-abled children. Our workshops foster a deeper understanding of these issues in the community.</p>
           <a href="#" class="text-blue-500 text-md mt-4 block hover:underline">Explore upcoming workshops and seminars</a>
         </div>
-        <div class="lg:w-1/2 lg:pr-10"> <!-- Adjusted padding-right -->
+        <div class="lg:w-1/2 lg:pr-10"> 
           <img src="https://via.placeholder.com/400" alt="Workshops & Seminars" class="w-full rounded-lg shadow-md">
         </div>
       </div>
