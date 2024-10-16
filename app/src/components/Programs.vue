@@ -36,7 +36,7 @@
       <div class="flex flex-col lg:flex-row items-center lg:items-start mt-12">
         <div class="lg:w-1/2">
           <h3 class="text-3xl font-semibold text-gray-950">Partnerships</h3>
-          <p class="text-gray-600 text-lg mt-4">We collaborate with schools, healthcare providers, and community organizations to create a network of support for children with disabilities. Our partnerships are key in ensuring that inclusive education is accessible to all.</p>
+          <p class="text-gray-600 text-lg mt-4">We collaborate with schools, healthcare providers, and community organizations to create a network of support for children with disabilities.<br> Our partnerships are key in ensuring that inclusive education is accessible to all.</p>
           <a href="#" class="text-blue-500 text-md mt-4 block hover:underline">Learn more about our partnerships</a>
         </div>
         <div class="lg:w-1/2 lg:pl-10">
