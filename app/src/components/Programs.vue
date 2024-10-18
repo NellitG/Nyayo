@@ -8,7 +8,7 @@
         <p class="text-lg text-black mt-2">Discover the initiatives we’ve taken to create a more inclusive world.</p>
       </div>
 
-      <!-- Inclusive Education Section -->
+      
       <div class="flex flex-col lg:flex-row items-center lg:items-start mt-12">
         <div class="lg:w-1/2">
           <h3 class="text-3xl font-semibold text-black">Inclusive Education</h3>
