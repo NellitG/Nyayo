@@ -2,7 +2,7 @@
   <div class="bg-white py-10">
     <div class="container mx-auto px-4">
 
-      <!-- Page Heading -->
+      
       <div class="mt-24 text-center">
         <h2 class="text-4xl font-bold text-gray-950">Our Programs</h2>
         <p class="text-lg text-black mt-2">Discover the initiatives we’ve taken to create a more inclusive world.</p>
