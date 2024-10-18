@@ -33,14 +33,14 @@
     </div>
   <div class="py-0">
     <div class="container mx-auto">
-      <!-- Core Values Section -->
+      
       <div class="text-center mb-0">
         <h2 class="text-4xl font-bold text-gray-950">Our Core Values</h2>
         <p class="text-lg text-gray-950 mt-2">The guiding principles that shape our efforts at Nyayo Inc.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Value 1: Commitment -->
+        
         <div class="flex flex-col items-center">
           <div class="w-48 h-40 mb-4">
             <!-- Example icon (replace with an actual icon or illustration) -->
