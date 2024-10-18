@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <!-- Partnerships Section (Text left, Image right) -->
+      
       <div class="flex flex-col lg:flex-row items-center lg:items-start mt-12">
         <div class="lg:w-1/2">
           <h3 class="text-3xl font-semibold text-black">Partnerships</h3>
