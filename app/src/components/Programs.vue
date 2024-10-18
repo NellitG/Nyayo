@@ -20,7 +20,7 @@
         </div>
       </div>
 
-      <!-- Workshops & Seminars Section  -->
+      
       <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start mt-12">
         <div class="lg:w-1/2 lg:pl-16"> 
           <h3 class="text-3xl font-semibold text-black">Workshops & Seminars</h3>
