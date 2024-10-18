@@ -49,7 +49,7 @@
           <p class="text-gray-600 text-center mt-2">We are committed to making a meaningful difference in the lives of differently-abled children by providing quality education and resources.</p>
         </div>
 
-        <!-- Value 2: Learning -->
+        
         <div class="flex flex-col items-center">
           <div class="w-48 h-40 mb-4">
             <!-- Example icon (replace with an actual icon or illustration) -->
