@@ -43,7 +43,6 @@
         
         <div class="flex flex-col items-center">
           <div class="w-48 h-40 mb-4">
-            
             <img src="https://img.freepik.com/free-photo/parents-kids-spending-time-together_23-2149489598.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="Commitment Icon" class="w-full h-full" />
           </div>
           <h3 class="text-xl font-semibold text-gray-950">Commitment</h3>
