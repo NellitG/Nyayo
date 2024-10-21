@@ -7,7 +7,6 @@
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
       }"
     >
-
       <!-- Header content -->
       <div
         class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
@@ -62,45 +61,7 @@
                 <span>Programs</span>
                 <span class="ml-1"></span>
               </router-link>
-              <!-- <div
-                class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
-              >
-                <div class="grid grid-cols-2 lg:gap-4">
-                  <div>
-                    <router-link to="/schoolofbusiness">
-                      <h3 class="font-semibold">School of Business</h3>
-                    </router-link>
-
-                    
-                  </div>
-                  <div>
-                    <router-link to="/schoolofict">
-                      <h3 class="font-semibold">School of ICT</h3>
-                    </router-link>
-
-                   
-                  </div>
-                  <div>
-                    <router-link to="/schoolofhospitality">
-                      <h3 class="font-semibold">School of Hospitality</h3>
-                    </router-link>
-
-                    
-                  </div>
-                  <div>
-                    <router-link to="/schoolofengineering">
-                      <h3 class="font-semibold">School of Engineering</h3>
-                    </router-link>
-                  </div>
-                  <div>
-                    <router-link to="/schoolofcosmetology">
-                      <h3 class="font-semibold">
-                        School of Beauty/Cosmetology
-                      </h3>
-                    </router-link>
-                  </div>
-                </div>
-              </div> -->
+              
             </li>
             <li>
               <router-link
