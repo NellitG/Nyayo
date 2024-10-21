@@ -34,8 +34,8 @@
 
         <!-- Navigation menu -->
         <nav
-        :class="{ hidden: close2, flex: !close2 }"
-        class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          :class="{ hidden: close2, flex: !close2 }"
+          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-auto lg:w-auto"
         >
 
           <!-- Navigation items -->
@@ -69,8 +69,7 @@
                 class="hover:text-green-500"
                 active-class="hover:text-fuchsia-500"
                 @click.native="closeMenu"
-                >About Us</router-link
-              >
+              >About Us</router-link>
             </li>
             <li>
               <router-link
@@ -78,8 +77,7 @@
                 class="hover:text-green-500"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
-                >Contact Us</router-link
-              >
+              >Contact Us</router-link>
             </li>
             <li>
               <router-link
@@ -89,7 +87,7 @@
                 @click.native="closeMenu"
               >
                 Get Involved
-               
+                
               </router-link>
             </li>
           </ul>
