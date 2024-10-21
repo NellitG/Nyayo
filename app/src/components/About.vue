@@ -52,7 +52,6 @@
         
         <div class="flex flex-col items-center">
           <div class="w-48 h-40 mb-4">
-            
             <img src="https://img.freepik.com/free-photo/family-spending-time-together-woods_23-2148943157.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="Learning Icon" class="w-full h-full" />
           </div>
           <h3 class="text-xl font-semibold text-gray-950">Learning</h3>
@@ -62,7 +61,6 @@
         <!-- Value 3: Accountability -->
         <div class="flex flex-col items-center">
           <div class="w-48 h-40 mb-4">
-            
             <img src="https://img.freepik.com/premium-photo/7-photorealistic-image-medical-volunteer-offering-aid-sick-child-makeshift-clinic-with-medical-supplies-caring-expression_1295806-43260.jpg?uid=R141465363&ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="Accountability Icon" class="w-full h-full" />
           </div>
           <h3 class="text-xl font-semibold text-gray-950">Accountability</h3>
