@@ -72,14 +72,6 @@
                 >About Us</router-link
               >
             </li>
-            <!-- <li>
-              <router-link
-                to="/news"
-                class="hover:text-green-500"
-                @click.native="closeMenu"
-                >News & updates</router-link
-              >
-            </li> -->
             <li>
               <router-link
                 to="/contact"
