@@ -7,29 +7,6 @@
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
       }"
     >
-      <!-- Navigation specific to homepage -->
-      <!-- <section v-if="isHomePage" class="bg-pink-400 py-4">
-        <div class="flex justify-start items-center list-none px-5 space-x-10">
-          <ul class="flex gap-5">
-            <li>
-              <router-link
-                to="/techhub"
-                class="text-white hover:text-gray-900"
-                @click.native="closeMenu"
-                >Innovation-hub</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/contact"
-                class="text-white hover:text-gray-900"
-                @click.native="closeMenu"
-                >Enquiries</router-link
-              >
-            </li>
-          </ul>
-        </div>
-      </section> -->
 
       <!-- Header content -->
       <div
@@ -66,7 +43,7 @@
           <ul
             class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
-            <li>
+            <!-- <li>
               <router-link
                 to="/"
                 class="hover:text-green-500"
@@ -74,7 +51,7 @@
                 @click.native="closeMenu"
                 >Home</router-link
               >
-            </li>
+            </li> -->
             <li class="relative group">
               <router-link
                 to="/programs"
