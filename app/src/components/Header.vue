@@ -93,9 +93,6 @@
               </router-link>
             </li>
           </ul>
-          <!-- <div class="lg:flex lg:justify-end lg:items-end pr-8 space-x-3 hidden pt-4">
-      <a href="#" class="px-6 py-2 bg-white hover:bg-teal-500 hover:text-white rounded-full pr-8 border-2 border-teal-500 text-teal-500 text-center">Login</a>
-          </div> -->
         </nav>
       </div>
     </header>
