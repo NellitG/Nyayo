@@ -42,15 +42,6 @@
           <ul
             class="flex flex-col lg:flex-row gap-4 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
-            <!-- <li>
-              <router-link
-                to="/"
-                class="hover:text-green-500"
-                active-class="hover:text-green-500"
-                @click.native="closeMenu"
-                >Home</router-link
-              >
-            </li> -->
             <li class="relative group">
               <router-link
                 to="/programs"
