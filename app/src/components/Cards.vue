@@ -7,7 +7,6 @@
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative">
                 <div class="max-w-xl mx-auto text-center">
                     <div class="inline-flex px-4 py-1.5 mx-auto rounded-full">
-                        <!-- <p class="text-5xl font-semibold tracking-widest">Specialities</p> -->
                     </div>
                     <p class="mt-4 text-3xl leading-relaxed text-black group-hover:text-black">Our Best Pracices Focuses On</p>
                 </div>
