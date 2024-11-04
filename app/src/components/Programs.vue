@@ -4,7 +4,7 @@
 
       
       <div class="mt-24 text-center">
-        <h2 class="text-4xl font-bold text-gray-950">Our Programs</h2>
+        <h2 class="text-5xl font-bold text-indigo-950">Our Programs</h2>
         <p class="text-lg text-black mt-2">Discover the initiatives we’ve taken to create a more inclusive world.</p>
       </div>
 
