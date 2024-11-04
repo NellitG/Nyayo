@@ -3,7 +3,7 @@
   <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-7">
     <div class="max-w-2xl mx-auto text-center">
       <h2
-        class="text-3xl font-semibold leading-tight text-blue-500 sm:text-4xl lg:text-5xl"
+        class="text-3xl font-bold leading-tight text-indigo-950 sm:text-4xl lg:text-5xl"
       >
       Our Journey: Key Milestones
       </h2>
