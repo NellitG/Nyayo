@@ -3,7 +3,7 @@
   <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-7">
     <div class="max-w-2xl mx-auto text-center">
       <h2
-        class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+        class="text-3xl font-semibold leading-tight text-blue-500 sm:text-4xl lg:text-5xl"
       >
       Our Journey: Key Milestones
       </h2>
@@ -75,6 +75,18 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="relative mt-12 lg:mt-20">
+      <div
+        class="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"
+      >
+        <img
+          class="w-full"
+          src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg"
+          alt=""
+        />
+      </div>
   </div>
 </section>
 
