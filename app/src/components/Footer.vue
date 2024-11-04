@@ -7,13 +7,13 @@
             <div class="flex flex-wrap justify-center mt-6 -mx-4">
                 <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600 " aria-label="Reddit"> Home </a>
                 
-                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600 " aria-label="Reddit"> About </a>
+                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600 " aria-label="Reddit"> About Us</a>
                 
-                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600" aria-label="Reddit"> Service </a>
+                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600" aria-label="Reddit"> Contact Us </a>
 
-                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600" aria-label="Reddit"> Portfolio </a>
+                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600" aria-label="Reddit"> Get Involved </a>
 
-                <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600 " aria-label="Reddit"> Contact </a>
+                <!-- <a href="#" class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600 " aria-label="Reddit"> Contact </a> -->
             </div>
 
         </div>
