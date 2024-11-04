@@ -4,8 +4,8 @@
     style="background-image: none"
   >
     <!-- Form title -->
-    <p class="text-3xl py-10 font-bold text-center text-gray-900">
-      Register Now
+    <p class="text-3xl py-10 font-bold text-center text-indigo-950">
+      Register Today
     </p>
     <!-- The form div -->
     <div class="">
@@ -138,6 +138,7 @@
                 />
                 <label for="male">18 - 38</label>
               </div>
+
               <div class="flex gap-3">
                 <input
                   type="radio"
@@ -146,34 +147,47 @@
                   value="38 - 45"
                   class="border border-gray-400 rounded-md"
                 />
-                <label for="38 - 45">38 - 45</label>
+                <label for="38 - 45">45 - 60</label><br>
+              </div>
+
+              <div class="flex gap-3">
+                <input
+                  type="radio"
+                  id="60 - 75"
+                  name="age"
+                  value="60 - 75"
+                  class="border border-gray-400 rounded-md"
+                />
+                <label for="60 - 75">60 - 75</label><br>
+              </div>
+
+              <div class="flex gap-3">
+                <input
+                  type="radio"
+                  id="75+"
+                  name="age"
+                  value="75+"
+                  class="border border-gray-400 rounded-md"
+                />
+                <label for="75+">75+</label><br>
                 <!-- Add more radio buttons for other genders if needed -->
               </div>
             </div>
           </div>   
           <div class="col-span-1">
-            <p class="py-2 text-lg">Youth Fund Loan</p>
+            <p class="py-2 text-lg">Total Amount to Contribute</p>
             <div class="flex flex-col">
               <div class="flex gap-3">
                 <input
-                  type="radio"
-                  id="Yes"
-                  name="Loan"
-                  value="Yes"
+                  type="text"
+                  id="totalcontribution"
+                  name="totalcontribution"
+                  value=""
                   class="border border-gray-400 rounded-md"
                 />
-                <label for="Yes">Yes</label>
+                
               </div>
               <div class="flex gap-3">
-                <input
-                  type="radio"
-                  id="No"
-                  name="Loan"
-                  value="No"
-                  class="border border-gray-400 rounded-md"
-                />
-                <label for="No">No</label>
-                <!-- Add more radio buttons for other genders if needed -->
               </div>
             </div>
           </div>
@@ -182,7 +196,7 @@
     </div>
     <div class="flex justify-end py-5">
       <button
-        class="text-white bg-green-700 px-4 py-2 rounded-md"
+        class="text-black bg-yellow-400 px-4 py-2 rounded-md"
         @click="finishForm"
       >
         Accept
@@ -194,6 +208,4 @@
 <script setup>
 import { ref } from "vue";
 
-//   const props = defineProps(["formData"]);
-// const formData = ref(props.formData);
 </script>

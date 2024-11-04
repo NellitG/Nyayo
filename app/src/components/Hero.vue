@@ -28,9 +28,9 @@
       >
         <div>
           <div
-            class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow"
+            class="flex items-center justify-center w-16 h-16 mx-auto bg-indigo-950 border-2 border-gray-200 rounded-full shadow"
           >
-            <span class="text-xl font-semibold text-gray-800"> 1 </span>
+            <span class="text-xl font-semibold text-white"> 1 </span>
           </div>
           <h3
             class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
@@ -44,9 +44,9 @@
 
         <div>
           <div
-            class="flex items-center justify-center w-16 h-16 mx-auto bg-black border-2 border-gray-200 rounded-full shadow"
+            class="flex items-center justify-center w-16 h-16 mx-auto bg-yellow-400 border-2 border-gray-200 rounded-full shadow"
           >
-            <span class="text-xl font-semibold text-gray-700"> 2 </span>
+            <span class="text-xl font-semibold text-gray-950"> 2 </span>
           </div>
           <h3
             class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
@@ -60,9 +60,9 @@
 
         <div>
           <div
-            class="flex items-center justify-center w-16 h-16 mx-auto bg-white border-2 border-gray-200 rounded-full shadow"
+            class="flex items-center justify-center w-16 h-16 mx-auto bg-indigo-950 border-2 border-gray-200 rounded-full shadow"
           >
-            <span class="text-xl font-semibold text-gray-700"> 3 </span>
+            <span class="text-xl font-semibold text-white"> 3 </span>
           </div>
           <h3
             class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
@@ -82,7 +82,7 @@
         class="absolute inset-x-0 hidden xl:px-44 top-2 md:block md:px-20 lg:px-28"
       >
         <img
-          class="w-full"
+          class="w-full text-yellow-400"
           src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/2/curved-dotted-line.svg"
           alt=""
         />

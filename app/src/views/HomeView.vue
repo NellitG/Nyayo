@@ -2,17 +2,14 @@
  <Button />
   <Mission />
    <Hero />
-  <!-- <Cards /> -->
- 
-  <!-- <Clients/> -->
-  <!-- <icons/> -->
-  <!-- <Card2/> -->
-  <!-- <Faq /> -->
+   <calltoaction />
 </template>
 <script setup>
 import Hero from "@/components/Hero.vue";
 import Mission from "@/components/Mission.vue";
 import Button from "@/components/Button.vue";
+import calltoaction from "@/components/calltoaction.vue";
+
 // import Clients from "@/components/Clients.vue";
 // import icons from "@/components/icons.vue";
 // import Faq from "@/components/Faq.vue";
