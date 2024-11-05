@@ -19,7 +19,7 @@
               </span>
           </div>
       </h1>
-      <p class="mx-auto mt-3 max-w-xl text-lg text-black sm:mt-5 md:mt-5">
+      <p class="mx-auto mt-10 max-w-xl text-lg text-black sm:mt-5 md:mt-5">
           It reflects the organization's commitment to empowering children of all abilities by providing them with the tools and opportunities to succeed through inclusive digital education. 
       </p>
       <div class="mt-0 sm:mt-8 sm:flex sm:justify-center">
