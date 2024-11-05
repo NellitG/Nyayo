@@ -7,52 +7,45 @@
       </div>
     </div>
  <div class="m-8 p-5">
-  <ol class="border-l border-neutral-300 dark:border-neutral-500 md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
+  <ol class="border-l border-neutral-300  md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
   
-    <!--First item-->
-    <li >
-      <div class="flex-start flex items-center pt-2 md:block md:pt-0">
-        <div
-          class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
-       
-      </div>
-      <div class="ml-4 mt-2 pb-5 md:ml-0">
-        <h4 class="mb-1.5 text-xl font-semibold">History</h4>
-        <p class="mb-3 text-neutral-500 dark:text-neutral-300">
-          Nyayo Inc was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering differently-abled children through access to digital education.
-        </p>
-      </div>
-    </li>
-  
-    <!--Second item-->
-    <li>
-      <div class="flex-start flex items-center pt-2 md:block md:pt-0">
-        <div
-          class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
-      </div>
-      <div class="ml-4 mt-2 pb-5 md:ml-0">
-        <h4 class="mb-1.5 text-xl font-semibold">Impact</h4>
-        <p class="mb-3 text-neutral-500 dark:text-neutral-300">
-          The NGO was founded to address the educational and social disparities faced by children with disabilities in underserved communities.<br>
-          
-        </p>
-      </div>
-    </li>
-  
-    <!--Third item-->
-    <li>
-      <div class="flex-start flex items-center pt-2 md:block md:pt-0">
-        <div
-          class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
-       
-      </div>
-      <div class="ml-4 mt-2 pb-5 md:ml-0">
-        <h4 class="mb-1.5 text-xl font-semibold">Objectives</h4>
-        <p class="mb-3 text-neutral-500 dark:text-neutral-300">
-          Recognizing that these children often lack the resources and support to thrive in conventional educational settings, Nyayo Inc aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
-        </p>
-      </div>
-    </li>
+    <ul class="relative border-l">
+      <div class="space-y-6">
+  <!-- First item -->
+  <div class="bg-white  p-6 rounded-lg shadow-lg border border-neutral-200">
+    <div class="flex items-center space-x-4">
+      <div class="h-3 w-3 bg-neutral-300 rounded-full"></div>
+      <h4 class="text-xl font-semibold">History</h4>
+    </div>
+    <p class="mt-3 text-neutral-600  text-center">
+      Nyayo Inc was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering <br>differently-abled children through access to digital education.
+    </p>
+  </div>
+
+  <!-- Second item -->
+  <div class="bg-white  p-6 rounded-lg shadow-lg border border-neutral-200 ">
+    <div class="flex items-center space-x-4">
+      <div class="h-3 w-3 bg-neutral-300  rounded-full"></div>
+      <h4 class="text-xl font-semibold">Inclusion</h4>
+    </div>
+    <p class="mt-3 text-neutral-600  text-center">
+      The NGO was founded to address the educational and social disparities faced by children <br>with disabilities in underserved communities.
+    </p>
+  </div>
+
+  <!-- Third item -->
+  <div class="bg-white p-6 rounded-lg shadow-lg border border-neutral-200 ">
+    <div class="flex items-center space-x-4">
+      <div class="h-3 w-3 bg-neutral-300  rounded-full"></div>
+      <h4 class="text-xl font-semibold">Empowerment</h4>
+    </div>
+    <p class="mt-3 text-neutral-600  text-center">
+      Recognizing that these children often lack the resources and support to thrive in conventional educational settings,<br> Nyayo Inc aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
+    </p>
+  </div>
+</div>
+    </ul>
+
   
 </ol>
 </div>
