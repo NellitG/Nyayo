@@ -17,7 +17,7 @@
        
       </div>
       <div class="ml-4 mt-2 pb-5 md:ml-0">
-        <h4 class="mb-1.5 text-xl font-semibold">Title of section 1</h4>
+        <h4 class="mb-1.5 text-xl font-semibold">History</h4>
         <p class="mb-3 text-neutral-500 dark:text-neutral-300">
           Nyayo Inc was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering differently-abled children through access to digital education.
         </p>
@@ -31,7 +31,7 @@
           class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500 md:-mt-[5px] md:ml-0 md:mr-0"></div>
       </div>
       <div class="ml-4 mt-2 pb-5 md:ml-0">
-        <h4 class="mb-1.5 text-xl font-semibold">Title of section 2</h4>
+        <h4 class="mb-1.5 text-xl font-semibold">Impact</h4>
         <p class="mb-3 text-neutral-500 dark:text-neutral-300">
           The NGO was founded to address the educational and social disparities faced by children with disabilities in underserved communities.<br>
           
@@ -47,7 +47,7 @@
        
       </div>
       <div class="ml-4 mt-2 pb-5 md:ml-0">
-        <h4 class="mb-1.5 text-xl font-semibold">Title of section 3</h4>
+        <h4 class="mb-1.5 text-xl font-semibold">Objectives</h4>
         <p class="mb-3 text-neutral-500 dark:text-neutral-300">
           Recognizing that these children often lack the resources and support to thrive in conventional educational settings, Nyayo Inc aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
         </p>
