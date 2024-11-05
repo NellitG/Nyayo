@@ -1,7 +1,6 @@
 <template>
-    <div class="bg-white py-10 ">
-  
-      <div class=" m-4 text-center p-2 py-10  max-w-7xl mx-auto  ">
+    <div class="bg-white py-10 mb-24">
+      <div class="mb-4 text-center p-2 py-10  max-w-7xl mx-auto  ">
         <div  class=" space-y-7 py-5">
           <!-- <h3 class="font-semibold text-6xl">Features of FINANCIAL</h3> -->
           <!-- <p class="px-10">We take pride in being a trusted partner for all of your financial needs.</p> -->
