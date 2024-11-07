@@ -8,11 +8,9 @@
           </h1>
 
           <div class="mt-4">
-            <span class="inline-block w-40 h-1 bg-blue-500 rounded-full"></span>
-            <span
-              class="inline-block w-3 h-1 mx-1 bg-blue-500 rounded-full"
-            ></span>
-            <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
+            <span class="inline-block w-40 h-1 bg-yellow-400 rounded-full"></span>
+            <span class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"></span>
+            <span class="inline-block w-1 h-1 bg-yellow-400 rounded-full"></span>
           </div>
 
           <p class="mt-4 font-semibold text-gray-950">
@@ -22,14 +20,10 @@
         </div>
 
         <div class="flex-1 xl:mx-8">
-          <div
-            class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0"
-          >
+          <div class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
             <div class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4">
               <div class="p-6">
-                <h1
-                  class="text-xl font-medium text-gray-700 capitalize lg:text-2xl"
-                >
+                <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-2xl">
                   Volunteer
                 </h1>
 
@@ -40,12 +34,11 @@
                 <br />
 
                 <div class="text-center">
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSc6-AqABjXjuTf53oNXagBysS-5p5DFiBfWUt8jdLznTI137g/viewform?usp=sf_link"
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6-AqABjXjuTf53oNXagBysS-5p5DFiBfWUt8jdLznTI137g/viewform?usp=sf_link"
                     target="_blank"
-                    class="inline-block bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
-                    >Apply to Volunteer</a
-                  >
+                    class="inline-block bg-indigo-900 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 hover:bg-yellow-400 hover:text-black">
+                    Apply to Volunteer
+                  </a>
                 </div>
               </div>
               <br />
@@ -53,9 +46,7 @@
 
             <div class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4">
               <div class="p-6">
-                <h1
-                  class="text-xl font-medium text-gray-700 capitalize lg:text-2xl"
-                >
+                <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-2xl">
                   Donate
                 </h1>
 
@@ -64,12 +55,7 @@
                   learning tools, assistive devices, and inclusive education for
                   children in need.
                 </p>
-
-                <!-- <h2 class="mt-4 text-2xl font-semibold text-gray-700 sm:text-3xl ">$50.00 <span class="text-base font-medium">/life time</span></h2> -->
-
-                <button
-                  class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-                >
+                <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-900 rounded-md hover:bg-yellow-400 hover:text-black font-semibold">
                   Donate
                 </button>
               </div>
@@ -85,6 +71,31 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Partner with Us Form -->
+    <div class="mt-10 flex justify-center">
+      <div class="w-full max-w-2xl">
+        <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">Partner with Us</h3>
+        <p class="text-gray-950 text-lg mb-6 text-center">Join forces with us! We welcome collaborations with corporations, schools, and NGOs to drive change and promote inclusivity.</p>
+        <form action="/partner-with-us" method="POST" class="space-y-4">
+          <div>
+            <label class="block text-gray-700 font-semibold mb-2" for="name">Your Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-black rounded-lg " required>
+          </div>
+          <div>
+            <label class="block text-gray-700 font-semibold mb-2" for="email">Your Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-black rounded-lg " required>
+          </div>
+          <div>
+            <label class="block text-gray-700 font-semibold mb-2" for="message">Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-black rounded-lg " required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="bg-indigo-950 hover:text-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300">Submit</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
