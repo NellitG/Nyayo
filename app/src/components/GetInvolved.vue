@@ -25,7 +25,7 @@
           <div
             class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0"
           >
-            <div class="max-w-sm mx-auto border rounded-lg md:mx-4">
+            <div class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4">
               <div class="p-6">
                 <h1
                   class="text-xl font-medium text-gray-700 capitalize lg:text-2xl"
@@ -51,7 +51,7 @@
               <br />
             </div>
 
-            <div class="max-w-sm mx-auto border rounded-lg md:mx-4">
+            <div class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4">
               <div class="p-6">
                 <h1
                   class="text-xl font-medium text-gray-700 capitalize lg:text-2xl"
