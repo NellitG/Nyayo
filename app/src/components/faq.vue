@@ -90,7 +90,7 @@
     <div class="flex items-center justify-center mt-12 md:mt-20">
       <div class="px-8 py-4 text-center bg-gray-200 rounded-3xl">
         <p class="text-gray-800">
-          How will I receive tax receipt for my donation?
+          Didn't find the answer you are looking for?
           <a
             href="#"
             title=""
