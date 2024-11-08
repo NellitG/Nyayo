@@ -45,8 +45,8 @@
             <li class="relative group">
               <router-link
                 to="/programs"
-                class="hover:text-green-500 flex items-center"
-                active-class="hover:text-green-500"
+                class="hover:hover:text-indigo-950 flex items-center"
+                active-class="hover:text-indigo-950"
                 @click.native="closeMenu"
               >
                 <span>Programs</span>
@@ -57,7 +57,7 @@
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-green-500"
+                class="hover:text-indigo-950"
                 active-class="hover:text-fuchsia-500"
                 @click.native="closeMenu"
               >About Us</router-link>
@@ -65,16 +65,16 @@
             <li>
               <router-link
                 to="/contact"
-                class="hover:text-green-500"
-                active-class="hover:text-green-500"
+                class="hover:text-indigo-950"
+                active-class="hover:text-indigo-950"
                 @click.native="closeMenu"
               >Contact Us</router-link>
             </li>
             <li>
               <router-link
                 to="/getinvolved"
-                class="hover:text-green-500 relative"
-                active-class="hover:text-green-500"
+                class="hover:hover:text-indigo-950 relative"
+                active-class="hover:text-indigo-950"
                 @click.native="closeMenu"
               >
                 Get Involved
