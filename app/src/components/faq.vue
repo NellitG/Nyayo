@@ -25,7 +25,7 @@
         </div>
         <div class="ml-4">
           <p class="text-xl font-semibold text-gray-900">
-            How to create an account?
+            Can I be part of the organization?
           </p>
           <p class="mt-4 text-base text-gray-500">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -59,7 +59,7 @@
         </div>
         <div class="ml-4">
           <p class="text-xl font-semibold text-gray-900">
-            Do you provide discounts?
+            Is my donation tax deductible?
           </p>
           <p class="mt-4 text-base text-gray-500">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -76,7 +76,7 @@
         </div>
         <div class="ml-4">
           <p class="text-xl font-semibold text-gray-900">
-            How do you provide support?
+            How do I volunteer to save children?
           </p>
           <p class="mt-4 text-base text-gray-500">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -90,7 +90,7 @@
     <div class="flex items-center justify-center mt-12 md:mt-20">
       <div class="px-8 py-4 text-center bg-gray-200 rounded-3xl">
         <p class="text-gray-800">
-          Didn't find the answer you are looking for?
+          How will I receive tax receipt for my donation?
           <a
             href="#"
             title=""
