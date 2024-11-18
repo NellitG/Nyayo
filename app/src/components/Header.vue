@@ -9,10 +9,10 @@
     >
       <!-- Header content -->
       <div
-        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
+        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-10"
       >
         <!-- Logo and menu toggle button -->
-        <div class="flex items-center gap-6">
+        <div class="flex items-center gap-6 mt-14">
           <button
             class="text-2xl p-1 text-black hover:text-blue-500 lg:hidden"
             @click="toggleMenu2"
@@ -25,9 +25,9 @@
             @click.native="closeMenu"
           >
             <img
-              src="../assets/logos.jpg"
+              src="../assets/logos.png"
               alt="Logo"
-              class="h-8 lg:h-32 mb-0 mt-6 ml-20"
+              class="h-8 lg:h-32 mb-0 mt-12 ml-20"
             />
           </router-link>
         </div>
@@ -40,7 +40,7 @@
 
           <!-- Navigation items -->
           <ul
-            class="flex flex-col lg:flex-row gap-4 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
+            class="flex flex-col lg:flex-row gap-4 lg:gap-8 text-white lg:text-black mt-4 lg:mt-14 lg:items-center px-4 lg:px-10"
           >
             <li class="relative group">
               <router-link
