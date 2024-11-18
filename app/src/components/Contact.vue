@@ -12,7 +12,7 @@
       >
         <img
           class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-          src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="https://img.freepik.com/premium-photo/black-woman-phone-call-laptop-with-smile-communication-conversation-discussion-cafe-happy-african-american-female-freelancer-smiling-mobile-smartphone-by-computer-remote-work_590464-142628.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid"
           alt="Image Description"
         />
       </div>
@@ -20,7 +20,7 @@
   
       <div class="space-y-8 lg:space-y-16">
         <div>
-          <h3 class="mb-5 font-semibold text-black">Our address</h3>
+          <h3 class="mb-5 font-semibold text-black">We are Located in</h3>
   
           <!-- Grid -->
           <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
@@ -42,10 +42,10 @@
               </svg>
   
               <div class="grow">
-                <p class="text-sm text-gray-600">United Kingdom</p>
+                <p class="text-sm text-gray-600">Nairobi</p>
                 <address class="mt-1 text-black not-italic">
-                  300 Bath Street, Tay House<br />
-                  Glasgow G2 4JR
+                  Moi Avenue<br />
+                  Along Kimathi Rd
                 </address>
               </div>
             </div>
@@ -115,7 +115,7 @@
                     class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-[1] before:w-full before:h-1 before:bg-lime-400 hover:before:bg-black focus:outline-none focus:before:bg-black"
                     href="mailto:example@site.so"
                   >
-                    +44 222 777-000
+                    +254798620045
                   </a>
                 </p>
               </div>
