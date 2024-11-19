@@ -14,8 +14,7 @@
             </div>
             <h4 class="font-semibold">Becoming a Volunteer</h4>
             <p>
-              Thought the lorem ipsum was suppossed to be an opium related task
-              to get high on life.
+              Become a part of the Volunteer team that takes the initiative to help children achieve their dreams.
             </p>
           </div>
           <div
