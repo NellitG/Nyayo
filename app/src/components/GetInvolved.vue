@@ -8,9 +8,15 @@
           </h1>
 
           <div class="mt-4">
-            <span class="inline-block w-40 h-1 bg-yellow-400 rounded-full"></span>
-            <span class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"></span>
-            <span class="inline-block w-1 h-1 bg-yellow-400 rounded-full"></span>
+            <span
+              class="inline-block w-40 h-1 bg-yellow-400 rounded-full"
+            ></span>
+            <span
+              class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"
+            ></span>
+            <span
+              class="inline-block w-1 h-1 bg-yellow-400 rounded-full"
+            ></span>
           </div>
 
           <p class="mt-4 font-semibold text-gray-950">
@@ -20,10 +26,16 @@
         </div>
 
         <div class="flex-1 xl:mx-8">
-          <div class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0">
-            <div class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4">
+          <div
+            class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0"
+          >
+            <div
+              class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4"
+            >
               <div class="p-6">
-                <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-2xl">
+                <h1
+                  class="text-xl font-medium text-gray-700 capitalize lg:text-2xl"
+                >
                   Volunteer
                 </h1>
 
@@ -34,9 +46,11 @@
                 <br />
 
                 <div class="text-center">
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6-AqABjXjuTf53oNXagBysS-5p5DFiBfWUt8jdLznTI137g/viewform?usp=sf_link"
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc6-AqABjXjuTf53oNXagBysS-5p5DFiBfWUt8jdLznTI137g/viewform?usp=sf_link"
                     target="_blank"
-                    class="inline-block bg-indigo-900 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 hover:bg-yellow-400 hover:text-black">
+                    class="inline-block bg-indigo-900 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 hover:bg-yellow-400 hover:text-black"
+                  >
                     Apply to Volunteer
                   </a>
                 </div>
@@ -44,9 +58,14 @@
               <br />
             </div>
 
-            <div class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4">
+            <!-- Donate Section -->
+            <div
+              class="max-w-sm mx-auto border-2 border-black rounded-lg md:mx-4"
+            >
               <div class="p-6">
-                <h1 class="text-xl font-medium text-gray-700 capitalize lg:text-2xl">
+                <h1
+                  class="text-xl font-medium text-gray-700 capitalize lg:text-2xl"
+                >
                   Donate
                 </h1>
 
@@ -55,9 +74,36 @@
                   learning tools, assistive devices, and inclusive education for
                   children in need.
                 </p>
-                <button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-900 rounded-md hover:bg-yellow-400 hover:text-black font-semibold">
-                  Donate
-                </button>
+
+                <div v-if="!showMobileInput">
+                  <button
+                    @click="showMobileInput = true"
+                    class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-900 rounded-md hover:bg-yellow-400 hover:text-black font-semibold"
+                  >
+                    Donate
+                  </button>
+                </div>
+
+                <div v-else>
+                  <input
+                    type="tel"
+                    v-model="mobileNumber"
+                    placeholder="Enter your mobile number"
+                    class="w-full px-4 py-2 mt-4 border rounded-md"
+                  />
+                  <input
+                    type="number"
+                    v-model="donationAmount"
+                    placeholder="Enter donation amount"
+                    class="w-full px-4 py-2 mt-4 border rounded-md"
+                  />
+                  <button
+                    @click="handleDonate"
+                    class="w-full px-4 py-2 mt-4 tracking-wide text-white capitalize transition-colors duration-300 transform bg-green-500 rounded-md hover:bg-yellow-400 hover:text-black font-semibold"
+                  >
+                    Proceed with Payment
+                  </button>
+                </div>
               </div>
               <div class="text-center mt-8">
                 <h4 class="text-lg font-semibold text-gray-700 mb-2">
@@ -69,6 +115,7 @@
                 </div>
               </div>
             </div>
+            <!-- End Donate Section -->
           </div>
         </div>
       </div>
@@ -77,26 +124,114 @@
     <!-- Partner with Us Form -->
     <div class="mt-10 flex justify-center">
       <div class="w-full max-w-2xl">
-        <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">Partner with Us</h3>
-        <p class="text-gray-950 text-lg mb-6 text-center">Join forces with us! We welcome collaborations with corporations, schools, and NGOs to drive change and promote inclusivity.</p>
+        <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">
+          Partner with Us
+        </h3>
+        <p class="text-gray-950 text-lg mb-6 text-center">
+          Join forces with us! We welcome collaborations with corporations,
+          schools, and NGOs to drive change and promote inclusivity.
+        </p>
         <form action="/partner-with-us" method="POST" class="space-y-4">
           <div>
-            <label class="block text-gray-700 font-semibold mb-2" for="name">Your Name</label>
-            <input type="text" id="name" name="name" class="w-full px-4 py-3 border border-black rounded-lg " required>
+            <label class="block text-gray-700 font-semibold mb-2" for="name"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            />
           </div>
           <div>
-            <label class="block text-gray-700 font-semibold mb-2" for="email">Your Email</label>
-            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-black rounded-lg " required>
+            <label class="block text-gray-700 font-semibold mb-2" for="email"
+              >Your Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            />
           </div>
           <div>
-            <label class="block text-gray-700 font-semibold mb-2" for="message">Message</label>
-            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-black rounded-lg " required></textarea>
+            <label class="block text-gray-700 font-semibold mb-2" for="message"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            ></textarea>
           </div>
           <div class="text-center">
-            <button type="submit" class="bg-indigo-950 hover:text-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300">Submit</button>
+            <button
+              type="submit"
+              class="bg-indigo-950 hover:text-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300"
+            >
+              Submit
+            </button>
           </div>
         </form>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showMobileInput: false,
+      mobileNumber: "",
+      donationAmount:"",
+    };
+  },
+  methods: {
+    async handleDonate() {
+      if (!this.mobileNumber) {
+        alert("Please enter your mobile number.");
+        return;
+      }
+
+      try {
+        // Send the mobile number to your backend server to trigger STK Push
+        const response = await fetch(
+          "http://localhost/Mpesa-Daraja-Api/stkpush.php",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams({
+              mobileNumber: this.mobileNumber,
+              amount: 100, // Set the amount to be donated
+            }),
+          }
+        );
+
+        const result = await response.json();
+
+        if (response.ok) {
+          alert(
+            "STK Push initiated. Please check your phone to complete the payment."
+          );
+        } else {
+          alert(`Error: ${result.error}`);
+        }
+      } catch (error) {
+        console.error("Error initiating donation:", error);
+        alert("An error occurred. Please try again later.");
+      }
+    },
+  },
+};
+</script>
+
+<style scoped>
+/* Add any additional styling if needed */
+</style>
