@@ -209,14 +209,14 @@ export default {
             },
             body: new URLSearchParams({
               mobileNumber: this.mobileNumber,
-              amount: 100, // Set the amount to be donated
+              donationAmount: this.donationAmount // Set the amount to be donated
             }),
           }
         );
 
         const result = await response.json();
 
-        if (response.ok) {
+        if (result.sucess) {
           alert(
             "STK Push initiated. Please check your phone to complete the payment."
           );
