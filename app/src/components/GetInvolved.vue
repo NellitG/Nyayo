@@ -223,7 +223,7 @@ export default {
       headers: {
         "Content-Type": "application/x-www-form-urlencoded", // Updated content type
       },
-      body: formData, // Send as URL-encoded string
+      body: formData.toString(), // Send as URL-encoded string
     });
 
     if (!response.ok) {
