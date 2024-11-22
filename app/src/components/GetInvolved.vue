@@ -23,8 +23,6 @@
             differently-abled children.
           </p>
         </div>
-
-        <!-- Volunteer and Donate Sections -->
         <div class="flex-1 xl:mx-8">
           <div
             class="mt-8 space-y-8 md:-mx-4 md:flex md:items-center md:justify-center md:space-y-0 xl:mt-0"
