@@ -125,7 +125,11 @@
             Join forces with us! We welcome collaborations with corporations,
             schools, and NGOs to drive change and promote inclusivity.
           </p>
-          <form @submit.prevent="submitPartnerForm" class="space-y-4">
+          <form 
+          action="http://localhost/nyayo.php"
+          method="POST"
+          @submit.prevent="submitPartnerForm" 
+          class="space-y-4">
             <div>
               <label class="block text-gray-700 font-semibold mb-2" for="name">
                 Your Name
@@ -208,29 +212,34 @@ export default {
   },
   methods: {
     async submitPartnerForm() {
-      try {
-        const response = await fetch("http://localhost/partner-with-us.php", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(this.partnerForm),
-        });
+  try {
+    const formData = new URLSearchParams();
+    formData.append("name", this.partnerForm.name);
+    formData.append("email", this.partnerForm.email);
+    formData.append("message", this.partnerForm.message);
 
-        if (!response.ok) {
-          throw new Error(await response.text());
-        }
+    const response = await fetch("http://localhost/nyayo.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded", // Updated content type
+      },
+      body: formData, // Send as URL-encoded string
+    });
 
-        this.submissionSuccess = true;
-        this.submissionError = null;
-        this.partnerForm = { name: "", email: "", message: "" }; // Clear form
-      } catch (error) {
-        console.error("Form submission error:", error);
-        this.submissionError =
-          "Failed to submit the form. Please try again.";
-        this.submissionSuccess = false;
-      }
-    },
+    if (!response.ok) {
+      throw new Error(await response.text());
+    }
+
+    this.submissionSuccess = true;
+    this.submissionError = null;
+    this.partnerForm = { name: "", email: "", message: "" }; // Clear form
+  } catch (error) {
+    console.error("Form submission error:", error);
+    this.submissionError = "Failed to submit the form. Please try again.";
+    this.submissionSuccess = false;
+  }
+},
+
     async handleDonate() {
       if (!this.mobileNumber || !this.donationAmount) {
         alert("Please fill out all fields.");

@@ -15,7 +15,7 @@ export default defineConfig({
       '/Mpesa-Daraja-Api': {
         target: 'http://localhost:5173', // Backend address
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/Mpesa-Daraja-Api/, ''), // Optionally remove '/Mpesa-Daraja-Api' from the path
+        rewrite: (path) => path.replace(/^\/Mpesa-Daraja-Api/, ''), 
       }
     }
   }

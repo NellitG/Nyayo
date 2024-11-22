@@ -21,7 +21,7 @@ function fakeBackend() {
   let realFetch = window.fetch;
   window.fetch = function (url, opts) {
     return new Promise((resolve, reject) => {
-      // wrap in timeout to simulate server api call
+      // Wrap in timeout to simulate server API call delay
       setTimeout(handleRoute, 500);
 
       function handleRoute() {
@@ -31,14 +31,14 @@ function fakeBackend() {
           case url.endsWith("/users") && opts.method === "GET":
             return getUsers();
           default:
-            // pass through any requests not handled above
+            // Pass through any requests not handled above to the real backend
             return realFetch(url, opts)
               .then((response) => resolve(response))
               .catch((error) => reject(error));
         }
       }
 
-      // route functions
+      // Route functions
 
       function authenticate() {
         const { username, password } = body();
@@ -59,11 +59,11 @@ function fakeBackend() {
       }
 
       function getUsers() {
-        // if (!isAuthenticated()) return unauthorized();
+        // Return all users for demo purposes
         return ok(users);
       }
 
-      // helper functions
+      // Helper functions
 
       function ok(body) {
         resolve({
