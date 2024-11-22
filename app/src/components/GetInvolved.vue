@@ -180,7 +180,7 @@
           </form>
           <!-- Success/Failure Messages -->
           <div v-if="submissionSuccess" class="mt-4 text-green-600 text-center">
-            Your request has been submitted successfully!
+            Your message has been submitted successfully!
           </div>
           <div
             v-if="submissionError"
