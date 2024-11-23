@@ -236,7 +236,7 @@ export default {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
-        body: formData.toString(),
+        body: new URLSearchParams(this.partnerForm),
       })
         .then((response) => response.json())
         .then((data) => {
