@@ -125,11 +125,12 @@
             Join forces with us! We welcome collaborations with corporations,
             schools, and NGOs to drive change and promote inclusivity.
           </p>
-          <form 
-          action="http://localhost/nyayo.php"
-          method="POST"
-          @submit.prevent="submitPartnerForm" 
-          class="space-y-4">
+          <form
+            action="http://localhost/nyayo.php"
+            method="POST"
+            @submit.prevent="submitPartnerForm"
+            class="space-y-4"
+          >
             <div>
               <label class="block text-gray-700 font-semibold mb-2" for="name">
                 Your Name
@@ -150,6 +151,21 @@
                 type="email"
                 id="email"
                 v-model="partnerForm.email"
+                class="w-full px-4 py-3 border border-black rounded-lg"
+                required
+              />
+            </div>
+            <div>
+              <label
+                class="block text-gray-700 font-semibold mb-2"
+                for="phone_number"
+              >
+                Phone Number
+              </label>
+              <input
+                type="text"
+                id="phone_number"
+                v-model="partnerForm.phone_number"
                 class="w-full px-4 py-3 border border-black rounded-lg"
                 required
               />
@@ -178,14 +194,12 @@
               </button>
             </div>
           </form>
+
           <!-- Success/Failure Messages -->
           <div v-if="submissionSuccess" class="mt-4 text-green-600 text-center">
             Your message has been submitted successfully!
           </div>
-          <div
-            v-if="submissionError"
-            class="mt-4 text-red-600 text-center"
-          >
+          <div v-if="submissionError" class="mt-4 text-red-600 text-center">
             {{ submissionError }}
           </div>
         </div>
@@ -197,47 +211,49 @@
 <script>
 export default {
   data() {
-    return {
-      partnerForm: {
-        name: "",
-        email: "",
-        message: "",
-      },
-      showMobileInput: false,
-      mobileNumber: "",
-      donationAmount: "",
-      submissionSuccess: false,
-      submissionError: null,
-    };
-  },
+  return {
+    partnerForm: {
+      name: "",
+      email: "",
+      phone_number: "",
+      message: "",
+    },
+    submissionSuccess: false,
+    submissionError: null,
+  };
+},
+
   methods: {
     async submitPartnerForm() {
-  try {
-    const formData = new URLSearchParams();
-    formData.append("name", this.partnerForm.name);
-    formData.append("email", this.partnerForm.email);
-    formData.append("message", this.partnerForm.message);
+  const formData = new URLSearchParams();
+  formData.append("name", this.partnerForm.name);
+  formData.append("email", this.partnerForm.email);
+  formData.append("phone_number", this.partnerForm.phone_number);
+  formData.append("message", this.partnerForm.message);
 
-    const response = await fetch("http://localhost/nyayo.php", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded", // Updated content type
-      },
-      body: formData.toString(), // Send as URL-encoded string
+  fetch("http://localhost/nyayo.php", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: formData.toString(),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      if (data.success) {
+        this.submissionSuccess = true;
+        this.submissionError = null;
+        this.partnerForm = { name: "", email: "", phone_number: "", message: "" }; // Clear form
+      } else {
+        this.submissionError = data.error || "Failed to submit form";
+        this.submissionSuccess = false;
+      }
+    })
+    .catch((error) => {
+      console.error("Error submitting form:", error);
+      this.submissionError = "Failed to submit the form. Please try again.";
+      this.submissionSuccess = false;
     });
-
-    if (!response.ok) {
-      throw new Error(await response.text());
-    }
-
-    this.submissionSuccess = true;
-    this.submissionError = null;
-    this.partnerForm = { name: "", email: "", message: "" }; // Clear form
-  } catch (error) {
-    console.error("Form submission error:", error);
-    this.submissionError = "Failed to submit the form. Please try again.";
-    this.submissionSuccess = false;
-  }
 },
 
     async handleDonate() {
