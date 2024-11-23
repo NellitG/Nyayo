@@ -211,56 +211,58 @@
 <script>
 export default {
   data() {
-  return {
-    partnerForm: {
-      name: "",
-      email: "",
-      phone_number: "",
-      message: "",
-    },
-    submissionSuccess: false,
-    submissionError: null,
-  };
-},
+    return {
+      partnerForm: {
+        name: "",
+        email: "",
+        phone_number: "",
+        message: "",
+      },
+      submissionSuccess: false,
+      submissionError: null,
+    };
+  },
 
   methods: {
     async submitPartnerForm() {
-  const formData = new URLSearchParams();
-  formData.append("name", this.partnerForm.name);
-  formData.append("email", this.partnerForm.email);
-  formData.append("phone_number", this.partnerForm.phone_number);
-  formData.append("message", this.partnerForm.message);
+      const formData = new URLSearchParams();
+      formData.append("name", this.partnerForm.name);
+      formData.append("email", this.partnerForm.email);
+      formData.append("phone_number", this.partnerForm.phone_number);
+      formData.append("message", this.partnerForm.message);
 
-  fetch("http://localhost/nyayo.php", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: formData.toString(),
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      if (data.success) {
-        this.submissionSuccess = true;
-        this.submissionError = null;
-        this.partnerForm = { name: "", email: "", phone_number: "", message: "" }; // Clear form
-
-        setTimeout(() => {
+      fetch("http://localhost/nyayo.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: formData.toString(),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.success) {
+            this.submissionSuccess = true;
+            this.submissionError = null;
+            this.partnerForm = {
+              name: "",
+              email: "",
+              phone_number: "",
+              message: "",
+            };
+            setTimeout(() => {
+              this.submissionSuccess = false;
+            }, 5000);
+          } else {
+            this.submissionError = data.error || "Failed to submit form";
+            this.submissionSuccess = false;
+          }
+        })
+        .catch((error) => {
+          console.error("Error submitting form:", error);
+          this.submissionError = "Failed to submit the form. Please try again.";
           this.submissionSuccess = false;
-        }, 5000
-      )
-
-      } else {
-        this.submissionError = data.error || "Failed to submit form";
-        this.submissionSuccess = false;
-      }
-    })
-    .catch((error) => {
-      console.error("Error submitting form:", error);
-      this.submissionError = "Failed to submit the form. Please try again.";
-      this.submissionSuccess = false;
-    });
-},
+        });
+    },
 
     async handleDonate() {
       if (!this.mobileNumber || !this.donationAmount) {
