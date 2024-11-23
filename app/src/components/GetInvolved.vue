@@ -244,6 +244,12 @@ export default {
         this.submissionSuccess = true;
         this.submissionError = null;
         this.partnerForm = { name: "", email: "", phone_number: "", message: "" }; // Clear form
+
+        setTimeout(() => {
+          this.submissionSuccess = false;
+        }, 5000
+      )
+
       } else {
         this.submissionError = data.error || "Failed to submit form";
         this.submissionSuccess = false;
