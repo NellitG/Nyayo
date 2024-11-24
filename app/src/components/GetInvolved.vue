@@ -8,15 +8,9 @@
             Join Us Today
           </h1>
           <div class="mt-4">
-            <span
-              class="inline-block w-40 h-1 bg-yellow-400 rounded-full"
-            ></span>
-            <span
-              class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"
-            ></span>
-            <span
-              class="inline-block w-1 h-1 bg-yellow-400 rounded-full"
-            ></span>
+            <span class="inline-block w-40 h-1 bg-yellow-400 rounded-full"></span>
+            <span class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"></span>
+            <span class="inline-block w-1 h-1 bg-yellow-400 rounded-full"></span>
           </div>
           <p class="mt-4 font-semibold text-gray-950">
             As we make a difference!<br />Every action helps empower
@@ -117,7 +111,12 @@
 
       <!-- Partner with Us Form -->
       <div class="mt-10 flex justify-center">
-        <div class="w-full max-w-2xl">
+        <form
+          action="http://localhost/nyayo.php"
+          method="POST"
+          @submit.prevent="submitPartnerForm"
+          class="w-full max-w-2xl space-y-4"
+        >
           <h3 class="text-2xl font-semibold text-gray-950 mb-4 text-center">
             Partner with Us
           </h3>
@@ -125,84 +124,69 @@
             Join forces with us! We welcome collaborations with corporations,
             schools, and NGOs to drive change and promote inclusivity.
           </p>
-          <form
-            action="http://localhost/nyayo.php"
-            method="POST"
-            @submit.prevent="submitPartnerForm"
-            class="space-y-4"
-          >
-            <div>
-              <label class="block text-gray-700 font-semibold mb-2" for="name">
-                Your Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                v-model="partnerForm.name"
-                class="w-full px-4 py-3 border border-black rounded-lg"
-                required
-              />
-            </div>
-            <div>
-              <label class="block text-gray-700 font-semibold mb-2" for="email">
-                Your Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                v-model="partnerForm.email"
-                class="w-full px-4 py-3 border border-black rounded-lg"
-                required
-              />
-            </div>
-            <div>
-              <label
-                class="block text-gray-700 font-semibold mb-2"
-                for="phone_number"
-              >
-                Phone Number
-              </label>
-              <input
-                type="text"
-                id="phone_number"
-                v-model="partnerForm.phone_number"
-                class="w-full px-4 py-3 border border-black rounded-lg"
-                required
-              />
-            </div>
-            <div>
-              <label
-                class="block text-gray-700 font-semibold mb-2"
-                for="message"
-              >
-                Message
-              </label>
-              <textarea
-                id="message"
-                v-model="partnerForm.message"
-                rows="4"
-                class="w-full px-4 py-3 border border-black rounded-lg"
-                required
-              ></textarea>
-            </div>
-            <div class="text-center">
-              <button
-                type="submit"
-                class="bg-indigo-950 hover:text-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
-
-          <!-- Success/Failure Messages -->
-          <div v-if="submissionSuccess" class="mt-4 text-green-600 text-center">
-            Your message has been submitted successfully!
+          <div>
+            <label class="block text-gray-700 font-semibold mb-2" for="name">
+              Your Name
+            </label>
+            <input
+              type="text"
+              id="name"
+              v-model="partnerForm.name"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            />
           </div>
-          <div v-if="submissionError" class="mt-4 text-red-600 text-center">
-            {{ submissionError }}
+          <div>
+            <label class="block text-gray-700 font-semibold mb-2" for="email">
+              Your Email
+            </label>
+            <input
+              type="email"
+              id="email"
+              v-model="partnerForm.email"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            />
           </div>
-        </div>
+          <div>
+            <label
+              class="block text-gray-700 font-semibold mb-2"
+              for="phone_number"
+            >
+              Phone Number
+            </label>
+            <input
+              type="text"
+              id="phone_number"
+              v-model="partnerForm.phone_number"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            />
+          </div>
+          <div>
+            <label
+              class="block text-gray-700 font-semibold mb-2"
+              for="message"
+            >
+              Message
+            </label>
+            <textarea
+              id="message"
+              v-model="partnerForm.message"
+              rows="4"
+              class="w-full px-4 py-3 border border-black rounded-lg"
+              required
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="bg-indigo-950 hover:text-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-400 transition duration-300"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </div>
@@ -212,6 +196,9 @@
 export default {
   data() {
     return {
+      showMobileInput: false,
+      mobileNumber: "",
+      donationAmount: "",
       partnerForm: {
         name: "",
         email: "",
@@ -222,85 +209,51 @@ export default {
       submissionError: null,
     };
   },
-
   methods: {
     async submitPartnerForm() {
-      const formData = new URLSearchParams();
-      formData.append("name", this.partnerForm.name);
-      formData.append("email", this.partnerForm.email);
-      formData.append("phone_number", this.partnerForm.phone_number);
-      formData.append("message", this.partnerForm.message);
-
-      fetch("http://localhost/nyayo.php", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: new URLSearchParams(this.partnerForm),
-      })
-        .then((response) => response.json())
-        .then((data) => {
-          if (data.success) {
-            this.submissionSuccess = true;
-            this.submissionError = null;
-            this.partnerForm = {
-              name: "",
-              email: "",
-              phone_number: "",
-              message: "",
-            };
-            setTimeout(() => {
-              this.submissionSuccess = false;
-            }, 5000);
-          } else {
-            this.submissionError = data.error || "Failed to submit form";
-            this.submissionSuccess = false;
-          }
-        })
-        .catch((error) => {
-          console.error("Error submitting form:", error);
-          this.submissionError = "Failed to submit the form. Please try again.";
-          this.submissionSuccess = false;
+      try {
+        const response = await fetch("http://localhost/nyayo.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(this.partnerForm),
         });
+        const data = await response.json();
+        if (data.success) {
+          this.submissionSuccess = true;
+          this.partnerForm = { name: "", email: "", phone_number: "", message: "" };
+        } else {
+          this.submissionError = data.error;
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        this.submissionError = "Submission failed.";
+      }
     },
-
     async handleDonate() {
       if (!this.mobileNumber || !this.donationAmount) {
         alert("Please fill out all fields.");
         return;
       }
-
       try {
-        const response = await fetch(
-          "http://localhost/Mpesa-Daraja-Api/stkpush.php",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/x-www-form-urlencoded",
-            },
-            body: new URLSearchParams({
-              mobileNumber: this.mobileNumber,
-              donationAmount: this.donationAmount,
-            }),
-          }
-        );
-
+        const response = await fetch("http://localhost/stkpush.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            mobileNumber: this.mobileNumber,
+            donationAmount: this.donationAmount,
+          }),
+        });
         const result = await response.json();
-
         if (result.success) {
           alert("STK Push initiated. Check your phone to complete payment.");
         } else {
           alert(`Error: ${result.error}`);
         }
       } catch (error) {
-        console.error("Error during STK push:", error);
+        console.error("Error:", error);
         alert("Failed to initiate donation. Please try again.");
       }
     },
   },
 };
 </script>
-
-<style scoped>
-/* Add additional styling as needed */
-</style>
