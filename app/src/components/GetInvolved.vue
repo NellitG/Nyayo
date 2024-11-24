@@ -238,12 +238,12 @@ export default {
         const response = await fetch("http://localhost/stkpush.php", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams({
+          body: application/x-www-form-urlencoded.stringify({
             mobileNumber: this.mobileNumber,
             donationAmount: this.donationAmount,
           }),
         });
-        const result = await response.json();
+        const result = await response.application/x-www-form-urlencoded();
         if (result.success) {
           alert("STK Push initiated. Check your phone to complete payment.");
         } else {
