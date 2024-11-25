@@ -1,105 +1,105 @@
 <template>
-    <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
-  <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
-    <div class="max-w-2xl mx-auto text-center">
-      <!-- Title -->
-      <h2
-        class="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl lg:text-5xl"
-      >
-        FAQ
-      </h2>
-      <p class="max-w-xl mx-auto mt-4 text-sm leading-relaxed text-gray-700">
-        Explore the common questions and answers
-      </p>
-    </div>
-
-    <!-- FAQ items -->
-    <div
-      class="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-16 gap-x-10 lg:gap-x-14"
-    >
-      <div class="flex items-start">
-        <div
-          class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-200 rounded-full"
-        >
-          <span class="text-lg font-semibold text-gray-900">?</span>
+  <div class="bg-gray-50 py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+      <!-- Left Section -->
+      <div>
+        <div class="relative">
+          <span class="absolute text-5xl sm:text-6xl lg:text-7xl text-gray-200 top-0 -left-8">“</span>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 leading-snug">
+            FAQ
+          </h2>
         </div>
-        <div class="ml-4">
-          <p class="text-xl font-semibold text-gray-900">
-            Can I be part of the organization?
-          </p>
-          <p class="mt-4 text-base text-gray-500">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex items-start">
-        <div
-          class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-200 rounded-full"
-        >
-          <span class="text-lg font-semibold text-gray-900">?</span>
-        </div>
-        <div class="ml-4">
-          <p class="text-xl font-semibold text-gray-900">
-            How can I make payment?
-          </p>
-          <p class="mt-4 text-base text-gray-500">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex items-start">
-        <div
-          class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-200 rounded-full"
-        >
-          <span class="text-lg font-semibold text-gray-900">?</span>
-        </div>
-        <div class="ml-4">
-          <p class="text-xl font-semibold text-gray-900">
-            Is my donation tax deductible?
-          </p>
-          <p class="mt-4 text-base text-gray-500">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
-          </p>
-        </div>
-      </div>
-
-      <div class="flex items-start">
-        <div
-          class="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-200 rounded-full"
-        >
-          <span class="text-lg font-semibold text-gray-900">?</span>
-        </div>
-        <div class="ml-4">
-          <p class="text-xl font-semibold text-gray-900">
-            How do I volunteer to save children?
-          </p>
-          <p class="mt-4 text-base text-gray-500">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Rounded pill -->
-    <div class="flex items-center justify-center mt-12 md:mt-20">
-      <div class="px-8 py-4 text-center bg-gray-200 rounded-3xl">
-        <p class="text-gray-800">
-          Didn't find the answer you are looking for?
-          <a
-            href="#"
-            title=""
-            class="text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline"
-            >Contact our support
-          </a>
+        <p class="mt-4 text-sm sm:text-base text-gray-600">
+          Explore the common questions and answers
         </p>
+        <p class="mt-4 text-sm sm:text-base text-gray-600">
+          Explore some of the most commonly asked questions below. If you don't find what you're looking for, feel free to reach out—we're here to help!"
+        </p>
+      </div>
+
+      <!-- Right Section -->
+      <div class="space-y-6">
+        <!-- FAQ Items -->
+        <div class="space-y-4">
+          <!-- FAQ Items with interactivity -->
+          <div v-for="(faq, index) in faqs" :key="index">
+            <div
+              @click="toggleFAQ(index)"
+              class="flex items-center justify-between border-b border-gray-300 pb-3 cursor-pointer"
+            >
+              <h4 class="font-medium text-base sm:text-lg text-gray-800">
+                {{ faq.question }}
+              </h4>
+              <span class="text-gray-500 text-base">
+                {{ faq.expanded ? '-' : '+' }}
+              </span>
+            </div>
+            <p
+              v-if="faq.expanded"
+              class="mt-2 text-sm sm:text-base text-gray-600"
+            >
+              {{ faq.answer }}
+            </p>
+          </div>
+        </div>
+
+        <!-- Footer Text and Button -->
+        <div>
+          <p class="text-orange-500 font-medium text-lg text-center md:text-left">
+            Didn't find the answer you are looking for?
+          </p>
+          <button
+            class="mt-4 inline-block px-6 py-3 border border-gray-800 rounded-full text-gray-800 font-medium hover:bg-gray-100 w-full md:w-auto"
+          >
+          Contact our support
+          </button>
+        </div>
       </div>
     </div>
   </div>
-</section>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      faqs: [
+        {
+          question: "How Can I be part of the organization?",
+          answer:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+          expanded: true,
+        },
+        {
+          question: "How can I make payment?.",
+          answer:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+          expanded: false,
+        },
+        {
+          question: "Is my donation tax deductible?",
+          answer:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+          expanded: false,
+        },
+        {
+          question: "How do I volunteer to save children?",
+          answer:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+          expanded: false,
+        },
+      ],
+    };
+  },
+  methods: {
+    toggleFAQ(index) {
+      // Toggle the expanded state of the selected FAQ
+      this.faqs[index].expanded = !this.faqs[index].expanded;
+    },
+  },
+};
+</script>
+
+<style>
+/* Add any additional custom styles here if needed */
+</style>

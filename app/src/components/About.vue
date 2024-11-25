@@ -1,82 +1,56 @@
-<template >
-  <div class="max-w-full mt-24">
-        <div class="max-w-3xl mx-auto py-30 space-y-5">
-        <h1 class="text-3xl md:text-5xl text-primary-700 font-bold text-center text-indigo-950">
-          Who Are We
-        </h1>
+<template>
+  <div class="bg-gray-50 py-0 relative overflow mt-32">
+  <!-- Watermark -->
+  <div class="absolute inset-0 flex justify-center items-center">
+    <p class="text-9xl font-bold text-gray-200 opacity-10 tracking-widest">
+      NYAYO INC
+    </p>
+  </div>
+
+  <div class="relative container mx-auto px-6 lg:px-20 z-10">
+    <div class="grid grid-cols-1 gap-16">
+      <!-- Our Vision Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Image on the Left -->
+        <div class="relative">
+          <div class="absolute inset-0 bg-orange-200 w-5/6 h-5/6 -z-10 transform translate-x-4 translate-y-4 rounded-md"></div>
+          <img
+            src="https://img.freepik.com/free-photo/full-shot-happy-kids-outdoors_23-2148761594.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid"
+            alt="Our Vision Image"
+            class="rounded-md shadow-lg h-3/4 w-3/4 object-cover"
+          />
+        </div>
+        <!-- Text on the Right -->
+        <div>
+          <h3 class="text-4xl font-semibold text-gray-800">Our Vision</h3>
+          <p class="mt-2 text-gray-600 text-left">
+            To ensure that every differently-abled child/individual has access to quality digital education, and has access to the same opportunities as any other child/individual, despite their background differences.
+          </p>
+        </div>
+      </div>
+
+      <!-- Our Mission Section -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Text on the Left -->
+        <div>
+          <h3 class="text-4xl font-semibold text-gray-800">Our Mission</h3>
+          <p class="mt-2 text-gray-600 text-left">
+            We believe in creating a world where every differently-abled child has access to quality digital education.
+          Join us in our mission. Empowering Every Ability, Enriching Every Life.
+          </p>
+        </div>
+        <!-- Image on the Right -->
+        <div class="relative">
+          <div class="absolute inset-0 bg-blue-200 w-5/6 h-5/6 -z-10 transform translate-x-4 translate-y-4 rounded-md"></div>
+          <img
+            src="https://img.freepik.com/free-photo/medium-shot-boys-hugging_23-2148860422.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid/100x50"
+            alt="Our Mission Image"
+            class="rounded-md shadow-lg w-3/4 h-3/4 object-cover"
+          />
+        </div>
       </div>
     </div>
- <div class="m-8 p-5">
-  <ol class="border-l border-neutral-300  md:flex md:justify-center md:gap-6 md:border-l-0 md:border-t">
-  
-    <ul class="relative border-l">
-      <div class="space-y-6">
-  <!-- First item -->
-  <div class="bg-white  p-6 rounded-lg shadow-lg border border-neutral-200">
-    <div class="flex items-center space-x-4">
-      <div class="h-3 w-3 bg-neutral-300 rounded-full"></div>
-      <h4 class="text-xl font-semibold">History</h4>
-    </div>
-    <p class="mt-3 text-neutral-600  text-center">
-      Nyayo Inc was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering <br>differently-abled children through access to digital education.
-    </p>
-  </div>
-
-  <!-- Second item -->
-  <div class="bg-white  p-6 rounded-lg shadow-lg border border-neutral-200 ">
-    <div class="flex items-center space-x-4">
-      <div class="h-3 w-3 bg-neutral-300  rounded-full"></div>
-      <h4 class="text-xl font-semibold">Inclusion</h4>
-    </div>
-    <p class="mt-3 text-neutral-600  text-center">
-      The NGO was founded to address the educational and social disparities faced by children <br>with disabilities in underserved communities.
-    </p>
-  </div>
-
-  <!-- Third item -->
-  <div class="bg-white p-6 rounded-lg shadow-lg border border-neutral-200 ">
-    <div class="flex items-center space-x-4">
-      <div class="h-3 w-3 bg-neutral-300  rounded-full"></div>
-      <h4 class="text-xl font-semibold">Empowerment</h4>
-    </div>
-    <p class="mt-3 text-neutral-600  text-center">
-      Recognizing that these children often lack the resources and support to thrive in conventional educational settings,<br> Nyayo Inc aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
-    </p>
   </div>
 </div>
-    </ul>
 
-  
-</ol>
-</div>
-<div class="container px-6 py-10 mx-auto">
-        <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
-            <div>
-                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://img.freepik.com/free-photo/close-up-african-kids-reading-together_23-2148860425.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="">
-                  <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow">
-                    <a href="#" class="font-semibold text-gray-950 hover:underline text-3xl">
-                      Commitment
-                    </a>
-
-                    <p class="mt-3 text-sm text-gray-500 md:text-sm">
-                      We believe that continuous learning is key to personal and organizational growth, and we strive to instill this value in the children we serve.
-                    </p>
-                </div>
-            </div>
-
-            <div>
-                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://img.freepik.com/free-photo/teacher-helping-kids-class_23-2148892529.jpg?ga=GA1.1.487577296.1727511220&semt=ais_hybrid" alt="">
-
-                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow">
-                    <a href="#" class="font-semibold text-gray-950 text-4xl hover:underline">
-                      Learning
-                    </a>
-
-                    <p class="mt-3 text-sm text-gray-500 md:text-sm">
-                      We are committed to making a meaningful difference in the lives of differently-abled children by providing quality education and resources.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 </template>

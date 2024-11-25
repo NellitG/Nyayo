@@ -8,9 +8,15 @@
             Join Us Today
           </h1>
           <div class="mt-4">
-            <span class="inline-block w-40 h-1 bg-yellow-400 rounded-full"></span>
-            <span class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"></span>
-            <span class="inline-block w-1 h-1 bg-yellow-400 rounded-full"></span>
+            <span
+              class="inline-block w-40 h-1 bg-yellow-400 rounded-full"
+            ></span>
+            <span
+              class="inline-block w-3 h-1 mx-1 bg-yellow-400 rounded-full"
+            ></span>
+            <span
+              class="inline-block w-1 h-1 bg-yellow-400 rounded-full"
+            ></span>
           </div>
           <p class="mt-4 font-semibold text-gray-950">
             As we make a difference!<br />Every action helps empower
@@ -164,10 +170,7 @@
             />
           </div>
           <div>
-            <label
-              class="block text-gray-700 font-semibold mb-2"
-              for="message"
-            >
+            <label class="block text-gray-700 font-semibold mb-2" for="message">
               Message
             </label>
             <textarea
@@ -220,7 +223,12 @@ export default {
         const data = await response.json();
         if (data.success) {
           this.submissionSuccess = true;
-          this.partnerForm = { name: "", email: "", phone_number: "", message: "" };
+          this.partnerForm = {
+            name: "",
+            email: "",
+            phone_number: "",
+            message: "",
+          };
         } else {
           this.submissionError = data.error;
         }
@@ -238,12 +246,12 @@ export default {
         const response = await fetch("http://localhost/stkpush.php", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: application/x-www-form-urlencoded.stringify({
-            mobileNumber: this.mobileNumber,
-            donationAmount: this.donationAmount,
+          body: JSON.stringify({
+            mobileNumber: this.mobileNumber ? this.mobileNumber.toString() : "",
+            donationAmount: this.donationAmount ? this.donationAmount.toString(): "",
           }),
         });
-        const result = await response.application/x-www-form-urlencoded();
+        const data = await response.json();
         if (result.success) {
           alert("STK Push initiated. Check your phone to complete payment.");
         } else {

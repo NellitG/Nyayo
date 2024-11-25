@@ -1,35 +1,55 @@
 <template>
-    <main class="mx-auto mt-24 flex justify-center px-4 sm:mt-24 sm:px-6 md:mt-16 lg:mt-0 lg:px-8 xl:mt-48">
-  <div class="text-center">
-      <h1 class="text-4xl font-extrabold tracking-tight text-indigo-950 sm:text-5xl md:text-6xl">
-          <span class="block xl:inline"><span class="mb-1 block">Empowering Every Ability</span>
-          <span class="bg-gradient-to-r from-indigo-950 to-yellow-400 bg-clip-text text-transparent">
-                  Enriching Every Life.
-              </span>
-          </span>
-          <div class="">
-              <span class="relative mt-3 whitespace-nowrap text-indigo-950"><svg aria-hidden="true" viewBox="0 0 418 42"
-                      class="absolute top-3/4 left-0 right-0 m-auto h-[0.58em] w-fit fill-indigo-400/150"
-                      preserveAspectRatio="none">
-                      <path
-                          d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z">
-                      </path>
-                  </svg>
-                  <span class="relative">Building Futures</span>
-              </span>
-          </div>
+    <div class="bg-gray-50 py-10 px-6 mt-10">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <!-- Left Section -->
+    <div class="space-y-6 mb-20">
+      <h1 class="text-blue-950 font-semibold text-4xl text-center">Empowering Every Ability</h1>
+      <h1 class="text-4xl font-semibold text-gray-900 leading-tight text-blue-950 text-center mb-4">
+        Enriching Every Life
       </h1>
-      <p class="mx-auto mt-10 max-w-xl text-lg text-black sm:mt-5 md:mt-5">
-          It reflects the organization's commitment to empowering children of all abilities by providing them with the tools and opportunities to succeed through inclusive digital education. 
+      <h3 class="text-4xl font-semibold text-gray-900 leading-tight text-blue-950 text-center ">Building Futures</h3>
+      <p class="text-gray-600 text-lg text-center">
+        It reflects the organization's commitment to empowering children of all abilities by providing them with the tools and opportunities to succeed through inclusive digital education
       </p>
-      <div class="mt-0 sm:mt-8 sm:flex sm:justify-center">
-    <div class="rounded-md shadow">
-        <a
-            class="flex w-full items-center justify-center rounded-md border border-yellow-400 hover:bg-transparent px-8 py-3 text-base font-medium text-gray-950 bg-yellow-400 md:py-4 md:px-10 md:text-lg"
-            href="/programs">Explore Our Programs 🚀</a>
+    <div class="flex justify-center ">
+      <button class="bg-blue-950 text-white py-3 px-4 rounded-lg font-semibold mt-8 text-medium shadow-md hover:bg-yellow-500 hover:text-black transition justify-center">
+        Donate Now
+      </button>
     </div>
+    <!-- <div class="rounded-md shadow mt-10 justify-center">
+        <a
+            class=" rounded-md px-8 py-3 font-medium text-gray-950 bg-yellow-400 md:py-4 md:px-10 md:text-lg"
+            href="/programs">Explore Our Programs 🚀</a>
+    </div> -->
+    </div>
+
+    <!-- Right Section -->
+    <div class="relative">
+      <!-- Volunteers with donation boxes -->
+      <div class="bg-gray-100 p-4 shadow-lg rounded-md">
+  <img src="../assets/volunteer1.avif" alt="Volunteer" class="w-full h-full rounded-full mx-auto">
+  <!-- <p class="text-center text-sm font-medium mt-2">Donation</p> -->
 </div>
 
+      <!-- Total Donation Card -->
+      <!-- <div class="absolute top-0 right-0 bg-yellow-100 p-4 shadow-lg rounded-lg w-48">
+        <h3 class="text-lg font-semibold text-yellow-600">Total Donation</h3>
+        <div class="bg-gray-200 h-3 rounded-full mt-2 relative">
+          <div class="bg-yellow-500 h-3 rounded-full w-2/3"></div>
+        </div>
+        <p class="text-gray-600 text-sm mt-2">65%</p>
+      </div> -->
+
+      <!-- Volunteer Count -->
+      <!-- <div class="absolute bottom-0 left-0 bg-white shadow-lg rounded-full p-4 flex items-center space-x-2">
+        <img src="avatar-group.jpg" alt="Volunteers" class="h-10 w-10 rounded-full">
+        <div>
+          <p class="text-sm font-medium text-gray-700">Join Our Volunteer</p>
+          <p class="text-gray-500 text-xs">4k+ members</p>
+        </div>
+      </div> -->
+    </div>
   </div>
-</main>
+</div>
+
 </template>

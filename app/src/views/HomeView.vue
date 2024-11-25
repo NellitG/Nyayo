@@ -1,16 +1,17 @@
 <template>
   <Button />
-  <Mission />
   <calltoaction />
+  <donations />
   <Hero />
-  <Cards />
+  <cards />
 </template>
+
 <script setup>
 import Hero from "@/components/Hero.vue";
-import Mission from "@/components/Mission.vue";
+import donations from "@/components/donations.vue";
 import Button from "@/components/Button.vue";
 import calltoaction from "@/components/calltoaction.vue";
-import Cards from "@/components/Cards.vue";
-
+import cards from "@/components/cards.vue";
 </script>
+
 <style lang="scss" scoped></style>

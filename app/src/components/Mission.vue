@@ -6,8 +6,7 @@
       <div class="relative z-10 p-8 text-white flex items-center justify-center flex-col text-center">
         <h2 class="text-5xl font-bold mb-4">Our Mission</h2>
         <p class="text-lg max-w-xl">
-          We believe in creating a world where every differently-abled child has access to quality digital education.
-          Join us in our mission. Empowering Every Ability, Enriching Every Life.
+          
         </p>
       </div>
     </div>
@@ -18,7 +17,7 @@
       <div class="relative z-10 p-8 text-white flex items-center justify-center flex-col text-center">
         <h2 class="text-5xl font-bold mb-4">Our Vision</h2>
         <p class="text-lg max-w-xl">
-          To ensure that every differently-abled child/individual has access to quality digital education, and has access to the same opportunities as any other child/individual, despite their background differences.
+          
         </p>
       </div>
     </div>
