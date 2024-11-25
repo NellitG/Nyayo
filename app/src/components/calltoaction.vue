@@ -4,7 +4,7 @@
         <div
           class="flex flex-col gap-5 pt-4 md:flex-row justify-center items-center m-2 p-2">
           <div
-            class="flex flex-col items-center bg-white rounded-lg border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4">
+            class="flex flex-col items-center bg-white rounded-lg hover:border-yellow-400 border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4">
             <div class="shadow-lg hover:shadow-xl p-3 ">
               <img
                 class="shrink-0 h-12 w-12"
@@ -18,7 +18,7 @@
             </p>
           </div>
           <div
-            class="flex flex-col items-center bg-white rounded-lg border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4">
+            class="flex flex-col items-center bg-white rounded-lg hover:border-yellow-400 border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4">
           <div class="shadow-lg hover:shadow-xl p-3">
               <img
                 class="shrink-0 h-12 w-12 "
@@ -34,7 +34,7 @@
             
           </div>
           <div
-            class="flex flex-col items-center bg-white rounded-lg border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4"
+            class="flex flex-col items-center bg-white rounded-lg hover:border-yellow-400 border-2 border-black-400 hover:shadow-xl space-y-4 md:max-w-auto p-4"
           >
             <div class="shadow-lg hover:shadow-xl p-3">
               <img
