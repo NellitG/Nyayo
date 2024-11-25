@@ -30,7 +30,7 @@
         <li>• A wonderful serenity.</li>
         <li>• Set a link back to this photo.</li>
       </ul>
-      <button class="bg-green-600 text-white py-3 px-8 rounded-lg text-lg font-medium shadow-md hover:bg-green-700 transition">
+      <button class="bg-yellow-400 text-white py-3 px-8 rounded-lg text-lg font-medium shadow-md hover:bg-blue-950 transition">
         Programs
       </button>
     </div>

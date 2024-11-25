@@ -3,7 +3,7 @@
   <div class="container mx-auto px-6 lg:px-20">
     <!-- Section Header -->
     <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold text-gray-800">We Are Here to Help </h1>
+      <h1 class="text-4xl font-semibold text-blue-950">We Are Here to Help </h1>
       <p class="mt-2 text-gray-950">
         At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. <br>We support businesses through periods of expansion, succession.
       </p>
