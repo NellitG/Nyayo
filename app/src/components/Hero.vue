@@ -16,9 +16,11 @@
         <div class="flex justify-center items-center mb-4">
           <div class="bg-yellow-100 p-4 rounded-full">
             <!-- Healthy Food Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h11M9 21V7m7 6h4m0 0h.01M21 7a3 3 0 00-3-3h-4a3 3 0 00-3 3h10z" />
-            </svg>
+            <img
+                class="shrink-0 h-12 w-12 "
+                src="../assets/sacco1.svg"
+                alt="sacco2 image"
+              />
           </div>
         </div>
         <h3 class="text-lg font-bold text-gray-800">Healthy Food</h3>
@@ -32,9 +34,11 @@
         <div class="flex justify-center items-center mb-4">
           <div class="bg-green-100 p-4 rounded-full">
             <!-- Kids Education Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v12m8-6H4" />
-            </svg>
+            <img
+                class="shrink-0 h-12 w-12 "
+                src="../assets/sacco2.svg"
+                alt="sacco2 image"
+              />
           </div>
         </div>
         <h3 class="text-lg font-bold text-teal-600">Kids Education</h3>
@@ -48,9 +52,11 @@
         <div class="flex justify-center items-center mb-4">
           <div class="bg-blue-100 p-4 rounded-full">
             <!-- Pure Water Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
-            </svg>
+            <img
+                class="shrink-0 h-12 w-12 "
+                src="../assets/sacco4.svg"
+                alt="sacco2 image"
+              />
           </div>
         </div>
         <h3 class="text-lg font-bold text-gray-800">Pure Water</h3>
@@ -64,9 +70,11 @@
         <div class="flex justify-center items-center mb-4">
           <div class="bg-red-100 p-4 rounded-full">
             <!-- Medical Care Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-            </svg>
+            <img
+                class="shrink-0 h-12 w-12 "
+                src="../assets/sacco5.svg"
+                alt="sacco2 image"
+              />
           </div>
         </div>
         <h3 class="text-lg font-bold text-gray-800">Medical Care</h3>
