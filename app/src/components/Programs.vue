@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 py-10">
+  <div class="py-10">
     <div class="container mx-auto px-2">
 
       <!-- Section Title -->
