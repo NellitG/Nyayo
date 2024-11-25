@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 py-12">
+  <div class="bg-gray-50 py-0 mt-24">
     <div class="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
       <!-- Left Section -->
       <div>
@@ -45,7 +45,7 @@
 
         <!-- Footer Text and Button -->
         <div>
-          <p class="text-orange-500 font-medium text-lg text-center md:text-left">
+          <p class="text-blue-950 font-medium text-lg text-center md:text-left">
             Didn't find the answer you are looking for?
           </p>
           <button

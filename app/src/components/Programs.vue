@@ -1,20 +1,19 @@
 <template>
-  <div class="bg-white py-10">
+  <div class="bg-gray-50 py-10">
     <div class="container mx-auto px-2">
 
       <!-- Section Title -->
-      <div class="mt-32 text-center">
-        <h2 class="text-5xl font-bold text-indigo-950">Our Programs</h2>
-        <p class="text-lg text-black mt-2 ">Discover the initiatives we’ve taken to create a more inclusive world.</p>
+      <div class="mb-12 text-center">
+        <p class="text-2xl text-gray-600 mt-10 font-semibold">Discover the initiatives we're working on</p>
       </div>
 
       <!-- Inclusive Education -->
       <div class="flex flex-col lg:flex-row items-center lg:items-start mt-8">
         <div class="lg:w-1/2">
           <h3 class="text-3xl font-semibold text-black">Inclusive Education</h3>
-          <p class="text-gray-950 text-lg mt-2 text-left">Our mission is to support differently-abled children by providing them with access to digital tools and inclusive education. We aim to create a learning environment that caters to their needs and empowers them with the skills to succeed.</p>
+          <p class="text-gray-950 text-lg mt-2 text-left">Our mission is to support differently-abled children by providing them with access to digital tools and inclusive education.<br> We aim to create a learning environment that caters to their needs and empowers them with the skills to succeed.</p>
         </div>
-        <div class="lg:w-1/2 lg:pl-4">
+        <div class="lg:w-2/3 lg:pl-4">
           <img src="../assets/student.avif" alt="Inclusive Education" class="max-w-[60%] mx-auto rounded-lg shadow-md">
         </div>
       </div>
