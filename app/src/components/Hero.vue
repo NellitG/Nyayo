@@ -5,7 +5,7 @@
     <div class="text-center mb-12">
       <h1 class="text-4xl font-semibold text-blue-950">We Are Here to Help </h1>
       <p class="mt-2 text-gray-950">
-        At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. <br>We support businesses through periods of expansion, succession.
+        We’re dedicated to supporting vulnerable children by providing them with the resources, mentorship, and opportunities they need to thrive.<br> Together, we can create a brighter future for every child.
       </p>
     </div>
 
