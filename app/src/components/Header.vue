@@ -5,6 +5,7 @@
       :class="{
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': isHomePage,
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
+        'hidden': isHeaderHidden
       }"
     >
       <!-- Header content -->
@@ -24,11 +25,11 @@
             class="flex items-center"
             @click.native="closeMenu"
           >
-            <!-- <img
+            <img
               src="../assets/logos.png"
               alt="Logo"
               class="h-6 lg:h-20 mb-0 mt-0 ml-20"
-            /> -->
+            />
           </router-link>
         </div>
 
@@ -52,7 +53,6 @@
                 <span>Programs</span>
                 <span class="ml-1"></span>
               </router-link>
-              
             </li>
             <li>
               <router-link
@@ -78,7 +78,6 @@
                 @click.native="closeMenu"
               >
                 Get Involved
-                
               </router-link>
             </li>
           </ul>
@@ -93,6 +92,8 @@ export default {
   data() {
     return {
       close2: true,
+      lastScrollY: 0,
+      isHeaderHidden: false,
     };
   },
   computed: {
@@ -114,11 +115,27 @@ export default {
     closeMenu() {
       this.close2 = true;
     },
+    handleScroll() {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > this.lastScrollY && currentScrollY > 50) {
+        // Scrolling down and past 50px, hide the header
+        this.isHeaderHidden = true;
+      } else if (currentScrollY < this.lastScrollY) {
+        // Scrolling up, show the header
+        this.isHeaderHidden = false;
+      }
+      this.lastScrollY = currentScrollY;
+    },
   },
   mounted() {
     if (this.isHomePage) {
       this.close2 = true;
     }
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
   },
 };
 </script>
@@ -126,5 +143,10 @@ export default {
 <style scoped>
 button {
   font-size: 2rem;
+}
+
+header.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
 }
 </style>
