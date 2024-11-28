@@ -4,7 +4,7 @@
     <!-- Title Section -->
     <div class="mb-6">
       <h2 class="text-3xl font-bold text-gray-900">
-        Nyayo <span class="text-blue-500">Inc </span>Foundation
+        Nyayo's <span class="text-blue-500"> </span>Foundation
       </h2>
     </div>
     <!-- Content Section -->

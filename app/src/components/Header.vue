@@ -5,7 +5,7 @@
       :class="{
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': isHomePage,
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
-        'hidden': isHeaderHidden
+        
       }"
     >
       <!-- Header content -->
