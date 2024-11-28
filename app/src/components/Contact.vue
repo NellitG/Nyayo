@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-gray-50 py-0 mt-32">
+  <div class="py-0 mt-32">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <h2 class="text-3xl font-bold text-gray-950">Talk To Us</h2>
-      <p class="mt-2 text-lg text-gray-950">Give us your feedback or comment and we will get back to you</p>
+      <!-- <h2 class="text-3xl font-bold text-gray-950">Talk To Us</h2> -->
+      <h1 class="mt-2 text-3xl font-semibold text-blue-900 text-gray-950">Give us your feedback or comment <br>on our services</h1>
     </div>
     <div class="mt-10 flex flex-col lg:flex-row gap-10">
       <!-- Left Side -->

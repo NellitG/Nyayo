@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white py-10 mb-0">
+    <div class="bg-white py-10 mt-10">
       <div class="mb-0 text-center p-2 py-10 max-w-7xl mx-auto">
         <div
           class="flex flex-col gap-5 pt-4 md:flex-row justify-center items-center m-2 p-2">
@@ -28,8 +28,7 @@
             </div>
             <h4 class="font-semibold">Quick Fundraise</h4>
             <p>
-              Thought the lorem ipsum was suppossed to to be am opium related task
-              to get high on life
+              Help support our mission of providing digital education tools to differently-abled children.
             </p>
             
           </div>
@@ -45,8 +44,7 @@
             </div>
             <h4 class="font-semibold">Start Donating</h4>
             <p>
-              Thought the lorem ipsum was suppossed to to be am opium related task
-              to get high on life
+              Collaborate to foster inclusivity and advocate for policy changes that benefit differently-abled individuals.
             </p>
           </div>
         </div>

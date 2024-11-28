@@ -40,8 +40,8 @@
         </div>
 
         <div class="p-8 border rounded-lg">
-          <p class="leading-loose text-gray-500">
-            “Witnessing the impact of [NGO Name] has been life-changing.
+          <p class="leading-loose text-gray-950">
+            “Witnessing the impact of Nyayo's Foundation has been life-changing.
             Children who once felt hopeless are now filled with ambition and
             purpose, proving that with the right support, anything is
             possible.”.
@@ -62,7 +62,7 @@
         </div>
 
         <div class="p-8 border rounded-lg">
-          <p class="leading-loose text-gray-500">
+          <p class="leading-loose text-gray-950">
             “Joining hands with Nyayo's Foundation has been a transformative
             experience for both the children we serve and our volunteers.
             Through their dedicated programs, we have witnessed countless

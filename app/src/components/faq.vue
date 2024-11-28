@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 py-0 mt-24">
+  <div class="bg-gray-50 py-0 mt-24 border-rounded">
     <div
       class="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16"
     >
@@ -11,7 +11,7 @@
             >“</span
           >
           <h2
-            class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 leading-snug"
+            class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 leading-snug mt-10"
           >
             FAQ
           </h2>
@@ -27,7 +27,7 @@
       </div>
 
       <!-- Right Section -->
-      <div class="space-y-6">
+      <div class="space-y-6 mt-10">
         <!-- FAQ Items -->
         <div class="space-y-4">
           <!-- FAQ Items with interactivity -->
@@ -54,12 +54,12 @@
 
         <!-- Footer Text and Button -->
         <div>
-          <p class="text-blue-950 font-medium text-lg text-center md:text-left">
+          <p class="text-blue-950 font-medium text-lg text-center md:text-left mt-4">
             Didn't find the answer you are looking for?
           </p>
           <a
             href="/contact"
-            class="mt-4 inline-block px-6 py-3 border border-gray-800 rounded-full text-gray-800 font-medium hover:bg-gray-100 w-full md:w-auto"
+            class="mt-4 inline-block px-6 py-3 bg-yellow-400 rounded-full text-black font-medium hover:bg-blue-900 w-full md:w-auto"
           >
             Contact our support
           </a>
