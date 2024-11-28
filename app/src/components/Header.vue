@@ -70,16 +70,6 @@
                 @click.native="closeMenu"
               >Contact Us</router-link>
             </li>
-            <li>
-              <router-link
-                to="/getinvolved"
-                class="hover:hover:text-indigo-950 relative"
-                active-class="hover:text-indigo-950"
-                @click.native="closeMenu"
-              >
-                Get Involved
-              </router-link>
-            </li>
           </ul>
         </nav>
       </div>

@@ -7,7 +7,7 @@ import {
   ContactView,
   AboutusView,
   ProgramsView,
-  GetInvolvedView,
+  // GetInvolvedView,
 } from "../views";
 
 const routes = [
@@ -18,7 +18,7 @@ const routes = [
   { path: "/contact", name: "contact", component: ContactView },
   { path: "/aboutus", name: "aboutus", component: AboutusView },
   { path: "/programs", name: "programs", component: ProgramsView },
-  { path: "/getinvolved", name: "getinvolved", component: GetInvolvedView },
+  // { path: "/getinvolved", name: "getinvolved", component: GetInvolvedView },
 ];
 
 /**Initialize here */

@@ -1,11 +1,18 @@
 <template>
   <div class="bg-gray-50 py-0 mt-24">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+    <div
+      class="container mx-auto px-4 sm:px-6 lg:px-20 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16"
+    >
       <!-- Left Section -->
       <div>
         <div class="relative">
-          <span class="absolute text-5xl sm:text-6xl lg:text-7xl text-gray-200 top-0 -left-8">“</span>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 leading-snug">
+          <span
+            class="absolute text-5xl sm:text-6xl lg:text-7xl text-gray-200 top-0 -left-8"
+            >“</span
+          >
+          <h2
+            class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 leading-snug"
+          >
             FAQ
           </h2>
         </div>
@@ -13,7 +20,9 @@
           Explore the common questions and answers
         </p>
         <p class="mt-4 text-sm sm:text-base text-gray-600">
-          Explore some of the most commonly asked questions below. If you don't find what you're looking for, feel free to reach out—we're here to help!"
+          Explore some of the most commonly asked questions below. If you don't
+          find what you're looking for, feel free to reach out—we're here to
+          help!"
         </p>
       </div>
 
@@ -31,7 +40,7 @@
                 {{ faq.question }}
               </h4>
               <span class="text-gray-500 text-base">
-                {{ faq.expanded ? '-' : '+' }}
+                {{ faq.expanded ? "-" : "+" }}
               </span>
             </div>
             <p
@@ -48,11 +57,12 @@
           <p class="text-blue-950 font-medium text-lg text-center md:text-left">
             Didn't find the answer you are looking for?
           </p>
-          <button
+          <a
+            href="/contact"
             class="mt-4 inline-block px-6 py-3 border border-gray-800 rounded-full text-gray-800 font-medium hover:bg-gray-100 w-full md:w-auto"
           >
-          Contact our support
-          </button>
+            Contact our support
+          </a>
         </div>
       </div>
     </div>
