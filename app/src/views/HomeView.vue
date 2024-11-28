@@ -2,7 +2,7 @@
   <Hero />
   <calltoaction />
   <donations />
- <!-- <Programs /> -->
+ <Programs />
   <cards />
 </template>
 
