@@ -1,6 +1,6 @@
 <template>
   <main
-    class="relative mx-auto mt-0 flex flex-col items-center justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-10"
+    class="relative mx-auto mt-0 flex flex-col items-center justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-4"
   >
     <div class="text-center relative z-20">
       <h1
