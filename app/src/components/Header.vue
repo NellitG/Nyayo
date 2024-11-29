@@ -33,7 +33,7 @@
   <img
     src="../assets/logos.png"
     alt="Logo"
-    class="h-32 lg:h-24 object-contain"
+    class="h-24 lg:h-14 object-contain"
   />
 </router-link>
 
@@ -93,7 +93,7 @@
         <div class="hidden lg:block mt-14">
           <router-link
             to="/donate"
-            class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-yellow-500 transition"
+            class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-yellow-500 transition"
           >
             Donate
           </router-link>
