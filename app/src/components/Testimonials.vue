@@ -105,7 +105,7 @@
     </div>
     <div class="mt-8">
       <button
-        class="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600"
+        class="bg-yellow-500 text-white px-6 py-2 rounded-full hover:bg-blue-600"
       >
         All Testimonials
       </button>

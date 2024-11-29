@@ -4,6 +4,12 @@
       <div class="flex flex-col items-center text-center">
         <div class="flex flex-wrap justify-center mt-6 -mx-4">
           <router-link
+            to="/"
+            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
+            aria-label="Home"
+            >Home</router-link
+          >
+          <router-link
             to="/programs"
             class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
             aria-label="Home"
@@ -21,12 +27,7 @@
             aria-label="Contact"
             >Contact Us</router-link
           >
-          <router-link
-            to="/getinvolved"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
-            aria-label="Get Involved"
-            >Get Involved</router-link
-          >
+          
         </div>
       </div>
 

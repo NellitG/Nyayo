@@ -1,10 +1,10 @@
 <template>
   <main
-    class="bg-gray-50 relative mx-auto mt-0 flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-10"
+    class="relative mx-auto mt-0 flex flex-col items-center justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-10"
   >
     <div class="text-center relative z-20">
       <h1
-        class="text-4xl font-semibold tracking-tight text-blue-950 sm:text-5xl md:text-6xl"
+        class="text-4xl mt-10 font-semibold tracking-tight text-blue-950 sm:text-5xl md:text-6xl"
       >
         <span class="block xl:inline">
           <span class="mb-1 block">Empowering Every Ability</span>
@@ -20,7 +20,7 @@
             <svg
               aria-hidden="true"
               viewBox="0 0 418 42"
-              class="absolute top-3/4 left-0 right-0 m-auto h-[0.58em] w-fit fill-blue-900/50"
+              class="absolute top-3/4 left-1/2 -translate-x-1/2 m-auto h-[0.58em] fill-blue-900/50"
               preserveAspectRatio="none"
             >
               <path
@@ -41,7 +41,7 @@
             class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-900 hover:text-black px-8 py-3 text-base font-medium text-white hover:bg-yellow-500 md:py-4 md:px-10 md:text-lg"
             href="#"
           >
-            Donate Now 
+            Donate Now
           </a>
         </div>
       </div>

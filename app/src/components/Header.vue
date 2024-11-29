@@ -5,7 +5,6 @@
       :class="{
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': isHomePage,
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
-        
       }"
     >
       <!-- Header content -->
@@ -25,33 +24,50 @@
             class="flex items-center"
             @click.native="closeMenu"
           >
-            <!-- <img
-              src="../assets/logos.png"
-              alt="Logo"
-              class="h-6 lg:h-20 mb-0 mt-0 ml-20"
-            /> -->
+            <!-- Logo Placeholder -->
+            <router-link
+  to="/"
+  class="flex items-center"
+  @click.native="closeMenu"
+>
+  <img
+    src="../assets/logos.png"
+    alt="Logo"
+    class="h-32 lg:h-24 object-contain"
+  />
+</router-link>
+
           </router-link>
         </div>
 
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-end absolute top-14 lg:top-0 left-0 w-auto lg:w-auto"
+          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-auto lg:w-auto"
         >
-
           <!-- Navigation items -->
           <ul
             class="flex flex-col lg:flex-row gap-4 lg:gap-8 text-white lg:text-black mt-4 lg:mt-14 lg:items-center px-4 lg:px-10"
           >
             <li class="relative group">
               <router-link
+                to="/"
+                class="hover:text-indigo-950 flex items-center"
+                active-class="hover:text-indigo-950"
+                @click.native="closeMenu"
+              >
+                <span>Home</span>
+              </router-link>
+            </li>  
+
+            <li class="relative group">
+              <router-link
                 to="/programs"
-                class="hover:hover:text-indigo-950 flex items-center"
+                class="hover:text-indigo-950 flex items-center"
                 active-class="hover:text-indigo-950"
                 @click.native="closeMenu"
               >
                 <span>Programs</span>
-                <span class="ml-1"></span>
               </router-link>
             </li>
             <li>
@@ -72,10 +88,21 @@
             </li>
           </ul>
         </nav>
+
+        <!-- Donate Button -->
+        <div class="hidden lg:block mt-14">
+          <router-link
+            to="/donate"
+            class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-yellow-500 transition"
+          >
+            Donate
+          </router-link>
+        </div>        
       </div>
     </header>
   </div>
 </template>
+
 
 <script>
 export default {
