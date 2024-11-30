@@ -39,7 +39,7 @@
           </div>
         </div>
         <!-- Right Side -->
-        <div class="lg:w-1/2">
+        <div class="lg:w-1/2 hover:border-yellow-400 border-2 border-black-400">
           <div class="bg-white p-6 rounded-lg shadow-md">
             <!-- Updated Form -->
             <form
@@ -98,7 +98,7 @@
               <div>
                 <button
                   type="submit"
-                  class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded-md"
+                  class="w-full bg-yellow-500 text-white font-medium py-2 px-4 rounded-md"
                 >
                   Submit
                 </button>
@@ -130,23 +130,31 @@ export default {
   },
   methods: {
     async submitFeedback() {
-      try {
-        const response = await fetch('http://localhost/feedback.php', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body: new URLSearchParams(this.form),
-        });
+  try {
+    console.log('Submitting feedback...'); // Debug start
+    const response = await fetch('http://localhost/feedback.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(this.form),
+    });
 
-        if (response.ok) {
-          this.successMessage = 'Feedback submitted successfully!';
-          this.form = { name: '', email: '', phone: '', message: '' }; // Reset form
-        } else {
-          console.error('Error submitting feedback:', response.statusText);
-        }
-      } catch (error) {
-        console.error('Error:', error);
-      }
-    },
+    if (response.ok) {
+      console.log('Feedback submitted successfully!'); // Debug success
+      this.successMessage = 'Feedback submitted successfully!';
+      this.form = { name: '', email: '', phone: '', message: '' }; // Reset form
+
+      // Automatically clear the success message after 3 seconds
+      setTimeout(() => {
+        this.successMessage = '';
+      }, 3000); // 3000ms = 3 seconds
+    } else {
+      console.error('Submission failed:', response.statusText);
+      this.successMessage = ''; // Reset message on failure
+    }
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
   },
 };
 </script>
