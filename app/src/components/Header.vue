@@ -92,7 +92,7 @@
         <!-- Donate Button -->
         <div class="hidden lg:block mt-14">
           <router-link
-            to="/donate"
+            to="/Donations"
             class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-yellow-500 transition"
           >
             Donate

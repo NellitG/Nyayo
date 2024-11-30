@@ -7,11 +7,12 @@ import {
   ContactView,
   AboutusView,
   ProgramsView,
-  // GetInvolvedView,
+  DonationsView,
 } from "../views";
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
+  { path: "/donations", name: "donations", component: DonationsView },
   { path: "/login", name: "login", component: LoginView },
   { path: "/posts", name: "posts", component: PostsView },
   { path: "/posts/:id", name: "details", component: DetailsView, props: true },
