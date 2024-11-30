@@ -1,7 +1,7 @@
 <template>
   <Hero />
   <calltoaction />
-  <donations />
+  <impact />
  <Programs />
   <cards />
 </template>
@@ -10,7 +10,7 @@
 import Hero from "@/components/Hero.vue";
 // import Button from "@/components/Button.vue";
 import Programs from "@/components/Programs.vue";
-import donations from "@/components/donations.vue";
+import impact from "@/components/impact.vue";
 import calltoaction from "@/components/calltoaction.vue";
 import cards from "@/components/cards.vue";
 </script>
