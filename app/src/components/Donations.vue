@@ -168,7 +168,7 @@ export default {
     });
 
     if (response.ok) {
-      this.successMessage = 'Donation request sent successfully!';
+      this.successMessage = 'Donation sent successfully...Thank you!';
       this.donationForm = { amount: '', phone: '' }; // Reset form
       setTimeout(() => (this.successMessage = ''), 3000);
     } else {
