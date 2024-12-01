@@ -93,7 +93,7 @@ export default {
     // Fetch the access token before submitting the donation
     async fetchAccessToken() {
       try {
-        const response = await fetch('http://localhost/accessToken.php'); // Replace with the actual URL of your accessToken.php
+        const response = await fetch('http://localhost/accessToken.php'); 
         const data = await response.json();
 
         if (data.access_token) {
