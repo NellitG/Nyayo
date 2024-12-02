@@ -20,7 +20,7 @@
         <!-- Buttons -->
         <div class="flex space-x-4">
           <!-- Donate button (internal link) -->
-          <router-link to="/getinvolved">
+          <router-link to="/donations">
             <button
               class="bg-yellow-400 text-gray-950 font-semibold px-6 py-3 transition duration-300"
             >

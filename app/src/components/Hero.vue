@@ -37,12 +37,12 @@
       </p>
       <div class="mt-5 sm:mt-8 sm:flex sm:justify-center ">
         <div class="rounded-md shadow relative z-20">
-          <a
+          <router-link to="/donations"
             class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-900 hover:text-black px-8 py-3 text-base font-medium text-white hover:bg-yellow-500 md:py-4 md:px-10 md:text-lg "
             href="#"
           >
             Donate Now
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
