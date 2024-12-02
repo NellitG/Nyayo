@@ -77,25 +77,25 @@ export default {
         {
           question: "How Can I be part of the organization?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+            "You can be part of our organization by making a donation, volunteering, or supporting our cause. We welcome all individuals who are interested in making a difference in the lives of children with disabilities.",
           expanded: true,
         },
         {
           question: "How can I make payment?.",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+            "Payments are made through mpesa paybill number 600000. For more information, please contact us at 254-798-620-045 or email us at kamaunelson2000@gmail.com",
           expanded: false,
         },
         {
           question: "Is my donation tax deductible?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+            "No, your donation is not tax deductible. However, we are committed to making our organization as tax-exempt as possible.",
           expanded: false,
         },
         {
           question: "How do I volunteer to save children?",
           answer:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum available, but the majority Lorem Ipsum available amet.",
+            "You can volunteer by joining our volunteer program. We welcome volunteers who are passionate about making a difference in the lives of children with disabilities.",
           expanded: false,
         },
       ],
