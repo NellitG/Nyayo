@@ -4,12 +4,12 @@
   >
     <div class="text-center relative z-20">
       <h1
-        class="text-4xl mt-10 font-semibold tracking-tight text-blue-950 sm:text-5xl md:text-6xl mr-4"
+        class="text-4xl mt-10 font-semibold tracking-tight text-blue-950 sm:text-5xl md:text-6xl mr-2"
       >
         <span class="block xl:inline">
           <span class="mb-1 block">Empowering Every Ability</span>
           <span
-            class="bg-gradient-to-r from-indigo-900 to-yellow-500 bg-clip-text text-transparent mr-4"
+            class="bg-gradient-to-r from-indigo-900 to-yellow-500 bg-clip-text text-transparent mr-2"
           >
             Enriching Every Life
           </span>
@@ -30,15 +30,15 @@
           </span>
         </div>
       </h1>
-      <p class="mx-auto mt-3 max-w-xl text-lg text-black sm:mt-5 md:mt-5">
+      <p class="mx-auto mt-3 max-w-xl text-lg text-black sm:mt-5 md:mt-5 text-center mr-4">
         It reflects the organization's commitment to empowering children of all
         abilities by providing them with the tools and opportunities to succeed
         through inclusive digital education.
       </p>
-      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
+      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center mr-4">
         <div class="rounded-md shadow relative z-20">
           <a
-            class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-900 hover:text-black px-8 py-3 text-base font-medium text-white hover:bg-yellow-500 md:py-4 md:px-10 md:text-lg"
+            class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-900 hover:text-black px-8 py-3 text-base font-medium text-white hover:bg-yellow-500 md:py-4 md:px-10 md:text-lg "
             href="#"
           >
             Donate Now
