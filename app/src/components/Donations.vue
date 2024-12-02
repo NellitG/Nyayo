@@ -6,8 +6,8 @@
           Make a Donation
         </h1>
         <p class="mt-4 text-gray-600">
-          Your contribution can make a big difference. Please fill in the
-          details below.
+          Your contribution can make a big difference.<br />
+          Please fill in the details below.
         </p>
       </div>
       <div class="mt-10">
@@ -15,7 +15,9 @@
           <form @submit.prevent="submitDonation" class="space-y-6">
             <!-- Amount -->
             <div>
-              <label for="amount" class="block text-sm font-medium text-gray-700"
+              <label
+                for="amount"
+                class="block text-sm font-medium text-gray-700"
                 >Amount</label
               >
               <input
@@ -55,7 +57,7 @@
             <div>
               <button
                 type="submit"
-                class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded-md"
+                class="w-full bg-yellow-500 text-white font-medium py-2 px-4 rounded-md"
               >
                 Donate
               </button>
@@ -93,21 +95,21 @@ export default {
     // Fetch the access token before submitting the donation
     async fetchAccessToken() {
       try {
-        const response = await fetch('http://localhost/accessToken.php'); 
+        const response = await fetch("http://localhost/accessToken.php");
         const data = await response.json();
 
         if (data.access_token) {
           this.accessToken = data.access_token;
         } else {
-          throw new Error('Failed to fetch access token');
+          throw new Error("Failed to fetch access token");
         }
       } catch (error) {
         console.error("Error fetching access token:", error);
         this.errorMessage = "Failed to fetch access token. Please try again.";
-        setTimeout(() => (this.errorMessage = ''), 3000);
+        setTimeout(() => (this.errorMessage = ""), 3000);
       }
     },
-    
+
     // Validate the form input
     validateForm() {
       this.formErrors = {};
@@ -126,40 +128,42 @@ export default {
 
     // Submit donation request
     async submitDonation() {
-  if (!this.validateForm()) return;
+      if (!this.validateForm()) return;
 
-  // Format phone number to start with 254
-  const formattedPhone = this.donationForm.phone.startsWith('254')
-    ? this.donationForm.phone
-    : '254' + this.donationForm.phone.slice(1);
+      // Format phone number to start with 254
+      const formattedPhone = this.donationForm.phone.startsWith("254")
+        ? this.donationForm.phone
+        : "254" + this.donationForm.phone.slice(1);
 
-  try {
-    const response = await fetch('http://localhost/stkpush.php', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams({
-        amount: this.donationForm.amount,
-        phone: formattedPhone,
-      }),
-    });
+      try {
+        const response = await fetch("http://localhost/stkpush.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            amount: this.donationForm.amount,
+            phone: formattedPhone,
+          }),
+        });
 
-    if (response.ok) {
-      const data = await response.json();
-      this.successMessage = 'Donation successful';
-      this.donationForm = { amount: '', phone: '' }; // Reset form
-      setTimeout(() => (this.successMessage = ''), 3000);
-    } else {
-      const errorData = await response.json();
-      this.errorMessage = errorData.error || 'Failed to send donation request.';
-      setTimeout(() => (this.errorMessage = ''), 3000);
-    }
-  } catch (error) {
-    console.error('Error:', error);
-    this.errorMessage = 'An error occurred. Please try again.';
-    setTimeout(() => (this.errorMessage = ''), 3000);
-  }
-}
-  }};
+        if (response.ok) {
+          const data = await response.json();
+          this.successMessage = "Donation successful!!😃";
+          this.donationForm = { amount: "", phone: "" }; // Reset form
+          setTimeout(() => (this.successMessage = ""), 3000);
+        } else {
+          const errorData = await response.json();
+          this.errorMessage =
+            errorData.error || "Failed to send donation request.";
+          setTimeout(() => (this.errorMessage = ""), 3000);
+        }
+      } catch (error) {
+        console.error("Error:", error);
+        this.errorMessage = "An error occurred. Please try again.";
+        setTimeout(() => (this.errorMessage = ""), 3000);
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>
