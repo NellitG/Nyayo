@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row items-center justify-between bg-white px-6 lg:px-20 py-12 lg:py-10 mr-10"
+    class="flex flex-col lg:flex-row items-center justify-between bg-white px-6 lg:px-20 py-12 lg:py-10 mr-4"
   >
     <!-- Left Section -->
     <div class="grid grid-cols-2 gap-4 lg:w-1/2">
