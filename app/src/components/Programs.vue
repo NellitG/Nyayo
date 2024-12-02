@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 bg-gray-50 relative">
+  <div class="py-20 bg-gray-50 relative mr-14">
     <!-- Decorative Background Shapes -->
     <div class="absolute top-0 left-0 w-48 h-48 bg-yellow-400 rounded-full mix-blend-multiply opacity-30 blur-3xl"></div>
     <div class="absolute bottom-0 right-0 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply opacity-20 blur-3xl"></div>
@@ -18,7 +18,7 @@
         </div>
         <!-- Text -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h3 class="text-5xl font-extrabold text-gray-800">Inclusive Education</h3>
+          <h3 class="text-5xl font-semibold text-gray-950">Inclusive Education</h3>
           <p class="text-lg text-gray-700 leading-relaxed">
             Our mission is to support differently-abled children by providing them with access to digital tools and inclusive education.
             <br><br>
@@ -34,7 +34,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
         <!-- Text -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h3 class="text-5xl font-extrabold text-gray-800">Workshops & Seminars</h3>
+          <h3 class="text-5xl font-semibold text-gray-950">Workshops & Seminars</h3>
           <p class="text-lg text-gray-700 leading-relaxed">
             We host educational sessions for parents, caregivers, and educators focused on disability rights, inclusion, and the importance of tailored education for differently-abled children.
             <br><br>
@@ -68,7 +68,7 @@
         </div>
         <!-- Text -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h3 class="text-5xl font-extrabold text-gray-800">Partnerships</h3>
+          <h3 class="text-5xl font-semibold text-gray-950">Partnerships</h3>
           <p class="text-lg text-gray-700 leading-relaxed">
             We collaborate with schools, healthcare providers, and community organizations to create a network of support for children with disabilities.
             <br><br>
