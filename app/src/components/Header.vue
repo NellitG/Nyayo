@@ -1,108 +1,96 @@
 <template>
   <div>
-    <!-- Header section -->
+    <!-- Header -->
     <header
       :class="{
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': isHomePage,
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
+        'fixed top-0 inset-x-0 z-20 bg-white shadow transition-transform duration-300': true,
+        hidden: isHeaderHidden,
       }"
     >
-      <!-- Header content -->
       <div
-        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-10"
+        class="flex items-center justify-between h-14 lg:h-20 xl:h-24 mx-auto max-w-7xl px-4 lg:px-10"
       >
-        <!-- Logo and menu toggle button -->
-        <div class="flex items-center gap-6 mt-14">
+        <!-- Logo -->
+        <div class="flex items-center gap-4">
           <button
-            class="text-2xl p-1 text-black hover:text-blue-500 lg:hidden"
+            class="text-2xl lg:hidden text-black p-2 hover:text-blue-500"
             @click="toggleMenu2"
           >
             {{ close2 ? "☰" : "✘" }}
           </button>
-          <router-link
-            to="/"
-            class="flex items-center"
-            @click.native="closeMenu"
-          >
-            <!-- Logo Placeholder -->
-            <router-link
-  to="/"
-  class="flex items-center"
-  @click.native="closeMenu"
->
-  <img
-    src="../assets/logos.png"
-    alt="Logo"
-    class="h-24 lg:h-14 object-contain"
-  />
-</router-link>
-
+          <router-link to="/" class="flex items-center" @click.native="closeMenu">
+            <img
+              src="../assets/logos.png"
+              alt="Logo"
+              class="h-12 lg:h-14 object-contain"
+            />
           </router-link>
         </div>
 
-        <!-- Navigation menu -->
+        <!-- Navigation -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-auto lg:w-auto"
+          class="absolute lg:static flex-col lg:flex lg:flex-row lg:items-center lg:gap-6 bg-black lg:bg-transparent text-white lg:text-black top-14 lg:top-0 inset-x-0 lg:inset-auto px-6 lg:px-0 lg:w-auto z-10"
         >
-          <!-- Navigation items -->
           <ul
-            class="flex flex-col lg:flex-row gap-4 lg:gap-8 text-white lg:text-black mt-4 lg:mt-14 lg:items-center px-4 lg:px-10"
+            class="flex flex-col lg:flex-row gap-4 lg:gap-8 mt-4 lg:mt-0"
           >
-            <li class="relative group">
+            <li>
               <router-link
                 to="/"
-                class="hover:text-indigo-950 flex items-center"
-                active-class="hover:text-indigo-950"
+                class="hover:text-blue-500"
+                active-class="text-blue-500"
                 @click.native="closeMenu"
               >
-                <span>Home</span>
+                Home
               </router-link>
-            </li>  
-
-            <li class="relative group">
+            </li>
+            <li>
               <router-link
                 to="/programs"
-                class="hover:text-indigo-950 flex items-center"
-                active-class="hover:text-indigo-950"
+                class="hover:text-blue-500"
+                active-class="text-blue-500"
                 @click.native="closeMenu"
               >
-                <span>Programs</span>
+                Programs
               </router-link>
             </li>
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-indigo-950"
-                active-class="hover:text-fuchsia-500"
+                class="hover:text-blue-500"
+                active-class="text-blue-500"
                 @click.native="closeMenu"
-              >About Us</router-link>
+              >
+                About Us
+              </router-link>
             </li>
             <li>
               <router-link
                 to="/contact"
-                class="hover:text-indigo-950"
-                active-class="hover:text-indigo-950"
+                class="hover:text-blue-500"
+                active-class="text-blue-500"
                 @click.native="closeMenu"
-              >Contact Us</router-link>
+              >
+                Contact Us
+              </router-link>
             </li>
           </ul>
         </nav>
 
         <!-- Donate Button -->
-        <div class="hidden lg:block mt-14">
+        <div class="hidden lg:block">
           <router-link
             to="/Donations"
             class="bg-blue-900 text-white px-4 py-2 rounded hover:bg-yellow-500 transition"
           >
             Donate
           </router-link>
-        </div>        
+        </div>
       </div>
     </header>
   </div>
 </template>
-
 
 <script>
 export default {
@@ -119,7 +107,7 @@ export default {
     },
   },
   watch: {
-    $route(to, from) {
+    $route(to) {
       if (to.path === "/") {
         this.close2 = true;
       }
@@ -134,21 +122,11 @@ export default {
     },
     handleScroll() {
       const currentScrollY = window.scrollY;
-
-      if (currentScrollY > this.lastScrollY && currentScrollY > 50) {
-        // Scrolling down and past 50px, hide the header
-        this.isHeaderHidden = true;
-      } else if (currentScrollY < this.lastScrollY) {
-        // Scrolling up, show the header
-        this.isHeaderHidden = false;
-      }
+      this.isHeaderHidden = currentScrollY > this.lastScrollY && currentScrollY > 50;
       this.lastScrollY = currentScrollY;
     },
   },
   mounted() {
-    if (this.isHomePage) {
-      this.close2 = true;
-    }
     window.addEventListener("scroll", this.handleScroll);
   },
   beforeDestroy() {
@@ -158,12 +136,11 @@ export default {
 </script>
 
 <style scoped>
-button {
-  font-size: 2rem;
-}
-
 header.hidden {
   transform: translateY(-100%);
+}
+header {
+  transform: translateY(0);
   transition: transform 0.3s ease-in-out;
 }
 </style>
