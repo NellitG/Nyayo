@@ -1,15 +1,15 @@
 <template>
   <main
-    class="relative mx-auto sm:mr-2 mt-10 flex flex-col items-center justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-24"
+    class="relative mx-auto mr-4 mt-10 flex flex-col items-center justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-24"
   >
     <div class="text-center relative z-20">
       <h1
-        class="text-4xl mt-10 font-semibold tracking-tight text-blue-950 sm:text-5xl md:text-6xl"
+        class="text-4xl mt-10 font-semibold tracking-tight text-blue-950 sm:text-5xl md:text-6xl mr-4"
       >
         <span class="block xl:inline">
           <span class="mb-1 block">Empowering Every Ability</span>
           <span
-            class="bg-gradient-to-r from-indigo-900 to-yellow-500 bg-clip-text text-transparent"
+            class="bg-gradient-to-r from-indigo-900 to-yellow-500 bg-clip-text text-transparent mr-4"
           >
             Enriching Every Life
           </span>
