@@ -24,9 +24,9 @@
             <br><br>
             We aim to create a learning environment that caters to their needs and empowers them with the skills to succeed.
           </p>
-          <button class="px-6 py-3 bg-yellow-400 text-white font-semibold rounded-md shadow-lg hover:bg-yellow-500 transition duration-300">
+          <!-- <button class="px-6 py-3 bg-yellow-400 text-white font-semibold rounded-md shadow-lg hover:bg-yellow-500 transition duration-300">
             Learn More
-          </button>
+          </button> -->
         </div>
       </div>
 
@@ -40,9 +40,9 @@
             <br><br>
             Our workshops foster a deeper understanding of these issues in the community.
           </p>
-          <button class="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300">
+          <!-- <button class="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300">
             View Events
-          </button>
+          </button> -->
         </div>
         <!-- Image -->
         <div class="lg:col-span-5 relative">
@@ -74,9 +74,9 @@
             <br><br>
             Our partnerships are key in ensuring that inclusive education is accessible to all.
           </p>
-          <button class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-md shadow-lg hover:bg-purple-600 transition duration-300">
+          <!-- <button class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-md shadow-lg hover:bg-purple-600 transition duration-300">
             Partner with Us
-          </button>
+          </button> -->
         </div>
       </div>
 

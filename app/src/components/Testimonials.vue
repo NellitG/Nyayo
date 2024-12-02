@@ -33,8 +33,8 @@
             />
 
             <div class="mx-2">
-              <h1 class="font-semibold text-gray-800">Robert</h1>
-              <span class="text-sm text-gray-500">CTO, Robert Consultency</span>
+              <h1 class="font-semibold text-gray-800">Veronica</h1>
+              <span class="text-sm text-gray-500">CEO Nyayo's Foundation</span>
             </div>
           </div>
         </div>
