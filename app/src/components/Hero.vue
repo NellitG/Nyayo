@@ -47,8 +47,6 @@
       </div>
     </div>
   </main>
-
-  <!-- Floating Shapes -->
   <div class="absolute top-1/4 left-8 flex flex-col space-y-6 mt-24 z-10">
     <div class="w-10 h-10 bg-yellow-500 rounded-full"></div>
     <div class="w-6 h-6 bg-blue-900 rounded-full"></div>
