@@ -128,47 +128,24 @@ export default {
     async submitDonation() {
   if (!this.validateForm()) return;
 
+  // Format phone number to start with 254
+  const formattedPhone = this.donationForm.phone.startsWith('254')
+    ? this.donationForm.phone
+    : '254' + this.donationForm.phone.slice(1);
+
   try {
-    // Fetch the access token first
-    const tokenResponse = await fetch('http://localhost/accessToken.php', {
-      method: 'GET',
-    });
-
-    if (!tokenResponse.ok) {
-      this.errorMessage = 'Failed to retrieve access token.';
-      setTimeout(() => (this.errorMessage = ''), 3000);
-      return;
-    }
-
-    const tokenData = await tokenResponse.json();
-    const accessToken = tokenData.access_token;
-
-    if (!accessToken) {
-      this.errorMessage = 'Failed to retrieve access token.';
-      setTimeout(() => (this.errorMessage = ''), 3000);
-      return;
-    }
-
-    // Ensure the request body contains the correct data
-    const formData = new URLSearchParams();
-    formData.append('amount', this.donationForm.amount);
-    formData.append('phone', this.donationForm.phone);
-
-    // Debugging: Log the form data
-    console.log("Sending data:", formData.toString());
-
-    // Send the request with the access token
     const response = await fetch('http://localhost/stkpush.php', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Authorization': 'Bearer ' + accessToken,
-      },
-      body: formData,
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        amount: this.donationForm.amount,
+        phone: formattedPhone,
+      }),
     });
 
     if (response.ok) {
-      this.successMessage = 'Donation sent successfully...Thank you!';
+      const data = await response.json();
+      this.successMessage = 'Donation successful';
       this.donationForm = { amount: '', phone: '' }; // Reset form
       setTimeout(() => (this.successMessage = ''), 3000);
     } else {
@@ -182,8 +159,7 @@ export default {
     setTimeout(() => (this.errorMessage = ''), 3000);
   }
 }
-  }
-};
+  }};
 </script>
 
 <style scoped>
