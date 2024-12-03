@@ -33,8 +33,8 @@
             />
 
             <div class="mx-2">
-              <h1 class="font-semibold text-gray-800">Veronica</h1>
-              <span class="text-sm text-gray-500">CEO Nyayo's Foundation</span>
+              <h1 class="font-semibold text-gray-800">Ruth Moraa</h1>
+              <span class="text-sm text-gray-500">Managing Executive Director</span>
             </div>
           </div>
         </div>
@@ -55,8 +55,8 @@
             />
 
             <div class="mx-2">
-              <h1 class="font-semibold text-gray-800">Jeny Doe</h1>
-              <span class="text-sm text-gray-500">CEO, Jeny Consultency</span>
+              <h1 class="font-semibold text-gray-800">Elias Minani</h1>
+              <span class="text-sm text-gray-500">Event Organizer</span>
             </div>
           </div>
         </div>
@@ -73,14 +73,14 @@
           <div class="flex items-center mt-8 -mx-2">
             <img
               class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300"
-              src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              src="../assets/Nellit.jpg"
               alt=""
             />
 
             <div class="mx-2">
-              <h1 class="font-semibold text-gray-800">Ema Watson</h1>
+              <h1 class="font-semibold text-gray-800">Nelson Kamau</h1>
               <span class="text-sm text-gray-500"
-                >Marketing Manager at Stech</span
+                >Software Developer</span
               >
             </div>
           </div>
@@ -90,18 +90,18 @@
   </section>
   <div class="mt-0 text-center">
     <div class="flex flex-col md:flex-row justify-center gap-8">
-      <div class="text-center">
+      <!-- <div class="text-center">
         <h3 class="text-4xl font-bold text-gray-800">15k+</h3>
         <p class="text-gray-500">Incredible Volunteers</p>
-      </div>
-      <div class="text-center">
+      </div> -->
+      <!-- <div class="text-center">
         <h3 class="text-4xl font-bold text-gray-800">500+</h3>
         <p class="text-gray-500">Successful Campaigns</p>
-      </div>
-      <div class="text-center">
+      </div> -->
+      <!-- <div class="text-center">
         <h3 class="text-4xl font-bold text-gray-800">400+</h3>
         <p class="text-gray-500">Monthly Donors</p>
-      </div>
+      </div> -->
     </div>
     <div class="mt-8">
       <button
