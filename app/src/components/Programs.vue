@@ -40,9 +40,12 @@
             <br><br>
             Our workshops foster a deeper understanding of these issues in the community.
           </p>
-          <!-- <button class="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300">
-            View Events
-          </button> -->
+          <router-link to="/Programs">
+  <button class="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300">
+    View Events
+  </button>
+</router-link>
+
         </div>
         <!-- Image -->
         <div class="lg:col-span-5 relative">
