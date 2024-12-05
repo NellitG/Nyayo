@@ -16,16 +16,14 @@
               class="w-full rounded-md mb-6"
             />
             <p class="text-gray-600 mb-4">
-              There are many variations of passages of Lorem Ipsum available but the
-              majority have suffered alteration in some form, by injected randomised
-              words even slightly believable.
+              Reach us today through our phone number. Give us a comment or feedback and we will get back to you.
             </p>
             <div>
               <p class="flex items-center text-gray-700 mb-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
                   <path d="M2.003 5.884L10 1l7.997 4.884v8.232L10 19l-7.997-4.884V5.884z" />
                 </svg>
-                Phone: +254798620045
+                Phone: +254113984146
               </p>
               <p class="flex items-center text-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-yellow-500" viewBox="0 0 20 20" fill="currentColor">
