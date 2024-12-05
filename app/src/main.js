@@ -3,6 +3,7 @@ import { createPinia } from "pinia";
 import router from "./router";
 import App from "./App.vue";
 
+
 /**styling */
 // import "./style.css";
 import "./assets/tailwind.css"; //tailwind
