@@ -14,7 +14,7 @@
         <div class="flex items-center justify-center">
           <img
             src="../assets/logos.png" 
-            alt="Nyayo Inc Logo"
+            alt="Nyayo Logo"
             class="w-32 h-32 object-contain"
           />
         </div>
@@ -22,13 +22,13 @@
       <!-- Right Side (Text Content) -->
       <div class="lg:w-3/4">
         <p class="text-gray-950 leading-relaxed mb-4">
-          Nyayo Inc was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering differently-abled children through access to digital education.
+          Nyayo  was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering differently-abled children through access to digital education.
         </p>
         <p class="text-gray-950 leading-relaxed mb-4">
           The NGO was founded to address the educational and social disparities faced by children with disabilities in underserved communities.
         </p>
         <p class="text-gray-950 leading-relaxed mb-4">
-          Recognizing that these children often lack the resources and support to thrive in conventional educational settings, Nyayo Inc aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
+          Recognizing that these children often lack the resources and support to thrive in conventional educational settings, Nyayo aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
         </p>
         <p class="text-gray-950 leading-relaxed mb-4">
           We believe that continuous learning is key to personal and organizational growth, and we strive to instill this value in the children we serve.
