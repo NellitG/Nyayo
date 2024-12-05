@@ -41,7 +41,7 @@
             class="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-900 hover:text-black px-8 py-3 text-base font-medium text-white hover:bg-yellow-500 md:py-4 md:px-10 md:text-lg "
             href="#"
           >
-            Donate Now
+            Donate 
           </router-link>
         </div>
       </div>
