@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://portfolio-taupe-three-93.vercel.app/sitemap.xml
