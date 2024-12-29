@@ -34,7 +34,7 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto z-30"
         >
           <!-- Navigation items -->
           <ul
@@ -89,7 +89,7 @@
               >
             </li>
             <!-- Donate Button as a Router Link -->
-            <li class="lg:ml-auto justify-end">
+            <li class="lg:ml-auto justify-end hidden lg:block">
               <router-link
                 to="/Donations"
                 class="bg-green-500 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-green-700 text-sm"
@@ -143,5 +143,17 @@ export default {
 <style scoped>
 button {
   font-size: 1rem;
+}
+
+/* Ensure nav covers hero section when opened on mobile */
+nav {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Adjust visibility for donation button */
+@media (max-width: 1024px) {
+  .donate-button {
+    display: none;
+  }
 }
 </style>
