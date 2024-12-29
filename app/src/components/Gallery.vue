@@ -1,5 +1,5 @@
 <template>
-    <div class="p-6 bg-gray-100 min-h-screen">
+    <div class="p-6 bg-gray-100 min-h-screen mt-20">
       <div class="max-w-7xl mx-auto">
         <!-- Gallery Heading -->
         <h2 class="text-3xl font-bold text-center mb-6">Photo Gallery</h2>
@@ -9,7 +9,7 @@
           <!-- Repeatable Image Card -->
           <div class="relative group">
             <img
-              src="https://via.placeholder.com/300"
+              src="https://drive.google.com/file/d/1IbVIfg_CS2AC1Wza4eOfhifRpOl10NM7/view?usp=sharing"
               alt="Placeholder Image"
               class="w-full h-full object-cover rounded-lg shadow-md"
             />

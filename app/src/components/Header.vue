@@ -38,7 +38,7 @@
         >
           <!-- Navigation items -->
           <ul
-            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-black lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
+            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
             <li>
               <router-link
@@ -71,15 +71,6 @@
             </li>
             <li>
               <router-link
-                to="/contact"
-                class="hover:text-green-500"
-                active-class="hover:text-green-500"
-                @click.native="closeMenu"
-                >Contact Us</router-link
-              >
-            </li>
-            <li>
-              <router-link
                 to="/gallery"
                 class="hover:text-green-500 relative"
                 active-class="hover:text-green-500"
@@ -88,7 +79,15 @@
                 Gallery
               </router-link>
             </li>
-
+            <li>
+              <router-link
+                to="/contact"
+                class="hover:text-green-500"
+                active-class="hover:text-green-500"
+                @click.native="closeMenu"
+                >Contact Us</router-link
+              >
+            </li>
             <!-- Donate Button as a Router Link -->
             <li class="lg:ml-auto justify-end">
               <router-link
@@ -143,6 +142,6 @@ export default {
 
 <style scoped>
 button {
-  font-size: 1rem; /* Adjust font size for smaller button */
+  font-size: 1rem;
 }
 </style>
