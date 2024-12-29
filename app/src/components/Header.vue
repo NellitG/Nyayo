@@ -1,21 +1,28 @@
 <template>
   <div>
-    <!-- Header -->
+    <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 z-20 bg-white': true,
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-white': isHomePage,
+        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
       }"
     >
-      <div class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0">
-        <!-- Logo and Menu Button -->
+      <div
+        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
+      >
+        <!-- Logo and menu toggle button -->
         <div class="flex items-center gap-6">
           <button
-            class="text-2xl p-1 text-black hover:text-blue-500 lg:hidden"
-            @click="toggleMenu"
+            class="text-2xl p-1 text-black hover:text-blue-900 lg:hidden"
+            @click="toggleMenu2"
           >
             {{ close2 ? "☰" : "✘" }}
           </button>
-          <router-link to="/" class="flex items-center" @click="closeMenu">
+          <router-link
+            to="/"
+            class="flex items-center"
+            @click.native="closeMenu"
+          >
             <img
               src="../assets/logos.png"
               alt="Logo"
@@ -24,54 +31,72 @@
           </router-link>
         </div>
 
-        <!-- Navigation Menu -->
+        <!-- Navigation menu -->
         <nav
-          :class="[
-            'lg:flex lg:items-center flex-col lg:flex-row absolute lg:static top-14 left-0 w-full lg:w-auto transition-transform duration-300 ease-in-out',
-            close2 ? 'hidden lg:flex' : 'flex bg-black text-white lg:bg-white lg:text-black',
-          ]"
+          :class="{ hidden: close2, flex: !close2 }"
+          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
+          <!-- Navigation items -->
           <ul
-            class="flex flex-col lg:flex-row gap-6 lg:gap-8 mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
+            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-black lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
             <li>
               <router-link
                 to="/"
                 class="hover:text-blue-900"
-                active-class="text-green-500"
-                @click="closeMenu"
+                active-class="hover:text-green-500"
+                @click.native="closeMenu"
+                >Home</router-link
               >
-                Home
-              </router-link>
             </li>
-            <li>
+            <li class="relative group">
               <router-link
                 to="/programs"
-                class="hover:text-green-500"
-                active-class="text-green-500"
-                @click="closeMenu"
+                class="hover:text-green-500 flex items-center"
+                active-class="hover:text-green-500"
+                @click.native="closeMenu"
               >
-                Programs
+                <span>Programs</span>
+                <span class="ml-1"></span>
               </router-link>
             </li>
             <li>
               <router-link
                 to="/aboutus"
                 class="hover:text-green-500"
-                active-class="text-green-500"
-                @click="closeMenu"
+                active-class="hover:text-fuchsia-500"
+                @click.native="closeMenu"
+                >About Us</router-link
               >
-                About Us
-              </router-link>
             </li>
             <li>
               <router-link
                 to="/contact"
                 class="hover:text-green-500"
-                active-class="text-green-500"
+                active-class="hover:text-green-500"
+                @click.native="closeMenu"
+                >Contact Us</router-link
+              >
+            </li>
+            <li>
+              <router-link
+                to="/gallery"
+                class="hover:text-green-500 relative"
+                active-class="hover:text-green-500"
+                @click.native="closeMenu"
+              >
+                Gallery
+              </router-link>
+            </li>
+
+            <!-- Donate Button as a Router Link -->
+            <li class="lg:ml-auto justify-end">
+              <router-link
+                to="/Donations"
+                class="bg-green-500 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-green-700 text-sm"
                 @click="closeMenu"
               >
-                Contact Us
+                Donate
               </router-link>
             </li>
           </ul>
@@ -85,7 +110,7 @@
 export default {
   data() {
     return {
-      close2: true, // Tracks the state of the mobile menu
+      close2: true,
     };
   },
   computed: {
@@ -93,29 +118,31 @@ export default {
       return this.$route.path === "/";
     },
   },
+  watch: {
+    $route(to, from) {
+      if (to.path === "/") {
+        this.close2 = true;
+      }
+    },
+  },
   methods: {
-    toggleMenu() {
-      this.close2 = !this.close2; // Toggle the menu state
+    toggleMenu2() {
+      this.close2 = !this.close2;
     },
     closeMenu() {
-      this.close2 = true; // Close the menu when a navigation link is clicked
+      this.close2 = true;
     },
+  },
+  mounted() {
+    if (this.isHomePage) {
+      this.close2 = true;
+    }
   },
 };
 </script>
 
 <style scoped>
-/* Smooth transitions and responsive design */
-header {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-nav.hidden {
-  display: none;
-}
-nav.flex {
-  display: flex;
-}
 button {
-  font-size: 2rem;
+  font-size: 1rem; /* Adjust font size for smaller button */
 }
 </style>

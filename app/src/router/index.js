@@ -8,6 +8,7 @@ import {
   AboutusView,
   ProgramsView,
   DonationsView,
+  GalleryView
 } from "../views";
 
 const routes = [
@@ -19,6 +20,7 @@ const routes = [
   { path: "/contact", name: "contact", component: ContactView },
   { path: "/aboutus", name: "aboutus", component: AboutusView },
   { path: "/programs", name: "programs", component: ProgramsView },
+  { path: "/gallery", name: "gallery", component: GalleryView },
 ];
 
 /**Initialize here */
