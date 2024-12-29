@@ -44,7 +44,7 @@
               <router-link
                 to="/"
                 class="hover:text-blue-900"
-                active-class="hover:text-green-500"
+                active-class="hover:text-blue-900"
                 @click.native="closeMenu"
                 >Home</router-link
               >
@@ -52,8 +52,8 @@
             <li class="relative group">
               <router-link
                 to="/programs"
-                class="hover:text-green-500 flex items-center"
-                active-class="hover:text-green-500"
+                class="hover:text-blue-900 flex items-center"
+                active-class="hover:text-blue-900"
                 @click.native="closeMenu"
               >
                 <span>Programs</span>
@@ -63,7 +63,7 @@
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-green-500"
+                class="hover:text-blue-900"
                 active-class="hover:text-fuchsia-500"
                 @click.native="closeMenu"
                 >About Us</router-link
@@ -72,7 +72,7 @@
             <li>
               <router-link
                 to="/gallery"
-                class="hover:text-green-500 relative"
+                class="hover:text-blue-900 relative"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
               >
@@ -82,8 +82,8 @@
             <li>
               <router-link
                 to="/contact"
-                class="hover:text-green-500"
-                active-class="hover:text-green-500"
+                class="hover:text-blue-900"
+                active-class="hover:text-blue-900"
                 @click.native="closeMenu"
                 >Contact Us</router-link
               >
@@ -92,7 +92,7 @@
             <li class="lg:ml-auto justify-end hidden lg:block">
               <router-link
                 to="/Donations"
-                class="bg-blue-900 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-green-700 text-sm"
+                class="bg-blue-900 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-blue-900 text-sm"
                 @click="closeMenu"
               >
                 Donate
