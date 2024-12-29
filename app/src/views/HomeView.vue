@@ -2,13 +2,12 @@
   <Hero />
   <calltoaction />
   <impact />
- <Programs />
+  <Programs />
   <Cards />
 </template>
 
 <script setup>
 import Hero from "@/components/Hero.vue";
-// import Button from "@/components/Button.vue";
 import Programs from "@/components/Programs.vue";
 import impact from "@/components/impact.vue";
 import calltoaction from "@/components/calltoaction.vue";
