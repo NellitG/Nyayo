@@ -92,7 +92,7 @@
             <li class="lg:ml-auto justify-end hidden lg:block">
               <router-link
                 to="/Donations"
-                class="bg-green-500 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-green-700 text-sm"
+                class="bg-blue-900 text-white font-semibold py-1.5 px-4 rounded-md hover:bg-green-700 text-sm"
                 @click="closeMenu"
               >
                 Donate
