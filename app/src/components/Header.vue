@@ -3,8 +3,8 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500': isHomePage,
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500': !isHomePage,
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500 transition-transform duration-300': true,
+        '-translate-y-full': !isHeaderVisible,
       }"
     >
       <div
@@ -110,6 +110,8 @@ export default {
   data() {
     return {
       close2: true,
+      isHeaderVisible: true,
+      lastScrollY: 0,
     };
   },
   computed: {
@@ -131,11 +133,20 @@ export default {
     closeMenu() {
       this.close2 = true;
     },
+    handleScroll() {
+      const currentScrollY = window.scrollY;
+      this.isHeaderVisible = currentScrollY < this.lastScrollY || currentScrollY <= 0;
+      this.lastScrollY = currentScrollY;
+    },
   },
   mounted() {
+    window.addEventListener("scroll", this.handleScroll);
     if (this.isHomePage) {
       this.close2 = true;
     }
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.handleScroll);
   },
 };
 </script>
