@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20 bg-gray-50 relative mr-4">
+  <div class="py-24 bg-gray-50 relative mr-4">
     <!-- Decorative Background Shapes -->
     <div
       class="absolute top-0 left-0 w-48 h-48 bg-yellow-400 rounded-full mix-blend-multiply opacity-30 blur-3xl"
