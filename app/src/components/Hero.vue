@@ -26,7 +26,7 @@
             </router-link>
             <router-link 
               to="/Donations" 
-              class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-gray-700"
+              class="bg-blue-900 text-white px-6 py-2 rounded"
             >
               Donate
             </router-link>
