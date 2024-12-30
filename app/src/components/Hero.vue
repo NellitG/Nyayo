@@ -40,9 +40,9 @@
       </div>
       <!-- Additional Pictures -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 hidden md:grid xl:ml-24">
-        <img src="../assets/glass.jpg" alt="Extra Image 1" class="rounded-lg shadow-md">
-        <img src="../assets/glass.jpg" alt="Extra Image 2" class="rounded-lg shadow-md">
-        <img src="../assets/glass.jpg" alt="Extra Image 3" class="rounded-lg shadow-md">
+        <img src="../assets/running.jpg" alt="Extra Image 1" class="rounded-lg shadow-md">
+        <img src="../assets/playing.avif" alt="Extra Image 2" class="rounded-lg shadow-md">
+        <img src="../assets/smiling.avif" alt="Extra Image 3" class="rounded-lg shadow-md">
         <!-- <img src="../assets/community.jpg" alt="Extra Image 4" class="rounded-lg shadow-md"> -->
       </div>
     </div>
