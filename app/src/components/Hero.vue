@@ -24,7 +24,7 @@
 
           <!-- New Text Block -->
           <p
-            class="antialiased font-sans text-lg leading-relaxed text-inherit mb-10 text-white lg:text-black"
+            class="antialiased font-semibold text-lg leading-relaxed text-inherit mb-10 text-white lg:text-black"
           >
             It reflects the organization's commitment to empowering children of all abilities by providing them with the tools and opportunities to succeed through inclusive digital education.
           </p>
@@ -32,7 +32,7 @@
           <div class="flex justify-center gap-4 mb-8 lg:justify-start">
             <router-link to="/Donations">
               <button
-                class="align-middle select-none font-sans hover:text-black font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg text-black sm:text-white border-2 border-blue-900 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
+                class="align-middle hover:bg-blue-900 font-bold hover:text-black font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg text-black sm:text-white border-2 border-blue-900 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                 type="button"
               >
                 Donate
@@ -40,7 +40,7 @@
             </router-link>
             <router-link to="/aboutus">
               <button
-                class="align-middle select-none font-semibold hover:text-black text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-blue-900 border-2 text-black hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
+                class="align-middle hover:bg-blue-900 font-bold hover:text-black text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-blue-900 border-2 text-black hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
                 type="button"
               >
                 read more
