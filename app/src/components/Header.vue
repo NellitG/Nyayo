@@ -53,7 +53,7 @@
               <router-link
                 to="/aboutus"
                 class="hover:text-blue-900"
-                active-class="hover:text-fuchsia-500"
+                active-class="hover:text-blue-900"
                 @click.native="closeMenu"
                 >About Us</router-link
               >
