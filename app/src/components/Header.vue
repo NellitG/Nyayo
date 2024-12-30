@@ -3,7 +3,7 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500 transition-transform duration-300': true,
+        'h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500 transition-transform duration-300': true,
         '-translate-y-full': !isHeaderVisible,
       }"
     >
@@ -26,7 +26,7 @@
             <img
               src="../assets/logos.png"
               alt="Logo"
-              class="h-12 lg:h-14 object-contain"
+              class="h-10 lg:h-12 object-contain"
             />
           </router-link>
         </div>
