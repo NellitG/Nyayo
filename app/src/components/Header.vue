@@ -34,7 +34,7 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto z-30"
+          class="bg-black xl:bg-transparent lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto z-30"
         >
           <!-- Navigation items -->
           <ul
