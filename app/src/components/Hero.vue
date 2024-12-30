@@ -10,7 +10,7 @@
         <!-- Hero Content -->
         <div class="text-center md:text-left md:w-1/2 md:px-8">
           <h1 class="text-6xl text-center font-bold text-yellow-500">
-            Nyayo's Foundation
+            Nyayo's<br><span class="text-blue-900 font-semibold">Foundation</span> 
           </h1>
           <p class="mt-4 text-gray-950 text-center">
             It reflects the organization's commitment to empowering children of all
