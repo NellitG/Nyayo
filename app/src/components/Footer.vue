@@ -46,14 +46,21 @@
             aria-label="Twitter"
           >
             <svg
-              class="w-5 h-5 fill-current"
-              viewBox="0 0 24 24"
-              fill="none"
+              class="text-themeColor-500 w-10 h-4"
               xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
+              <path stroke="none" d="M0 0h24v24H0z" />
               <path
-                d="M23 3C23 3 19 7 12 7C7 7 3 5 3 5V9C3 9 7 7 12 7C19 7 23 3 23 3ZM0 9C0 9 4 5 12 5C18 5 22 9 22 9H0ZM12 19C12 19 6 13 0 9H22C16 13 12 19 12 19Z"
-              ></path>
+                d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z"
+              />
             </svg>
           </a>
 
@@ -64,16 +71,9 @@
             class="mx-2 text-gray-950 transition-colors duration-300 hover:text-black"
             aria-label="TikTok"
           >
-            <svg
-              class="w-5 h-5 fill-current"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M9 2C5.2 2 2 5.2 2 9C2 12.8 5.2 16 9 16C11.4 16 13.5 15.1 14.8 13.7L20.7 17.8C21.4 18.1 22.5 17.6 22.5 16.9V7.9C22.5 7.2 21.4 6.7 20.7 7L14.8 11.1C13.5 9.7 11.4 9 9 9C6.1 9 4 6.9 4 5C4 3.1 6.1 2 9 2C9.2 2 9.4 2 9.5 2.1L9.4 2.6C8.7 3.7 9 5 9 5C9 5 9.5 5 9 5.5C8.7 6 9 6.5 9.5 6.5C10 7 10 7 10.5 6.5C10.9 6 11 5 10.7 5C9.5 4.4 8.5 2 9 2Z"
-              ></path>
-            </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 512 512" id="tiktok">
+  <path d="M353.97 0.43c0.03,7.81 2.31,120.68 120.76,127.72 0,32.55 0.04,56.15 0.04,87.21 -8.97,0.52 -77.98,-4.49 -120.93,-42.8l-0.13 169.78c1.63,117.84 -85.09,189.55 -198.44,164.78 -195.46,-58.47 -130.51,-348.37 65.75,-317.34 0,93.59 0.05,-0.03 0.05,93.59 -81.08,-11.93 -108.2,55.52 -86.65,103.81 19.6,43.97 100.33,53.5 128.49,-8.53 3.19,-12.14 4.78,-25.98 4.78,-41.52l0 -337.13 86.28 0.43z"></path>
+</svg>
           </a>
 
           <!-- LinkedIn Icon -->
@@ -84,14 +84,22 @@
             aria-label="LinkedIn"
           >
             <svg
-              class="w-5 h-5 fill-current"
+              class="text-themeColor-500 w-10 h-4"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
               viewBox="0 0 24 24"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
               <path
-                d="M3 3C3 2.44772 3.44772 2 4 2H20C20.5523 2 21 2.44772 21 3V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V3ZM12 16C13.1046 16 14 15.1046 14 14C14 12.8954 13.1046 12 12 12C10.8954 12 10 12.8954 10 14C10 15.1046 10.8954 16 12 16ZM12 10C13.1046 10 14 9.10457 14 8C14 6.89543 13.1046 6 12 6C10.8954 6 10 6.89543 10 8C10 9.10457 10.8954 10 12 10ZM7 11C7.55228 11 8 10.5523 8 10C8 9.44772 7.55228 9 7 9C6.44772 9 6 9.44772 6 10C6 10.5523 6.44772 11 7 11ZM7 16C8.10457 16 9 15.1046 9 14C9 12.8954 8.10457 12 7 12C5.89543 12 5 12.8954 5 14C5 15.1046 5.89543 16 7 16Z"
-              ></path>
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
             </svg>
           </a>
         </div>
