@@ -3,8 +3,8 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-white': isHomePage,
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500': isHomePage,
+        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-gradient-to-r from-blue-500 to-yellow-500': !isHomePage,
       }"
     >
       <div
@@ -34,7 +34,7 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto z-30"
+          class="lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto z-30"
         >
           <!-- Navigation items -->
           <ul
