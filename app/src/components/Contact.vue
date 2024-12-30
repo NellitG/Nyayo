@@ -1,5 +1,5 @@
 <template>
-  <div class="py-0 mt-40">
+  <div class="py-0 mt-32">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h1 class="mt-2 text-3xl font-semibold text-blue-900 text-gray-950">
