@@ -10,6 +10,6 @@
 <script setup>
 import Milestone from "../components/Milestone.vue";
 import Button from "../components/Button.vue";
-import Events from "../components/Events.vue";
+// import Events from "../components/Events.vue";
 </script>
 <style lang="scss" scoped></style>

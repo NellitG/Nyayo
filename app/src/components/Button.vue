@@ -1,84 +1,119 @@
 <template>
-  <div class="py-16 mt-10 relative">
-    <div class="container mx-auto px-6 lg:px-20 relative">
-      <!-- Section Header -->
-      <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-16 z-0">
-        <img
-          src="https://img.freepik.com/free-vector/hand-draw-blue-brush-stroke-watercolor-design_1035-21770.jpg?t=st=1732822445~exp=1732826045~hmac=caec31d490d29558cd00603ef9720532cbcc989351e322194630c607d58d4378&w=740"
-          alt="Brush Stroke"
-          class="w-60 opacity-60"
-        />
-      </div>
-
-      <!-- Section Content -->
-      <div class="text-center mb-12 relative z-10">
-        <h1 class="text-4xl font-semibold text-black">We Are Here to Help</h1>
-        <p class="mt-2 text-gray-950">
+  <section class="py-0 lg:py-14 max-w-7xl mx-auto px-0 sm:px-8">
+    <h1 class="text-4xl font-bold text-center mb-10">We Are Here to Help</h1>
+    <p class="mt-2 text-gray-950 text-center">
           We’re dedicated to supporting vulnerable children by providing them with the resources, mentorship, and opportunities.<br />
           Together, we can create a brighter future for every child.
-        </p>
+        </p><br />
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+        <img
+          :src="image1"
+          alt="Night Lights"
+          class="w-full h-1/2 object-cover"
+        />
+        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
+          <div>
+            <h1 class="text-2xl font-semibold text-black">EDUCATION</h1>
+            <p class="text-black py-3">
+              We believe every child deserves the opportunity to learn, grow, and thrive. Education is the foundation for a brighter future, and we are committed to breaking barriers that prevent children from accessing quality learning opportunities.
+            </p>
+          </div>
+        </div>
       </div>
 
-      <!-- Services Cards -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-        <!-- Card 1 -->
-        <div class="bg-white border border-yellow-500 rounded-lg shadow-md p-6 text-center">
-          <div class="flex justify-center items-center mb-4">
-            <div class="bg-yellow-100 p-4 rounded-full">
-              <img class="shrink-0 h-12 w-12" src="../assets/sacco1.svg" alt="sacco1 image" />
-            </div>
+      <!-- Card 2 -->
+      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+        <img
+          :src="image2"
+          alt="Welcome Aboard"
+          class="w-full h-1/2 object-cover"
+        />
+        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
+          <div>
+            <h1 class="text-2xl font-semibold text-black">HEALTHCARE</h1>
+            <p class="text-black py-3">
+              Every child deserves access to quality healthcare to lead a happy, healthy life. By addressing critical healthcare needs, we aim to create a world where children not only survive but thrive.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-gray-800">Healthy Food</h3>
-          <p class="text-sm text-gray-600 mt-2">
-            We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies.
-          </p>
         </div>
+      </div>
 
-        <!-- Card 2 -->
-        <div class="bg-white rounded-lg border border-yellow-500 shadow-md p-6 text-center">
-          <div class="flex justify-center items-center mb-4">
-            <div class="bg-green-100 p-4 rounded-full">
-              <img class="shrink-0 h-12 w-12" src="../assets/sacco2.svg" alt="sacco2 image" />
-            </div>
+      <!-- Card 3 -->
+      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+        <img
+          :src="image3"
+          alt="Welcome Aboard"
+          class="w-full h-1/2 object-cover"
+        />
+        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
+          <div>
+            <h1 class="text-2xl font-semibold text-black">FOOD AND WATER</h1>
+            <p class="text-black py-3">
+              We believe that every child deserves access to the most basic necessities: nutritious food and clean water. These essentials are not just about survival—they are the foundation for a healthy, happy, and thriving life.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-teal-600">Kids Education</h3>
-          <p class="text-sm text-gray-600 mt-2">
-            We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies.
-          </p>
         </div>
+      </div>
 
-        <!-- Card 3 -->
-        <div class="bg-white rounded-lg border border-yellow-500 shadow-md p-6 text-center">
-          <div class="flex justify-center items-center mb-4">
-            <div class="bg-blue-100 p-4 rounded-full">
-              <img class="shrink-0 h-12 w-12" src="../assets/sacco4.svg" alt="sacco4 image" />
-            </div>
+      <!-- Card 4 -->
+      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+        <img
+          :src="image4"
+          alt="Welcome Aboard"
+          class="w-full h-1/2 object-cover"
+        />
+        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
+          <div>
+            <h1 class="text-2xl font-semibold text-black">SPORTING ACTIVITIES</h1>
+            <p class="text-black py-3">
+              Sports are more than just games. They are powerful tools for fostering physical health, building confidence, and teaching valuable life skills. Every child deserves the opportunity to play, grow, and thrive through the joy of sports.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-gray-800">Pure Water</h3>
-          <p class="text-sm text-gray-600 mt-2">
-            We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies.
-          </p>
         </div>
+      </div>
 
-        <!-- Card 4 -->
-        <div class="bg-white rounded-lg border border-yellow-500 shadow-md p-6 text-center">
-          <div class="flex justify-center items-center mb-4">
-            <div class="bg-red-100 p-4 rounded-full">
-              <img class="shrink-0 h-12 w-12" src="../assets/sacco5.svg" alt="sacco5 image" />
-            </div>
+      <!-- Card 5 -->
+      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+        <img
+          :src="image5"
+          alt="Welcome Aboard"
+          class="w-full h-1/2 object-cover"
+        />
+        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
+          <div>
+            <h1 class="text-2xl font-semibold text-black">FASHION SHOW</h1>
+            <p class="text-black py-3">
+              We specialize in creating spectacular fashion shows that highlight the latest trends, celebrate creativity, and provide an unforgettable experience for all attendees. From concept to execution, our goal is to ensure a seamless and memorable event.
+            </p>
           </div>
-          <h3 class="text-lg font-bold text-gray-800">Medical Care</h3>
-          <p class="text-sm text-gray-600 mt-2">
-            We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies.
-          </p>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
-<script></script>
+<script>
+import image1 from '../assets/education.avif';
+import image2 from '../assets/healthcare.jpg';
+import image3 from '../assets/water.avif';
+import image4 from '../assets/sporting.jpg';
+import image5 from '../assets/hands.jpg';
 
-<style lang="scss" scoped>
-  /* Scoped styles (if needed) */
+export default {
+  data() {
+    return {
+      image1,
+      image2,
+      image3,
+      image4,
+      image5,
+    };
+  },
+};
+</script>
+
+<style scoped>
+/* Add any component-specific styles here if needed */
 </style>
