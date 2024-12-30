@@ -1,73 +1,50 @@
 <template>
-  <div class="relative w-full h-screen flex items-center justify-center">
-    <img
-      :src="feeImage"
-      alt="bg-img"
-      class="absolute inset-0 w-full h-full object-cover object-top"
-    />
-
-    <div class="container mx-auto relative z-10 mt-24 py-10 px-4">
-      <div class="grid grid-cols-12 text-center lg:text-start">
-        <div
-          class="relative flex flex-col bg-clip-border lg:ml-20 text-gray-950 px-16 py-0 border border-white shadow-lg col-span-full rounded-xl bg-transparent shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-8"
-        >
-          <h1
-            class="tracking-normal font-semibold text-white lg:text-gray-900 text-5xl !leading-snug lg:text-6xl"
-          >
+  <div class="bg-gray-50 py-10 mt-24">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row items-center">
+        <!-- Left Images -->
+        <div class="flex flex-col space-y-4 md:w-1/4">
+          <img src="../assets/glass.jpg" alt="Nature Image 1" class="rounded-lg shadow-md">
+          <img src="../assets/water.avif" alt="Nature Image 2" class="rounded-lg shadow-md">
+        </div>
+        <!-- Hero Content -->
+        <div class="text-center md:text-left md:w-1/2 md:px-8">
+          <h1 class="text-6xl text-center font-bold text-yellow-500">
             Nyayo's Foundation
           </h1>
-          <p
-            class="antialiased font-sans text-2xl font-semibold leading-relaxed text-inherit mb-10 mt-6 text-white lg:text-white"
-          >
-            Empowering Every Ability, Enriching Every Life
+          <p class="mt-4 text-gray-950 text-center">
+            It reflects the organization's commitment to empowering children of all
+            abilities by providing them with the tools and opportunities to succeed
+            through inclusive digital education.
           </p>
-
-          <!-- New Text Block -->
-          <p
-            class="antialiased font-semibold text-lg leading-relaxed text-inherit mb-10 text-white lg:text-black"
-          >
-            It reflects the organization's commitment to empowering children of all abilities by providing them with the tools and opportunities to succeed through inclusive digital education.
-          </p>
-
-          <div class="flex justify-center gap-4 mb-8 lg:justify-start">
-            <router-link to="/Donations">
-              <button
-                class="align-middle hover:bg-blue-900 font-bold hover:text-black font-semibold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg text-black sm:text-white border-2 border-blue-900 shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
-                type="button"
-              >
-                Donate
-              </button>
+          <div class="mt-6 flex xl:justify-center md:justify-start space-x-4 justify-center">
+            <router-link 
+              to="/join" 
+              class="bg-blue-900 border border-gray-300 text-white px-6 py-2 rounded"
+            >
+              Join us
             </router-link>
-            <router-link to="/aboutus">
-              <button
-                class="align-middle hover:bg-blue-900 font-bold hover:text-black text-center lg:text-white uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border-blue-900 border-2 text-black hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
-                type="button"
-              >
-                read more
-              </button>
+            <router-link 
+              to="/Donations" 
+              class="bg-blue-900 text-white px-6 py-2 rounded hover:bg-gray-700"
+            >
+              Donate
             </router-link>
           </div>
         </div>
+        <!-- Right Images -->
+        <div class="flex flex-col space-y-4 md:w-1/4 mt-4">
+          <img src="../assets/education.avif" alt="Nature Image 3" class="rounded-lg shadow-md">
+          <img src="../assets/healthcare.jpg" alt="Nature Image 4" class="rounded-lg shadow-md">
+        </div>
+      </div>
+      <!-- Additional Pictures -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12 hidden md:grid xl:ml-24">
+        <img src="../assets/glass.jpg" alt="Extra Image 1" class="rounded-lg shadow-md">
+        <img src="../assets/glass.jpg" alt="Extra Image 2" class="rounded-lg shadow-md">
+        <img src="../assets/glass.jpg" alt="Extra Image 3" class="rounded-lg shadow-md">
+        <!-- <img src="../assets/community.jpg" alt="Extra Image 4" class="rounded-lg shadow-md"> -->
       </div>
     </div>
   </div>
 </template>
-
-<script>
-import feeImage from '../assets/Hero.jpg'; // Ensure this path is correct
-
-export default {
-  data() {
-    return {
-      feeImage, // Use the imported image in the template
-    };
-  },
-};
-</script>
-
-<style scoped>
-/* Ensure the background image focuses on the top */
-img {
-  object-position: top;
-}
-</style>

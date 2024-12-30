@@ -83,9 +83,9 @@
         />
         <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
           <div>
-            <h1 class="text-2xl font-semibold text-black">FASHION SHOW</h1>
+            <h1 class="text-2xl font-semibold text-black">MENTORSHIP</h1>
             <p class="text-black py-3">
-              We specialize in creating spectacular fashion shows that highlight the latest trends, celebrate creativity, and provide an unforgettable experience for all attendees. From concept to execution, our goal is to ensure a seamless and memorable event.
+              We believe that every child deserves a mentor who can inspire, guide, and empower them to reach their full potential. Through mentorship, we create meaningful connections that shape lives and build brighter futures.
             </p>
           </div>
         </div>
