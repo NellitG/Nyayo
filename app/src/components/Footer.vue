@@ -5,25 +5,25 @@
         <div class="flex flex-wrap justify-center mt-6 -mx-4">
           <router-link
             to="/"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
+            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
             aria-label="Home"
             >Home</router-link
           >
           <router-link
             to="/programs"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
+            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
             aria-label="Home"
             >Programs</router-link
           >
           <router-link
             to="/aboutus"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
+            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
             aria-label="About"
             >About Us</router-link
           >
           <router-link
             to="/contact"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-yellow-600"
+            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
             aria-label="Contact"
             >Contact Us</router-link
           >
