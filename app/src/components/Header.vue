@@ -38,7 +38,7 @@
         >
           <!-- Navigation items -->
           <ul
-            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
+            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0 font-semibold"
           >
             <li>
               <router-link

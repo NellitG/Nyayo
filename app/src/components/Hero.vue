@@ -4,7 +4,7 @@
       <div class="flex flex-col md:flex-row items-center">
         <!-- Left Images -->
         <div class="flex flex-col space-y-4 md:w-1/4">
-          <img src="../assets/glass.jpg" alt="Nature Image 1" class="rounded-lg shadow-md">
+          <img src="../assets/smile.avif" alt="Nature Image 1" class="rounded-lg shadow-md">
           <img src="../assets/water.avif" alt="Nature Image 2" class="rounded-lg shadow-md">
         </div>
         <!-- Hero Content -->
@@ -34,7 +34,7 @@
         </div>
         <!-- Right Images -->
         <div class="flex flex-col space-y-4 md:w-1/4 mt-4">
-          <img src="../assets/education.avif" alt="Nature Image 3" class="rounded-lg shadow-md">
+          <img src="../assets/food.avif" alt="Nature Image 3" class="rounded-lg shadow-md">
           <img src="../assets/healthcare.jpg" alt="Nature Image 4" class="rounded-lg shadow-md">
         </div>
       </div>
