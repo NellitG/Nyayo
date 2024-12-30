@@ -35,7 +35,7 @@
 
       <div class="flex flex-col items-center sm:flex-row sm:justify-between">
         <p class="text-sm text-gray-500">
-          © Copyright 2024. All Rights Reserved.
+          ©  2024 Nyayo's Foundation. All Rights Reserved.
         </p>
 
         <div class="flex -mx-2">
