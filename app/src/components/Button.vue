@@ -7,7 +7,7 @@
         </p><br />
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Card 1 -->
-      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+      <div class="w-full relative rounded-2xl overflow-hidden hover:border-blue-900 flex flex-col border-2">
         <img
           :src="image1"
           alt="Night Lights"
@@ -24,7 +24,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+      <div class="w-full relative rounded-2xl overflow-hidden hover:border-blue-900 flex flex-col border-2">
         <img
           :src="image2"
           alt="Welcome Aboard"
@@ -41,7 +41,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+      <div class="w-full relative rounded-2xl overflow-hidden hover:border-blue-900 flex flex-col border-2">
         <img
           :src="image3"
           alt="Welcome Aboard"
@@ -58,13 +58,13 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+      <div class="w-full relative rounded-2xl overflow-hidden hover:border-blue-900 flex flex-col border-2">
         <img
           :src="image4"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
-        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between">
+        <div class="bg-secondary-color p-6 flex-grow rounded-b-2xl hover:border-blue-900 flex flex-col justify-between">
           <div>
             <h1 class="text-2xl font-semibold text-black">SPORTING ACTIVITIES</h1>
             <p class="text-black py-3">
@@ -75,7 +75,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="w-full relative rounded-2xl overflow-hidden flex flex-col border-2">
+      <div class="w-full relative rounded-2xl overflow-hidden hover:border-blue-900 flex flex-col border-2">
         <img
           :src="image5"
           alt="Welcome Aboard"
