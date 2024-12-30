@@ -2,28 +2,28 @@
   <footer class="bg-white">
     <div class="container px-6 py-8 mx-auto">
       <div class="flex flex-col items-center text-center">
-        <div class="flex flex-wrap justify-center mt-6 -mx-4">
+        <div class="flex flex-wrap justify-center mt-6 -mx-4 font-semibold">
           <router-link
             to="/"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
+            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
             aria-label="Home"
             >Home</router-link
           >
           <router-link
             to="/programs"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
+            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
             aria-label="Programs"
             >Programs</router-link
           >
           <router-link
             to="/aboutus"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
+            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
             aria-label="About"
             >About Us</router-link
           >
           <router-link
             to="/contact"
-            class="mx-4 text-sm text-gray-600 transition-colors duration-300 hover:text-blue-900"
+            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
             aria-label="Contact"
             >Contact Us</router-link
           >
@@ -33,7 +33,7 @@
       <hr class="my-6 border-gray-200 md:my-10" />
 
       <div class="flex flex-col items-center sm:flex-row sm:justify-between">
-        <p class="text-sm text-gray-500">
+        <p class="text-sm text-gray-950">
           © 2024 Nyayo's Foundation. All Rights Reserved.
         </p>
 
@@ -42,7 +42,7 @@
           <a
             href="https://x.com/NyayosOrg?t=OSIvdd1EJxF6Ny-U9jA4dA&s=09"
             target="_blank"
-            class="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-400"
+            class="mx-2 text-gray-950 transition-colors duration-300 hover:text-blue-400"
             aria-label="Twitter"
           >
             <svg
@@ -61,7 +61,7 @@
           <a
             href="https://www.tiktok.com/@nyayosfoundation?_t=ZM-8sUWIsCdBy9&_r=1"
             target="_blank"
-            class="mx-2 text-gray-600 transition-colors duration-300 hover:text-black"
+            class="mx-2 text-gray-950 transition-colors duration-300 hover:text-black"
             aria-label="TikTok"
           >
             <svg
@@ -80,7 +80,7 @@
           <a
             href="https://www.linkedin.com/in/nyayo-s-foundation-1b4b02342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
-            class="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-700"
+            class="mx-2 text-gray-950 transition-colors duration-300 hover:text-blue-700"
             aria-label="LinkedIn"
           >
             <svg
