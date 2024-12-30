@@ -19,7 +19,7 @@
           </p>
           <div class="mt-6 flex xl:justify-center md:justify-start space-x-4 justify-center">
             <router-link 
-              to="/join" 
+              to="/aboutus" 
               class="bg-blue-900 border border-gray-300 text-white px-6 py-2 rounded"
             >
               Join us
