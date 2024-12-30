@@ -49,6 +49,15 @@
                 >Home</router-link
               >
             </li>
+            <li>
+              <router-link
+                to="/aboutus"
+                class="hover:text-blue-900"
+                active-class="hover:text-fuchsia-500"
+                @click.native="closeMenu"
+                >About Us</router-link
+              >
+            </li>
             <li class="relative group">
               <router-link
                 to="/programs"
@@ -60,15 +69,7 @@
                 <span class="ml-1"></span>
               </router-link>
             </li>
-            <li>
-              <router-link
-                to="/aboutus"
-                class="hover:text-blue-900"
-                active-class="hover:text-fuchsia-500"
-                @click.native="closeMenu"
-                >About Us</router-link
-              >
-            </li>
+            
             <li>
               <router-link
                 to="/gallery"
