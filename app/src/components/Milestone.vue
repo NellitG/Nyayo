@@ -15,7 +15,7 @@
         A New Journey Begins
         </h2>
         <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-950">
-            With a vision to create a better future for children, we’ve embarked on our mission to make a lasting impact. Every small step we take today will pave the way for brighter tomorrows. Together, let’s build hope from the ground up.
+          Guided by a vision to shape a brighter future for children, we are on a steadfast journey to create meaningful, lasting change. Each action we take today lays the foundation for a tomorrow filled with promise and opportunity. United in purpose, we are building a legacy of hope, nurturing the potential of every child, and transforming lives with unwavering commitment and care. Together, let’s turn possibility into reality, one step at a time.
         </p>
       </div>
   

@@ -1,10 +1,10 @@
 <template>
   <section class="py-0 lg:py-14 max-w-7xl mx-auto px-0 sm:px-8">
     <h1 class="text-4xl font-bold text-center mb-10">We Are Here to Help</h1>
-    <p class="mt-2 text-gray-950 text-center">
+    <!-- <p class="mt-2 text-gray-950 text-center">
           We’re dedicated to supporting vulnerable children by providing them with the resources, mentorship, and opportunities.<br />
           Together, we can create a brighter future for every child.
-        </p><br />
+        </p><br /> -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Card 1 -->
       <div class="w-full relative rounded-2xl overflow-hidden hover:border-blue-900 flex flex-col border-2">
