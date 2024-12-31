@@ -23,7 +23,10 @@
         </div>
         <!-- Text -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h3 class="text-5xl font-semibold text-gray-950">
+          <h3
+            class="text-transparent text-5xl font-semibold text-gray-950 bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
+            style="font-family: 'Finger Paint', cursive"
+          >
             Inclusive Education
           </h3>
           <p class="text-lg text-gray-700 leading-relaxed">
@@ -48,7 +51,10 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
         <!-- Text -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h3 class="text-5xl font-semibold text-gray-950">
+          <h3
+            class="text-5xl font-semibold text-gray-950 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
+            style="font-family: 'Finger Paint', cursive"
+          >
             Workshops & Seminars
           </h3>
           <p class="text-lg text-gray-700 leading-relaxed">
@@ -96,7 +102,12 @@
         </div>
         <!-- Text -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h3 class="text-5xl font-semibold text-gray-950">Partnerships</h3>
+          <h3
+            class="text-5xl font-semibold text-gray-950 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
+            style="font-family: finger-paint, cursive"
+          >
+            Partnerships
+          </h3>
           <p class="text-lg text-gray-700 leading-relaxed">
             Our collaboration goes beyond mere support—it drives systemic
             change, ensuring inclusive education is not just available but
