@@ -6,16 +6,8 @@
       >
         What our <span class="text-blue-900">members</span> say
       </h1>
-
-      <!-- <p class="max-w-2xl mx-auto mt-6 text-center text-gray-950">
-        The support from Nyayo's Foundation has been life-changing for my child.
-        They’ve gained not only knowledge but also the confidence to pursue
-        their dreams. I am forever grateful for the opportunities provided by
-        this incredible organization.
-      </p> -->
-
       <section
-        class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3"
+        class="grid grid-cols-1 gap-8 mt-8 xl:mt-4 lg:grid-cols-2 xl:grid-cols-3"
       >
         <div class="p-8 border rounded-lg">
           <p class="leading-loose text-gray-950">
