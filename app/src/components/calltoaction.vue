@@ -31,7 +31,7 @@
               alt="sacco2 image"
             />
           </div>
-          <h4 class="font-semibold">Quick Fundraise</h4>
+          <h4 class="font-semibold">Donate</h4>
           <p>
             Your involvement fuels our mission to uplift and empower children with special needs. Together, we achieve the extraordinary. Every penny counts in achieving the future we envision.
           </p>
@@ -46,10 +46,9 @@
               alt="sacco3 image"
             />
           </div>
-          <h4 class="font-semibold">Donate</h4>
+          <h4 class="font-semibold">Advocacy</h4>
           <p>
-            Collaborate to foster inclusivity and advocate for policy changes
-            that benefit differently-abled individuals.
+            Be the change you wish to see. Every voice matters in policy reforms. Join the journey of a thousand miles.
           </p>
         </div>
       </div>
