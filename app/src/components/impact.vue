@@ -31,16 +31,19 @@
         How We Make an Impact
       </h1>
       <p class="mt-6 text-gray-600 leading-relaxed">
-        Engaging stakeholders through a mix of traditional and digital channels:
-        brochures, website, social media, and newsletters.
+        We engage stakeholders through a blend of traditional and digital
+        platforms, including informative brochures, a dynamic website, active
+        social media presence, and impactful newsletters.
       </p>
       <p class="mt-4 text-gray-600 leading-relaxed">
-        Telling personal stories from beneficiaries, parents, and educators to
-        build trust and awareness..
+        By sharing inspiring personal stories from beneficiaries, parents, and
+        educators, we foster trust, raise awareness, and highlight the
+        transformative impact of our work.
       </p>
       <p class="mt-4 text-gray-600 leading-relaxed">
-        Committed to building lasting partnerships and securing funding through
-        grants, donations, and fundraising events.
+        Our commitment lies in forging enduring partnerships and ensuring
+        sustainable support through grants, generous donations, and creative
+        fundraising initiatives.
       </p>
       <div class="mt-8 flex justify-center lg:justify-start gap-4">
         <a

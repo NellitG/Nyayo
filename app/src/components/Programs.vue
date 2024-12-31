@@ -27,8 +27,13 @@
             Inclusive Education
           </h3>
           <p class="text-lg text-gray-700 leading-relaxed">
-            Our mission is to support differently-abled children by providing
-            them with access to digital tools and inclusive education.
+            To ensure that every differently-abled child/individual has access
+            to quality digital education, has access to the same opportunities
+            as any other child/individual, despite their background differences.
+            We envision a future whereby every differently-abled
+            child/individual thrives emotionally, professionally and physically,
+            and whereby diversity is a stepping stone to greatness rather than
+            an obstacle.
             <br /><br />
             We aim to create a learning environment that caters to their needs
             and empowers them with the skills to succeed.
@@ -47,12 +52,13 @@
             Workshops & Seminars
           </h3>
           <p class="text-lg text-gray-700 leading-relaxed">
-            We host educational sessions for parents, caregivers, and educators
-            focused on disability rights, inclusion, and the importance of
-            tailored education for differently-abled children.
-            <br /><br />
-            Our workshops foster a deeper understanding of these issues in the
-            community.
+            We facilitate impactful educational sessions tailored for parents,
+            caregivers, and educators, highlighting the importance of disability
+            rights, fostering inclusion, and championing personalized education
+            for children with diverse abilities. These workshops serve as
+            catalysts for change, cultivating a profound understanding within
+            the community and empowering participants to advocate for a more
+            inclusive and equitable society
           </p>
           <router-link to="/Programs">
             <button
@@ -92,12 +98,14 @@
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
           <h3 class="text-5xl font-semibold text-gray-950">Partnerships</h3>
           <p class="text-lg text-gray-700 leading-relaxed">
-            We collaborate with schools, healthcare providers, and community
-            organizations to create a network of support for children with
-            disabilities.
-            <br /><br />
-            Our partnerships are key in ensuring that inclusive education is
-            accessible to all.
+            Our collaboration goes beyond mere support—it drives systemic
+            change, ensuring inclusive education is not just available but
+            accessible and impactful for every child. We work alongside schools,
+            healthcare providers, and community organizations to establish a
+            robust network of care and opportunity. Your support as a donor
+            empowers us to turn this vision into reality, breaking down barriers
+            and building pathways for children with disabilities to thrive,
+            excel, and realize their full potential.
           </p>
           <!-- <button class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-md shadow-lg hover:bg-purple-600 transition duration-300">
             Partner with Us
