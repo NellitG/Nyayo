@@ -26,11 +26,15 @@
             >
           </h1>
 
-          <p class="mt-4 text-gray-950 text-center">
-            Empowering Every Ability.
-            <br />Enriching Every Life.<br />
+          <h1
+            class="text-4xl mt-4 text-center text-white bg-gradient-to-r from-blue-500 to-yellow-500 p-4 rounded-lg"
+            style="font-family: 'Finger Paint', cursive"
+          >
+            Empowering Every Ability.<br />
+            Enriching Every Life.<br />
             Building Futures
-          </p>
+          </h1>
+
           <div
             class="mt-6 flex xl:justify-center md:justify-start space-x-4 justify-center"
           >
@@ -86,3 +90,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "HeroSection",
+};
+</script>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+</style>
