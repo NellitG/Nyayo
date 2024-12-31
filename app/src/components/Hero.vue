@@ -27,9 +27,9 @@
           </h1>
 
           <p class="mt-4 text-gray-950 text-center">
-            It reflects the organization's commitment to empowering children of
-            all abilities by providing them with the tools and opportunities to
-            succeed through inclusive digital education.
+            Empowering Every Ability.
+            <br />Enriching Every Life.<br />
+            Building Futures
           </p>
           <div
             class="mt-6 flex xl:justify-center md:justify-start space-x-4 justify-center"

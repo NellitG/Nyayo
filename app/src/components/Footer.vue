@@ -1,34 +1,7 @@
 <template>
   <footer class="bg-white">
     <div class="container px-6 py-8 mx-auto">
-      <div class="flex flex-col items-center text-center">
-        <!-- <div class="flex flex-wrap justify-center mt-6 -mx-4 font-semibold">
-          <router-link
-            to="/"
-            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
-            aria-label="Home"
-            >Home</router-link
-          >
-          <router-link
-            to="/programs"
-            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
-            aria-label="Programs"
-            >Programs</router-link
-          >
-          <router-link
-            to="/aboutus"
-            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
-            aria-label="About"
-            >About Us</router-link
-          >
-          <router-link
-            to="/contact"
-            class="mx-4 text-sm text-gray-950 transition-colors duration-300 hover:text-blue-900"
-            aria-label="Contact"
-            >Contact Us</router-link
-          >
-        </div> -->
-      </div>
+      <div class="flex flex-col items-center text-center"></div>
 
       <hr class="my-6 border-gray-200 md:my-10" />
 
@@ -37,30 +10,24 @@
           © 2024 Nyayo's Foundation. All Rights Reserved.
         </p>
 
-        <div class="flex -mx-2">
+        <!-- Flex container with equal spacing -->
+        <div class="flex justify-center space-x-6 mt-4 sm:mt-0">
           <!-- Twitter Icon -->
           <a
             href="https://x.com/NyayosOrg?t=OSIvdd1EJxF6Ny-U9jA4dA&s=09"
             target="_blank"
-            class="mx-2 text-gray-950 transition-colors duration-300 hover:text-blue-400"
+            class="text-gray-950 transition-colors duration-300 hover:text-blue-400"
             aria-label="Twitter"
           >
             <svg
-              class="text-themeColor-500 w-10 h-4"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
             >
-              <path stroke="none" d="M0 0h24v24H0z" />
               <path
-                d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84 0 0 0 .497 -3.753C20.18 7.773 21.692 5.25 22 4.009z"
-              />
+                d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"
+              ></path>
             </svg>
           </a>
 
@@ -68,23 +35,17 @@
           <a
             href="https://www.tiktok.com/@nyayosfoundation?_t=ZM-8sUWIsCdBy9&_r=1"
             target="_blank"
-            class="mx-2 text-gray-950 transition-colors duration-300 hover:text-black"
+            class="text-gray-950 transition-colors duration-300 hover:text-black"
             aria-label="TikTok"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="14"
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              image-rendering="optimizeQuality"
-              shape-rendering="geometricPrecision"
-              text-rendering="geometricPrecision"
-              viewBox="0 0 512 512"
-              id="tiktok"
+              width="30"
+              height="30"
+              viewBox="0 0 50 50"
             >
               <path
-                d="M353.97 0.43c0.03,7.81 2.31,120.68 120.76,127.72 0,32.55 0.04,56.15 0.04,87.21 -8.97,0.52 -77.98,-4.49 -120.93,-42.8l-0.13 169.78c1.63,117.84 -85.09,189.55 -198.44,164.78 -195.46,-58.47 -130.51,-348.37 65.75,-317.34 0,93.59 0.05,-0.03 0.05,93.59 -81.08,-11.93 -108.2,55.52 -86.65,103.81 19.6,43.97 100.33,53.5 128.49,-8.53 3.19,-12.14 4.78,-25.98 4.78,-41.52l0 -337.13 86.28 0.43z"
+                d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z"
               ></path>
             </svg>
           </a>
@@ -93,26 +54,18 @@
           <a
             href="https://www.linkedin.com/in/nyayo-s-foundation-1b4b02342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
-            class="mx-2 text-gray-950 transition-colors duration-300 hover:text-blue-700"
+            class="text-gray-950 transition-colors duration-300 hover:text-blue-700"
             aria-label="LinkedIn"
           >
             <svg
-              class="text-themeColor-500 w-10 h-4"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="30"
+              height="30"
               viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
             >
               <path
-                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
               />
-              <rect x="2" y="9" width="4" height="12" />
-              <circle cx="4" cy="4" r="2" />
             </svg>
           </a>
         </div>
