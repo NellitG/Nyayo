@@ -7,12 +7,12 @@
         What our <span class="text-blue-900">members</span> say
       </h1>
 
-      <p class="max-w-2xl mx-auto mt-6 text-center text-gray-950">
+      <!-- <p class="max-w-2xl mx-auto mt-6 text-center text-gray-950">
         The support from Nyayo's Foundation has been life-changing for my child.
         They’ve gained not only knowledge but also the confidence to pursue
         their dreams. I am forever grateful for the opportunities provided by
         this incredible organization.
-      </p>
+      </p> -->
 
       <section
         class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3"
@@ -22,7 +22,7 @@
             “The work of Nyayo's Foundation has created a safe haven for
             children in need. Their holistic approach not only addresses
             educational gaps but also fosters emotional well-being, helping kids
-            like Mia thrive in a nurturing environment.”.
+            thrive in a nurturing environment.”.
           </p>
 
           <div class="flex items-center mt-8 -mx-2">
