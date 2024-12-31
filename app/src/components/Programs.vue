@@ -34,7 +34,7 @@
             child/individual thrives emotionally, professionally and physically,
             and whereby diversity is a stepping stone to greatness rather than
             an obstacle.
-            <br /><br />
+            <br />
             We aim to create a learning environment that caters to their needs
             and empowers them with the skills to succeed.
           </p>
