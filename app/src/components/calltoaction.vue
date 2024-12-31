@@ -16,9 +16,9 @@
           </div>
           <h4 class="font-semibold">Becoming a Volunteer</h4>
           <p class="text-center">
-            Every action matters. Become part of a movement that uplifts lives,
+            Become part of a movement that uplifts lives,
             VOLUNTEER with us. Together, we can make inclusion a global standard
-            and transform futures, one child at a time.
+            and transform futures.
           </p>
         </div>
         <div
@@ -33,7 +33,7 @@
           </div>
           <h4 class="font-semibold">Donate</h4>
           <p>
-            Your involvement fuels our mission to uplift and empower children with special needs. Together, we achieve the extraordinary. Every penny counts in achieving the future we envision.
+            Your involvement fuels our mission to uplift and empower children with special needs. Every penny counts in achieving the future we envision.
           </p>
         </div>
         <div
