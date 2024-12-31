@@ -22,19 +22,19 @@
       <!-- Right Side (Text Content) -->
       <div class="lg:w-3/4">
         <p class="text-gray-950 leading-relaxed mb-4">
-          Nyayo  was established in 2024 in Nairobi, Kenya, with a passionate commitment to empowering differently-abled children through access to digital education.
+          Nyayo's Foundation, established in 2024 in Nairobi, Kenya, is dedicated to transforming the lives of differently-abled children by providing them with access to digital education.
         </p>
         <p class="text-gray-950 leading-relaxed mb-4">
-          The NGO was founded to address the educational and social disparities faced by children with disabilities in underserved communities.
+          Recognizing the educational barriers faced by children with disabilities in underserved communities, our foundation strives to bridge the gap by offering inclusive and accessible learning opportunities
         </p>
         <p class="text-gray-950 leading-relaxed mb-4">
-          Recognizing that these children often lack the resources and support to thrive in conventional educational settings, Nyayo aims to bridge this gap by providing inclusive, accessible, and technology-driven learning opportunities.
+          We are committed to empowering these children with the tools, resources, and support they need to thrive in a digital world, ensuring that every child has the chance to succeed, regardless of their abilities.
         </p>
         <p class="text-gray-950 leading-relaxed mb-4">
-          We believe that continuous learning is key to personal and organizational growth, and we strive to instill this value in the children we serve.
+          At the heart of our mission is the belief that education is a fundamental right for all. Through our technology-driven initiatives, we aim to create an inclusive educational environment where children with disabilities can reach their full potential. 
         </p>
         <p class="text-gray-950 leading-relaxed">
-          We are committed to making a meaningful difference in the lives of differently-abled children by providing quality education and resources.
+          Nyayo’s Foundation is driven by a passion to make a meaningful difference in these children's lives, fostering a culture of continuous learning, personal growth, and empowerment. We are committed to creating lasting change by ensuring that no child is left behind, providing them with the resources and opportunities to succeed both academically and in life.
         </p>
       </div>
     </div>

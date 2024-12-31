@@ -24,7 +24,7 @@
         <div>
           <h3 class="text-4xl font-semibold text-gray-800">Our Vision</h3>
           <p class="mt-2 text-gray-600 text-left">
-            To ensure that every differently-abled child/individual has access to quality digital education, and has access to the same opportunities as any other child/individual, despite their background differences.
+            Our mission is to provide transformative resources and support that enable individuals of all abilities to thrive, promoting inclusivity, equality, and empowerment in every community we serve
           </p>
         </div>
       </div>
@@ -35,8 +35,7 @@
         <div>
           <h3 class="text-4xl font-semibold text-gray-800">Our Mission</h3>
           <p class="mt-2 text-gray-600 text-left">
-            We believe in creating a world where every differently-abled child has access to quality digital education.
-          Join us in our mission. Empowering Every Ability, Enriching Every Life.
+            To empower individuals of all abilities, fostering an inclusive society where every life is enriched through equal opportunities, support, and resources.
           </p>
         </div>
         <!-- Image on the Right -->
