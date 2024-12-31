@@ -27,7 +27,10 @@
     </div>
 
     <div class="lg:w-1/2 mt-12 lg:mt-0 lg:ml-12 text-center lg:text-left">
-      <h1 class="text-3xl lg:text-5xl font-semibold text-gray-950">
+      <h1
+        class="text-3xl lg:text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
+        style="font-family: 'Finger Paint', cursive"
+      >
         How We Make an Impact
       </h1>
       <p class="mt-6 text-gray-600 leading-relaxed">
@@ -55,4 +58,6 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+</style>
