@@ -46,7 +46,7 @@
               alt="sacco3 image"
             />
           </div>
-          <h4 class="font-semibold">Start Donating</h4>
+          <h4 class="font-semibold">Donate</h4>
           <p>
             Collaborate to foster inclusivity and advocate for policy changes
             that benefit differently-abled individuals.
