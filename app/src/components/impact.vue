@@ -34,13 +34,9 @@
         We engage stakeholders through a blend of traditional and digital
         platforms, including informative brochures, a dynamic website, active
         social media presence, and impactful newsletters.
-      </p>
-      <p class="mt-4 text-gray-600 leading-relaxed">
         By sharing inspiring personal stories from beneficiaries, parents, and
         educators, we foster trust, raise awareness, and highlight the
-        transformative impact of our work.
-      </p>
-      <p class="mt-4 text-gray-600 leading-relaxed">
+        transformative impact of our work.      
         Our commitment lies in forging enduring partnerships and ensuring
         sustainable support through grants, generous donations, and creative
         fundraising initiatives.
