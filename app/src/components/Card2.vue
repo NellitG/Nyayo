@@ -2,11 +2,11 @@
   <div class="py-0 bg-gray-50 mt-24">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- Title Section -->
-    <div class="mb-6">
+    <!-- <div class="mb-6">
       <h2 class="text-4xl font-semibold text-gray-950">
         Nyayo's <span class="text-blue-500"> </span>Foundation
       </h2>
-    </div>
+    </div> -->
     <!-- Content Section -->
     <div class="flex flex-col lg:flex-row items-start gap-8">
       <!-- Left Side (Logo) -->
