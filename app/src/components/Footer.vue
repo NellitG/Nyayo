@@ -10,7 +10,7 @@
           © 2024 Nyayo's Foundation. All Rights Reserved.
         </p>
 
-        <!-- Flex container with equal spacing -->
+      
         <div class="flex justify-center space-x-6 mt-4 sm:mt-0">
           <!-- Twitter Icon -->
           <a
