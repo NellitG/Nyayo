@@ -52,7 +52,7 @@
 
           <!-- Instagram Icon -->
           <a
-            href="https://www.tiktok.com/@nyayosfoundation?_t=ZM-8sUWIsCdBy9&_r=1"
+            href="https://www.instagram.com/nyayosfoundation/profilecard/?igsh=ZzVxYnY2ZXZobHN2"
             target="_blank"
             class="text-gray-950 transition-colors duration-300 hover:text-black"
             aria-label="Instagram"
@@ -61,8 +61,8 @@
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="100"
-              height="100"
+              width="30"
+              height="30"
               viewBox="0 0 48 48"
             >
               <path
@@ -159,7 +159,7 @@
 
           <!-- YouTube Icon -->
           <a
-            href="https://www.tiktok.com/@nyayosfoundation?_t=ZM-8sUWIsCdBy9&_r=1"
+            href="https://youtube.com/@nyayosfoundation?si=XG7onpz2UbPT2OuM"
             target="_blank"
             class="text-gray-950 transition-colors duration-300 hover:text-black"
             aria-label="YouTube"
@@ -168,8 +168,8 @@
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="100"
-              height="100"
+              width="30"
+              height="30"
               viewBox="0 0 48 48"
             >
               <path
@@ -182,7 +182,7 @@
 
           <!-- Facebook Icon -->
           <a
-            href="https://www.tiktok.com/@nyayosfoundation?_t=ZM-8sUWIsCdBy9&_r=1"
+            href="https://www.facebook.com/profile.php?id=61571155392354"
             target="_blank"
             class="text-gray-950 transition-colors duration-300 hover:text-black"
             aria-label="TikTok"
@@ -191,8 +191,8 @@
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
-              width="100"
-              height="100"
+              width="30"
+              height="30"
               viewBox="0 0 48 48"
             >
               <path
