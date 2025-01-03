@@ -41,9 +41,12 @@
             We aim to create a learning environment that caters to their needs
             and empowers them with the skills to succeed.
           </p>
-          <!-- <button class="px-6 py-3 bg-yellow-400 text-white font-semibold rounded-md shadow-lg hover:bg-yellow-500 transition duration-300">
-            Learn More
-          </button> -->
+          <!-- Centered Button -->
+          <div class="flex justify-center">
+            <button class="px-6 py-3 bg-yellow-400 text-white font-semibold rounded-md shadow-lg hover:bg-yellow-500 transition duration-300">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
 
@@ -64,15 +67,18 @@
             for children with diverse abilities. These workshops serve as
             catalysts for change, cultivating a profound understanding within
             the community and empowering participants to advocate for a more
-            inclusive and equitable society
+            inclusive and equitable society.
           </p>
-          <router-link to="/Programs">
-            <button
-              class="px-6 py-3 bg-indigo-500 text-white justify-center font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300"
-            >
-              View Events
-            </button>
-          </router-link>
+          <!-- Centered Button -->
+          <div class="flex justify-center">
+            <router-link to="/Programs">
+              <button
+                class="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300"
+              >
+                View Events
+              </button>
+            </router-link>
+          </div>
         </div>
         <!-- Image -->
         <div class="lg:col-span-5 relative">
@@ -118,9 +124,12 @@
             and building pathways for children with disabilities to thrive,
             excel, and realize their full potential.
           </p>
-          <!-- <button class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-md shadow-lg hover:bg-purple-600 transition duration-300">
-            Partner with Us
-          </button> -->
+          <!-- Centered Button -->
+          <!-- <div class="flex justify-center">
+            <button class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-md shadow-lg hover:bg-purple-600 transition duration-300">
+              Partner with Us
+            </button>
+          </div> -->
         </div>
       </div>
     </div>
