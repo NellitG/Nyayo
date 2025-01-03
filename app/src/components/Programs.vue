@@ -68,7 +68,7 @@
           </p>
           <router-link to="/Programs">
             <button
-              class="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300"
+              class="px-6 py-3 bg-indigo-500 text-white justify-center font-semibold rounded-md shadow-lg hover:bg-indigo-600 transition duration-300"
             >
               View Events
             </button>

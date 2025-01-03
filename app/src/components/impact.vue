@@ -44,7 +44,7 @@
         sustainable support through grants, generous donations, and creative
         fundraising initiatives.
       </p>
-      <div class="mt-8 flex justify-center lg:justify-start gap-4">
+      <div class="mt-8 flex justify-center lg:justify-center gap-4">
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSc6-AqABjXjuTf53oNXagBysS-5p5DFiBfWUt8jdLznTI137g/viewform"
           class="bg-yellow-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-900 hover:text-black"
