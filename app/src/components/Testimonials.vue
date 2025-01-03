@@ -2,9 +2,10 @@
   <section class="bg-white">
     <div class="container px-6 py-20 mx-auto">
       <h1
-        class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl"
-      >
-        What our <span class="text-blue-900">members</span> say
+        class="text-2xl font-semibold text-center text-yellow-500 capitalize lg:text-3xl"
+        style="font-family: 'Finger Paint', cursive" >
+        What our <span class="text-blue-900"
+        style="font-family: 'Finger Paint', cursive">members</span> say
       </h1>
       <section
         class="grid grid-cols-1 gap-8 mt-8 xl:mt-4 lg:grid-cols-2 xl:grid-cols-3"
