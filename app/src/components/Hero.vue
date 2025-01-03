@@ -30,9 +30,11 @@
             class="text-4xl mt-4 text-center text-white bg-gradient-to-r from-blue-500 to-yellow-500 p-4 rounded-lg"
             style="font-family: 'Finger Paint', cursive"
           >
-            Empowering Every Ability.<br />
-            Enriching Every Life.<br />
-            Building Futures
+            <marquee behavior="scroll">
+              Empowering Every Ability.<br />
+              Enriching Every Life.<br />
+              Building Futures
+            </marquee>
           </h1>
 
           <div
