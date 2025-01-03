@@ -10,8 +10,8 @@
           />
         </div>
         <h2
-          class="text-3xl font-semibold leading-tight text-indigo-950 sm:text-4xl lg:text-5xl"
-        >
+          class="text-3xl font-semibold leading-tight text-yellow-500 sm:text-4xl lg:text-5xl"
+          style="font-family: 'Finger Paint', cursive">
         A New Journey Begins
         </h2>
         <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-950">
