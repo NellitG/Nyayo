@@ -14,7 +14,9 @@
       <div
         class="relative z-10 p-8 text-white flex items-center justify-center flex-col text-center"
       >
-        <h2 class="text-5xl font-bold mb-4">Join Our Action!</h2>
+        <h2 class="text-5xl font-bold mb-4 text-yellow-500"
+        style="font-family: 'Finger Paint', cursive"
+        >Join Our Action!</h2>
         <h2 class="text-5xl font-semibold mb-6">Everyone Can Help.</h2>
 
         <!-- Buttons -->
