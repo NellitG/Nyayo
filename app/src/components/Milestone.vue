@@ -41,7 +41,7 @@
             </div>
             <h3
               class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
-            >
+              style="font-family: 'Finger Paint', cursive">
             2025: First Partnership
             </h3>
             <p class="mt-4 text-base text-gray-600">
@@ -57,7 +57,7 @@
             </div>
             <h3
               class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
-            >
+              style="font-family: 'Finger Paint', cursive">
             2026: Expansion
             </h3>
             <p class="mt-4 text-base text-gray-600">
@@ -73,7 +73,7 @@
             </div>
             <h3
               class="mt-6 text-xl font-semibold leading-tight text-black md:mt-10"
-            >
+              style="font-family: 'Finger Paint', cursive">
             2027: Advocacy for Policy Change
             </h3>
             <p class="mt-4 text-base text-gray-600">
