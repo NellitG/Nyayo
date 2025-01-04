@@ -16,7 +16,7 @@
           />
         </div>
         <!-- Hero Content -->
-        <div class="text-center md:text-left md:w-1/2 md:px-8">
+        <div class="text-center md:text-left md:w-1/2 md:px-8 ">
           <h1
             class="text-6xl text-center font-bold text-yellow-500"
             style="font-family: 'Finger Paint', cursive"
@@ -27,7 +27,7 @@
           </h1>
 
           <h1
-            class="text-4xl mt-4 text-center text-white bg-gradient-to-r from-blue-500 to-yellow-500 p-4 rounded-lg"
+            class="text-4xl mt-2 text-center text-white bg-gradient-to-r from-blue-500 to-yellow-500 p-4 rounded-lg"
             style="font-family: 'Finger Paint', cursive"
           >
             <marquee behavior="scroll"></marquee>
