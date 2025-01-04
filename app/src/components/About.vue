@@ -3,7 +3,7 @@
   <!-- Watermark -->
   <div class="absolute inset-0 flex justify-center items-center">
     <p class="text-9xl font-bold text-gray-200 opacity-10 tracking-widest">
-      NYAYO INC
+      NYAYO FOUNDATION
     </p>
   </div>
 
