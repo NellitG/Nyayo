@@ -61,7 +61,7 @@
             href="/contact"
             class="mt-4 inline-block px-6 py-3 bg-yellow-400 rounded-full text-black font-medium hover:bg-blue-900 w-full md:w-auto text-center"
           >
-            Contact our support
+            Contact our support 
           </a>
         </div>
       </div>
