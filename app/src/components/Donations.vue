@@ -11,8 +11,8 @@
           Please fill in the details below.
         </p>
       </div>
-      <div class="mt-10">
-        <div class="bg-white p-6 rounded-lg shadow-md max-w-md mx-auto">
+      
+        <div class="bg-white border-2 border-gray-200  p-6 rounded-lg shadow-md max-w-md mx-auto">
           <form @submit.prevent="submitDonation" class="space-y-6">
             <!-- Amount -->
             <div>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-  </div>
+  
 </template>
 
 <script>
