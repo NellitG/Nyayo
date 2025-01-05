@@ -54,7 +54,8 @@
 
         <!-- Footer Text and Button -->
         <div>
-          <p class="text-blue-950 font-medium text-lg text-center md:text-left mt-4">
+          <p class="text-blue-950 font-medium text-lg text-center md:text-left mt-4"
+          style="font-family: 'Finger Paint', cursive">
             Didn't find the answer you are looking for?
           </p>
           <a
