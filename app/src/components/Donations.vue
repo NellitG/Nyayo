@@ -6,7 +6,7 @@
         style="font-family: 'Finger Paint', cursive">
           Make a Donation
         </h1>
-        <p class="mt-4 text-gray-600">
+        <p class="mt-4 text-gray-950">
           Your contribution can make a big difference.<br />
           Please fill in the details below.
         </p>
