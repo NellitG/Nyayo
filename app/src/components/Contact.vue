@@ -47,7 +47,9 @@
             >
               <!-- Name -->
               <div>
-                <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                <label for="name" class="block text-sm font-medium text-gray-700"
+                style="font-family: 'Finger Paint', cursive"
+                >Name</label>
                 <input
                   type="text"
                   id="name"
@@ -59,7 +61,9 @@
               </div>
               <!-- Email -->
               <div>
-                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <label for="email" class="block text-sm font-medium text-gray-700"
+                style="font-family: 'Finger Paint', cursive"
+                >Email</label>
                 <input
                   type="email"
                   id="email"
@@ -71,7 +75,9 @@
               </div>
               <!-- Phone -->
               <div>
-                <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+                <label for="phone" class="block text-sm font-medium text-gray-700"
+                style="font-family: 'Finger Paint', cursive"
+                >Phone</label>
                 <input
                   type="tel"
                   id="phone"
@@ -83,7 +89,9 @@
               </div>
               <!-- Message -->
               <div>
-                <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                <label for="message" class="block text-sm font-medium text-gray-700"
+                style="font-family: 'Finger Paint', cursive"
+                >Message</label>
                 <textarea
                   id="message"
                   v-model="form.message"
