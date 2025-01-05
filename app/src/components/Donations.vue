@@ -12,7 +12,7 @@
         </p>
       </div>
       
-        <div class="bg-white border-2 border-gray-200  p-6 rounded-lg shadow-md max-w-md mx-auto">
+        <div class="mt-4 bg-white border-2 border-gray-200  p-6 rounded-lg shadow-md max-w-md mx-auto">
           <form @submit.prevent="submitDonation" class="space-y-6">
             <!-- Amount -->
             <div>
