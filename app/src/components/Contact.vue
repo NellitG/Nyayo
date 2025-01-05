@@ -47,7 +47,7 @@
             >
               <!-- Name -->
               <div>
-                <label for="name" class="block text-sm font-medium text-gray-700"
+                <label for="name" class="block text-sm font-medium text-yellow-500"
                 style="font-family: 'Finger Paint', cursive"
                 >Name</label>
                 <input
@@ -61,7 +61,7 @@
               </div>
               <!-- Email -->
               <div>
-                <label for="email" class="block text-sm font-medium text-gray-700"
+                <label for="email" class="block text-sm font-medium text-yellow-500"
                 style="font-family: 'Finger Paint', cursive"
                 >Email</label>
                 <input
@@ -75,7 +75,7 @@
               </div>
               <!-- Phone -->
               <div>
-                <label for="phone" class="block text-sm font-medium text-gray-700"
+                <label for="phone" class="block text-sm font-medium text-yellow-500"
                 style="font-family: 'Finger Paint', cursive"
                 >Phone</label>
                 <input
@@ -89,7 +89,7 @@
               </div>
               <!-- Message -->
               <div>
-                <label for="message" class="block text-sm font-medium text-gray-700"
+                <label for="message" class="block text-sm font-medium text-yellow-500"
                 style="font-family: 'Finger Paint', cursive"
                 >Message</label>
                 <textarea
