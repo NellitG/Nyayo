@@ -75,7 +75,7 @@
               <router-link
                 to="/gallery"
                 class="hover:text-blue-900 relative"
-                active-class="hover:text-green-500"
+                active-class="hover:text-blue-900"
                 @click.native="closeMenu"
               >
                 Gallery
