@@ -2,7 +2,9 @@
   <div class="p-6 bg-gray-100 min-h-screen mt-20">
     <div class="max-w-7xl mx-auto">
       <!-- Gallery Heading -->
-      <h2 class="text-5xl font-bold text-center mb-6">Photo Gallery</h2>
+      <h2 class="text-5xl font-bold text-center mb-6"
+      style="font-family: 'Finger Paint', cursive"
+      >Photo Gallery</h2>
 
       <!-- Responsive Image Grid -->
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
