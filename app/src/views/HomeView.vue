@@ -1,8 +1,8 @@
 <template>
   <Hero />
   <!-- <Empower /> -->
-  <calltoaction />
   <impact />
+  <calltoaction />
   <Programs />
   <Cards />
 </template>
