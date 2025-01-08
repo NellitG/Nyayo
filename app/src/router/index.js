@@ -21,6 +21,7 @@ const routes = [
   { path: "/aboutus", name: "aboutus", component: AboutusView },
   { path: "/programs", name: "programs", component: ProgramsView },
   { path: "/gallery", name: "gallery", component: GalleryView },
+  {path: "/Blog", name: "Blog", component: ProgramsView},
 ];
 
 /**Initialize here */
