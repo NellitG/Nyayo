@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col lg:flex-row items-center justify-between bg-white px-6 lg:px-20 py-12 lg:py-10 mr-4"
+    class="flex flex-col mt-12 lg:flex-row items-center justify-between bg-white px-6 lg:px-20 py-12 lg:py-10 mr-4"
   >
     <!-- Left Section -->
     <div class="grid grid-cols-2 gap-4 lg:w-1/2">
@@ -26,7 +26,7 @@
       />
     </div>
 
-    <div class="lg:w-1/2 mt-12 lg:mt-0 lg:ml-12 text-center lg:text-left">
+    <div class="lg:w-1/2 mt-4 lg:mt-0 lg:ml-12 text-center lg:text-left">
       <h1
         class="text-3xl lg:text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
         style="font-family: 'Finger Paint', cursive"

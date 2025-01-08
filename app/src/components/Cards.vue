@@ -7,10 +7,11 @@
         min-height: 300px;
       "
     >
-      <!-- Overlay -->
-      <div class="bg-black bg-opacity-40 h-full w-full absolute inset-0"></div>
+      <!-- Gradient and Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-yellow-500 opacity-70"></div>
+      <div class="absolute inset-0 bg-black bg-opacity-40"></div>
 
-      <!-- Content on top of the background image and overlay -->
+      <!-- Content on top of the background image and overlays -->
       <div
         class="relative z-10 p-8 text-white flex items-center justify-center flex-col text-center"
       >
@@ -24,7 +25,7 @@
           <!-- Donate button (internal link) -->
           <router-link to="/donations">
             <button
-              class="bg-yellow-400 text-gray-950 font-semibold px-6 py-3 transition duration-300"
+              class="bg-yellow-400 text-gray-950 font-semibold px-6 py-3 transition duration-300 rounded-full transition duration-300"
             >
               Donate
             </button>
@@ -37,8 +38,8 @@
             rel="noopener noreferrer"
           >
             <button
-              class="bg-indigo-950 text-white font-semibold px-6 py-3 transition duration-300"
-            >
+              class="bg-indigo-950 text-white font-semibold px-6 py-3 rounded-full transition duration-300"
+              >
               Become a Volunteer
             </button>
           </a>
