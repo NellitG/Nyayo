@@ -32,17 +32,17 @@
     />
   </div>
   <div class="w-3/4 pl-6">
-    <h3 class="text-xl font-semibold text-gray-800">
+    <h3 class="text-xl font-semibold text-gray-950">
       Getting kids outside: one of the best things a parent can do
     </h3>
-    <p class="text-gray-500 text-sm mb-4">
+    <p class="text-gray-950 text-sm mb-4">
       Nisi dui sunt veniam esse quis ex labore Lorem et. Exceptur labore minima
       ea officia labore
     </p>
     <div class="flex justify-between items-center">
       <span class="text-sm text-gray-400">18/06/2025</span>
       <button
-        class="px-4 py-2 text-blue-500 border border-blue-500 rounded-md text-sm hover:bg-blue-500 hover:text-white transition"
+        class="px-4 py-2 text-blue-900 border-2 rounded-md text-sm hover:bg-blue-900 hover:text-white transition"
       >
         Read more
       </button>
@@ -61,17 +61,17 @@
           />
         </div>
         <div class="w-3/4 pl-6">
-          <h3 class="text-xl font-semibold text-gray-800">
+          <h3 class="text-xl font-semibold text-gray-950">
             Why understanding people is key to protecting nature
           </h3>
-          <p class="text-gray-500 text-sm mb-4">
+          <p class="text-gray-950 text-sm mb-4">
             Ad do pariatur culpa tempor consequat nulla exercitation veniam
             tempor officia ipsum.
           </p>
           <div class="flex justify-between items-center">
             <span class="text-sm text-gray-400">24/06/2023</span>
             <button
-              class="px-4 py-2 text-blue-500 border border-blue-500 rounded-md text-sm hover:bg-blue-500 hover:text-white transition"
+              class="px-4 py-2 text-blue-900 border-2 rounded-md text-sm hover:bg-blue-900 hover:text-white transition"
             >
               Read more
             </button>
@@ -84,11 +84,11 @@
     <img
       src="https://img.freepik.com/premium-photo/closeup-portrait-cheerful-african-american-cute-boy-smiling-looking-camera_13339-338417.jpg?ga=GA1.1.487577296.1727511220"
       alt="Blog image 1"
-      class="absolute -left-6 top-0 w-full h-48 object-cover shadow-lg"
+      class="absolute -left-6 -top-14 w-full h-56 object-cover shadow-lg"
     />
   </div>
   <div class="w-3/4 pl-6">
-    <h3 class="text-xl font-semibold text-gray-800">
+    <h3 class="text-xl font-semibold text-gray-950">
       Getting kids outside: one of the best things a parent can do
     </h3>
     <p class="text-gray-500 text-sm mb-4">
@@ -98,7 +98,7 @@
     <div class="flex justify-between items-center">
       <span class="text-sm text-gray-400">18/06/2025</span>
       <button
-        class="px-4 py-2 text-blue-500 border border-blue-500 rounded-md text-sm hover:bg-blue-500 hover:text-white transition"
+        class="px-4 py-2 text-blue-900 border-2 rounded-md text-sm hover:bg-blue-900 hover:text-white transition"
       >
         Read more
       </button>
