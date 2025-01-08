@@ -25,7 +25,7 @@
           <!-- Donate button (internal link) -->
           <router-link to="/donations">
             <button
-              class="bg-yellow-400 text-gray-950 font-semibold px-6 py-3 transition duration-300 rounded-full transition duration-300"
+              class="bg-yellow-400 text-gray-950 font-semibold px-6 py-3 transition duration-300"
             >
               Donate
             </button>
@@ -38,7 +38,7 @@
             rel="noopener noreferrer"
           >
             <button
-              class="bg-indigo-950 text-white font-semibold px-6 py-3 rounded-full transition duration-300"
+              class="bg-indigo-950 text-white font-semibold px-6 py-3 transition duration-300"
               >
               Become a Volunteer
             </button>
