@@ -1,5 +1,5 @@
 <template>
-  <div class="py-24 bg-gray-50 relative mr-4">
+  <div class="py-12 bg-gray-50 relative mr-4">
     <!-- Decorative Background Shapes -->
     <div
       class="absolute top-0 left-0 w-48 h-48 bg-yellow-400 rounded-full mix-blend-multiply opacity-30 blur-3xl"
@@ -22,7 +22,7 @@
           />
         </div>
         <!-- Text -->
-        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left pt-12">
           <h3
             class="text-transparent text-5xl font-semibold text-gray-950 bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
             style="font-family: 'Finger Paint', cursive"
@@ -53,7 +53,7 @@
       <!-- Workshops & Seminars -->
       <div class="grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
         <!-- Text -->
-        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left pt-12">
           <h3
             class="text-5xl font-semibold text-gray-950 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
             style="font-family: 'Finger Paint', cursive"
@@ -107,7 +107,7 @@
           />
         </div>
         <!-- Text -->
-        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left pt-12">
           <h3
             class="text-5xl font-semibold text-gray-950 text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-yellow-500"
             style="font-family: finger-paint, cursive"
@@ -124,12 +124,6 @@
             and building pathways for children with disabilities to thrive,
             excel, and realize their full potential.
           </p>
-          <!-- Centered Button -->
-          <!-- <div class="flex justify-center">
-            <button class="px-6 py-3 bg-purple-500 text-white font-semibold rounded-md shadow-lg hover:bg-purple-600 transition duration-300">
-              Partner with Us
-            </button>
-          </div> -->
         </div>
       </div>
     </div>
