@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 py-10 mt-24">
+  <div class="bg-gray-50 py-4 mt-24">
     <div class="container mx-auto px-6">
       <div class="flex flex-col md:flex-row items-center">
         <!-- Left Images -->
