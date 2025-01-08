@@ -4,9 +4,9 @@
      <div class="flex flex-col lg:flex-row items-start gap-8">
       <!-- Left Side (Logo) -->
       <div class="lg:w-1/4">
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center mt-32">
           <img
-            src="../assets/logos.png" 
+            src="../assets/foundation.jpg" 
             alt="Nyayo Logo"
             class="w-32 h-32 object-contain"
           />
