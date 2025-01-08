@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-50 mt-10">
+  <div class="bg-gray-50 mt-0">
     <!-- Newsletter Section -->
     <div class="text-center py-10 bg-gray-50">
       <h2
@@ -17,7 +17,7 @@
         <button
           type="submit"
           class="px-6 py-2 bg-blue-900 text-white font-semibold rounded-r-md transition"
-        >
+         >
           Submit
         </button>
       </form>
@@ -42,7 +42,7 @@
            Putting a smile on a child's face is a powerful way to show love and support.
           </p>
           <div class="flex justify-between items-center">
-            <span class="text-sm text-gray-400">18/06/2025</span>
+            <span class="text-sm text-yellow-500">18/06/2025</span>
             <!-- <button
               class="px-4 py-2 text-blue-900 border-2 rounded-md text-sm hover:bg-blue-900 hover:text-white transition"
             >
@@ -70,7 +70,7 @@
             tempor officia ipsum.
           </p>
           <div class="flex justify-between items-center">
-            <span class="text-sm text-gray-400">24/06/2023</span>
+            <span class="text-sm text-yellow-500">24/06/2023</span>
             <!-- <button
               class="px-4 py-2 text-blue-900 border-2 rounded-md text-sm hover:bg-blue-900 hover:text-white transition"
             >
@@ -97,7 +97,7 @@
             minima ea officia labore
           </p>
           <div class="flex justify-between items-center">
-            <span class="text-sm text-gray-400">18/06/2025</span>
+            <span class="text-sm text-yellow-500">18/06/2025</span>
             <!-- <button
               class="px-4 py-2 text-blue-900 border-2 rounded-md text-sm hover:bg-blue-900 hover:text-white transition"
             >
