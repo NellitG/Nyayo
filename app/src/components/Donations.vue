@@ -14,6 +14,20 @@
       
         <div class="mt-4 bg-white border-2 border-gray-200  p-6 rounded-lg shadow-md max-w-md mx-auto">
           <form @submit.prevent="submitDonation" class="space-y-6">
+            <!-- <--Name -->
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                v-model="donationForm.name"
+                required
+                class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
+                placeholder="Enter name"
+              />  
+            </div>
             <!-- Amount -->
             <div>
               <label
