@@ -32,6 +32,7 @@
               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
               placeholder="Enter name"
             />
+            <p class="text-gray-500 text-xs mt-1">You cannot type numbers in the name field.</p>
           </div>
 
           <!-- Amount -->
@@ -71,6 +72,7 @@
               class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
               placeholder="Enter phone number"
             />
+            <p class="text-gray-500 text-xs mt-1">You cannot type letters in the phone number field.</p>
             <p v-if="formErrors.phone" class="text-red-500 text-sm mt-1">
               {{ formErrors.phone }}
             </p>
