@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h1 class="mt-2 text-3xl font-semibold text-yellow-500 text-gray-950"
-        style="font-family: 'Finger Paint', cursive">
+          style="font-family: 'Finger Paint', cursive">
           Give us your feedback or comment <br />on our services
         </h1>
       </div>
@@ -48,22 +48,26 @@
               <!-- Name -->
               <div>
                 <label for="name" class="block text-sm font-medium text-yellow-500"
-                style="font-family: 'Finger Paint', cursive"
-                >Name</label>
+                  style="font-family: 'Finger Paint', cursive">
+                  Name
+                </label>
                 <input
                   type="text"
                   id="name"
                   v-model="form.name"
+                  @input="validateName"
                   required
                   class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
                   placeholder="Your Name"
                 />
+                <p class="text-gray-500 text-xs mt-1">You cannot type numbers in the name field.</p>
               </div>
               <!-- Email -->
               <div>
                 <label for="email" class="block text-sm font-medium text-yellow-500"
-                style="font-family: 'Finger Paint', cursive"
-                >Email</label>
+                  style="font-family: 'Finger Paint', cursive">
+                  Email
+                </label>
                 <input
                   type="email"
                   id="email"
@@ -76,22 +80,26 @@
               <!-- Phone -->
               <div>
                 <label for="phone" class="block text-sm font-medium text-yellow-500"
-                style="font-family: 'Finger Paint', cursive"
-                >Phone</label>
+                  style="font-family: 'Finger Paint', cursive">
+                  Phone
+                </label>
                 <input
                   type="tel"
                   id="phone"
                   v-model="form.phone"
+                  @input="validatePhone"
                   required
                   class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
                   placeholder="Your Phone"
                 />
+                <p class="text-gray-500 text-xs mt-1">You cannot type letters in the phone number field.</p>
               </div>
               <!-- Message -->
               <div>
                 <label for="message" class="block text-sm font-medium text-yellow-500"
-                style="font-family: 'Finger Paint', cursive"
-                >Message</label>
+                  style="font-family: 'Finger Paint', cursive">
+                  Message
+                </label>
                 <textarea
                   id="message"
                   v-model="form.message"
@@ -132,36 +140,33 @@ export default {
         phone: '',
         message: '',
       },
-      successMessage: '', // Store success message
+      successMessage: '',
     };
   },
   methods: {
+    validateName() {
+      this.form.name = this.form.name.replace(/[0-9]/g, ''); // Remove numbers
+    },
+    validatePhone() {
+      this.form.phone = this.form.phone.replace(/[A-Za-z]/g, ''); // Remove letters
+    },
     async submitFeedback() {
-  try {
-    console.log('Submitting feedback...'); // Debug start
-    const response = await fetch('http://localhost/feedback.php', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(this.form),
-    });
+      try {
+        const response = await fetch('http://localhost/feedback.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(this.form),
+        });
 
-    if (response.ok) {
-      console.log('Feedback submitted successfully!'); // Debug success
-      this.successMessage = 'Feedback submitted successfully!';
-      this.form = { name: '', email: '', phone: '', message: '' }; // Reset form
-
-      // Automatically clear the success message after 3 seconds
-      setTimeout(() => {
-        this.successMessage = '';
-      }, 3000); // 3000ms = 3 seconds
-    } else {
-      console.error('Submission failed:', response.statusText);
-      this.successMessage = ''; // Reset message on failure
-    }
-  } catch (error) {
-    console.error('Error:', error);
-  }
-}
+        if (response.ok) {
+          this.successMessage = 'Feedback submitted successfully!';
+          this.form = { name: '', email: '', phone: '', message: '' };
+          setTimeout(() => (this.successMessage = ''), 3000);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    },
   },
 };
 </script>
