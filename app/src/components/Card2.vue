@@ -13,7 +13,7 @@
         </div>
       </div>
       <!-- Right Side (Text Content) -->
-      <div class="lg:w-3/4">
+      <div class="lg:w-3/4 mt-4">
         <p class="text-gray-950 leading-relaxed mb-4">
           Nyayo's Foundation, established in 2024 in Nairobi, Kenya, is dedicated to transforming the lives of differently-abled children by providing them with access to digital education.
         </p>
