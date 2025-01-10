@@ -1,5 +1,5 @@
 <template>
-  <div class="py-0 mt-32">
+  <div class="py-24 mt-30">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h1
@@ -15,7 +15,7 @@
       </div>
 
       <div
-        class="mt-4 bg-white border-2 border-gray-200 p-6 rounded-lg shadow-md max-w-md mx-auto"
+        class="mt-4 bg-white border-2 border-yellow-200 p-6 rounded-lg shadow-md max-w-md mx-auto"
       >
         <form @submit.prevent="submitDonation" class="space-y-6">
           <!-- Name -->
