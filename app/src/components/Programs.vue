@@ -43,9 +43,9 @@
           </p>
           <!-- Centered Button -->
           <div class="flex justify-center">
-            <button class="px-6 py-3 bg-yellow-400 text-white font-semibold rounded-md shadow-lg hover:bg-yellow-500 transition duration-300">
+            <!-- <button class="px-6 py-3 bg-yellow-400 text-white font-semibold rounded-md shadow-lg hover:bg-yellow-500 transition duration-300">
               Learn More
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
