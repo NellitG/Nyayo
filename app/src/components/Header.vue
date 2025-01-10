@@ -87,7 +87,7 @@
                 class="hover:text-blue-900"
                 active-class="hover:text-blue-900"
                 @click.native="closeMenu"
-                >Contact Us</router-link
+                >Contact</router-link
               >
             </li>
             <!-- Donate Button as a Router Link -->
