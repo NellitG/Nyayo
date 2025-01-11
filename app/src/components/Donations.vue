@@ -121,7 +121,7 @@ export default {
       this.donationForm.name = event.target.value.replace(/[0-9]/g, "");
     },
     validatePhone(event) {
-      // Remove letters from the phone number field
+      
       this.donationForm.phone = event.target.value.replace(/[^0-9]/g, "");
     },
     validateForm() {
