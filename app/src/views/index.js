@@ -8,6 +8,7 @@ import ProgramsView from "./ProgramsView.vue";
 import DonationsView from "./DonationsView.vue";
 import GalleryView from "./GalleryView.vue";
 import AboutusView from "./AboutusView.vue";
+import NotFoundView from "./NotFoundView.vue";
 
 export {
   HomeView,
@@ -19,5 +20,6 @@ export {
   AboutusView,
   ProgramsView,
   DonationsView,
-  GalleryView
+  GalleryView,
+  NotFoundView
 };

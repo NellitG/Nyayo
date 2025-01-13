@@ -7,8 +7,9 @@ import {
   ContactView,
   AboutusView,
   ProgramsView,
+  NotFoundView,
   DonationsView,
-  GalleryView
+  GalleryView,
 } from "../views";
 
 const routes = [
@@ -21,7 +22,8 @@ const routes = [
   { path: "/aboutus", name: "aboutus", component: AboutusView },
   { path: "/programs", name: "programs", component: ProgramsView },
   { path: "/gallery", name: "gallery", component: GalleryView },
-  {path: "/Blog", name: "Blog", component: ProgramsView},
+  { path: "/Blog", name: "Blog", component: ProgramsView },
+  { path: "/:PathMatch(.*)*", name: "Errorpage", component: NotFoundView },
 ];
 
 /**Initialize here */
