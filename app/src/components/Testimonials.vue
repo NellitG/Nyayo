@@ -66,12 +66,12 @@
           <div class="flex items-center mt-8 -mx-2">
             <img
               class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300"
-              src="../assets/Nellit.jpg"
+              src="../assets/Gakuya.jpeg"
               alt=""
             />
 
             <div class="mx-2">
-              <h1 class="font-semibold text-gray-800">Nelson Kamau</h1>
+              <h1 class="font-semibold text-gray-800">John Gakuya</h1>
               <span class="text-sm text-gray-500"
                 >Software Developer</span
               >
