@@ -4,7 +4,7 @@
         <div class="image-container flex justify-center">
           <img src="../assets/404.gif" alt="Profile Picture" />
         </div>
-        <div class="text-white">
+        <div class="text-yellow-500">
           
           <p class="text-3xl">Oops, something went wrong.</p>
           <p class="text-xl">
