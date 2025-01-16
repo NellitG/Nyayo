@@ -43,7 +43,7 @@
                 <input
                   type="text"
                   id="name"
-                  name="name"
+                  name="volunteer[fullName]"
                   v-model="form.name"
                   required
                   @input="validateName"
@@ -67,7 +67,7 @@
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="volunteer[email]"
                   v-model="form.email"
                   required
                   class="mt-1 block w-full px-3 py-2 border rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
@@ -87,7 +87,7 @@
                 <input
                   type="tel"
                   id="phone"
-                  name="phone"
+                  name="volunteer[phoneNumber]"
                   v-model="form.phone"
                   required
                   @input="validatePhone"
@@ -102,16 +102,16 @@
               <!-- Why Volunteer -->
               <div>
                 <label
-                  for="volunteerReason"
+                  for="volunteerMotivation"
                   class="block text-sm font-medium text-yellow-500"
                   style="font-family: 'Finger Paint', cursive"
                 >
                   Why do you want to volunteer with Nyayo?
                 </label>
                 <textarea
-                  id="volunteerReason"
-                  name="volunteerReason"
-                  v-model="form.volunteerReason"
+                  id="volunteerMotivation"
+                  name="volunteerMotivation"
+                  v-model="form.volunteerMotivation"
                   rows="4"
                   maxlength="150"
                   required
@@ -150,7 +150,7 @@ export default {
         name: "",
         email: "",
         phone: "",
-        volunteerReason: "",
+        volunteerMotivation: "",
       },
       errors: {
         name: "",
@@ -192,7 +192,12 @@ export default {
         if (response.ok) {
           this.successMessage =
             "Your volunteer application has been submitted!";
-          this.form = { name: "", email: "", phone: "", volunteerReason: "" };
+          this.form = {
+            name: "",
+            email: "",
+            phone: "",
+            volunteerMotivation: "",
+          };
 
           setTimeout(() => {
             this.successMessage = "";
