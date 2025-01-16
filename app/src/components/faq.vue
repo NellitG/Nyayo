@@ -84,7 +84,7 @@ export default {
         {
           question: "How can I make payment?.",
           answer:
-            "Payments are made through mpesa paybill number 600000. For more information, please contact us at +254113984146 or email us at kamaunelson2000@gmail.com",
+            "Payments are made through mpesa paybill number 600000. For more information, please contact us at +254113984146 ",
           expanded: false,
         },
         {
