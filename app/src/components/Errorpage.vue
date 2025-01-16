@@ -6,8 +6,12 @@
         </div>
         <div class="text-yellow-500">
           
-          <p class="text-3xl">Oops, something went wrong.</p>
-          <p class="text-xl">
+          <p class="text-3xl"
+          style="font-family: 'Finger Paint', cursive"
+          >Oops, something went wrong.</p>
+          <p class="text-xl"
+          style="font-family: 'Finger Paint', cursive"
+          >
             Sorry, we didn't find the page you were looking for.
           </p>
         </div>
