@@ -17,12 +17,12 @@
       <div
         class="mt-4 bg-white border-2 border-yellow-200 p-6 rounded-lg shadow-md max-w-md mx-auto"
       >
-      <img
+        <img
           src="https://img.freepik.com/free-photo/african-kid-enjoying-life_23-2151447572.jpg?ga=GA1.1.487577296.1727511220&semt=ais_tags_boosted"
           alt="Donation"
           class="w-full rounded-lg shadow-md"
         />
-        <form @submit.prevent="submitDonation" method="post" class="space-y-6">
+        <form @submit.prevent="submitDonation" method="POST" class="space-y-6">
           <!-- Name -->
           <div>
             <label for="name" class="block text-sm font-medium text-gray-700">
@@ -62,6 +62,7 @@
               {{ formErrors.amount }}
             </p>
           </div>
+
           <!--Email -->
           <div>
             <label for="email" class="block text-sm font-medium text-gray-700">
@@ -150,8 +151,8 @@ export default {
     },
     validateForm() {
       this.formErrors = {};
-      
-      if(!this.donationEmail || !this.donationEmail.includes("@")) {
+
+      if (!this.donationEmail || !this.donationEmail.includes("@")) {
         this.formErrors.email = "Please enter a valid email.";
       }
 
