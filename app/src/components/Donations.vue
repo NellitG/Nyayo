@@ -185,7 +185,7 @@ export default {
 
         if (response.ok) {
           this.successMessage = "Donation successful!";
-          this.donationForm = { name: "", amount: "", phone: "" };
+          this.donationForm = { name: "", amount: "", email: "", phone: "" };
         } else {
           const errorData = await response.json();
           this.errorMessage =
