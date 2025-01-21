@@ -26,11 +26,7 @@
         <!-- Right Section -->
         <div class="lg:w-1/2 hover:border-yellow-400 border-2 border-black-400">
           <div class="bg-white p-6 rounded-lg shadow-md">
-            <form
-              @submit.prevent="submitVolunteer"
-              method="post"
-              class="space-y-4"
-            >
+            <form method="POST" action="/volunteer" class="space-y-4">
               <!-- Name -->
               <div>
                 <label
@@ -44,15 +40,10 @@
                   type="text"
                   id="name"
                   name="volunteer[fullName]"
-                  v-model="form.name"
                   required
-                  @input="validateName"
                   class="mt-1 block w-full px-3 py-2 border rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
                   placeholder="Your Name"
                 />
-                <p v-if="errors.name" class="text-red-500 text-sm">
-                  {{ errors.name }}
-                </p>
               </div>
 
               <!-- Email -->
@@ -68,7 +59,6 @@
                   type="email"
                   id="email"
                   name="volunteer[email]"
-                  v-model="form.email"
                   required
                   class="mt-1 block w-full px-3 py-2 border rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
                   placeholder="Your Email"
@@ -88,15 +78,10 @@
                   type="tel"
                   id="phone"
                   name="volunteer[phoneNumber]"
-                  v-model="form.phone"
                   required
-                  @input="validatePhone"
                   class="mt-1 block w-full px-3 py-2 border rounded-md shadow-sm focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm"
                   placeholder="Your Phone"
                 />
-                <p v-if="errors.phone" class="text-red-500 text-sm">
-                  {{ errors.phone }}
-                </p>
               </div>
 
               <!-- Why Volunteer -->
@@ -110,8 +95,7 @@
                 </label>
                 <textarea
                   id="volunteerMotivation"
-                  name="volunteerMotivation"
-                  v-model="form.volunteerMotivation"
+                  name="volunteer[motivation]"
                   rows="4"
                   maxlength="150"
                   required
@@ -129,11 +113,6 @@
                   Submit
                 </button>
               </div>
-
-              <!-- Success Message -->
-              <div v-if="successMessage" class="mt-4 text-green-500 text-sm">
-                {{ successMessage }}
-              </div>
             </form>
           </div>
         </div>
@@ -142,7 +121,7 @@
   </div>
 </template>
 
-<script>
+<!-- <script>
 export default {
   data() {
     return {
@@ -211,4 +190,4 @@ export default {
     },
   },
 };
-</script>
+</script> -->
